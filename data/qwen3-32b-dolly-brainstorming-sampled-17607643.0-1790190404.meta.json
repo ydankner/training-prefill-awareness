@@ -1,0 +1,64 @@
+{
+  "command": "python -m prefill_awareness.data_gen --model Qwen/Qwen3-32B --no-enable-thinking --batch-size 32 --temperature 1.0 --top-p 1.0 --sample-top-k 0 --max-words 200 --max-new-tokens 512 --id-prefix sampled-17607643.0- --prompts data/dolly-brainstorming-prompts.jsonl --n 1751 --out data/qwen3-32b-dolly-brainstorming-sampled-17607643.0-1790190404.jsonl",
+  "args": {
+    "model": "Qwen/Qwen3-32B",
+    "enable_thinking": false,
+    "prompts": "data/dolly-brainstorming-prompts.jsonl",
+    "categories": "",
+    "out": "data/qwen3-32b-dolly-brainstorming-sampled-17607643.0-1790190404.jsonl",
+    "n": 1751,
+    "batch_size": 32,
+    "neg_frac": 0.5,
+    "test_pct": 10,
+    "max_words": 200,
+    "max_new_tokens": 512,
+    "top_p": 1.0,
+    "temperature": 1.0,
+    "greedy": false,
+    "sample_top_k": 0,
+    "p_max": 0.01,
+    "p_min": 0.0001,
+    "max_orig_prob": 0.9,
+    "top_k": 16,
+    "scan": 256,
+    "positions": 16,
+    "min_pos": 8,
+    "min_tail": 8,
+    "min_response_tokens": 0,
+    "word_tokens_only": true,
+    "shards": 1,
+    "shard": 0,
+    "seed": 0,
+    "id_prefix": "sampled-17607643.0-",
+    "surprisal_check": true,
+    "dtype": "bfloat16",
+    "allow_dirty": false
+  },
+  "git": {
+    "commit": "4da8b7487c6aa01aedc9e1115211f891255d2255",
+    "dirty": false
+  },
+  "model_revision": "9216db5781bf21249d130ec9da846c4624c16137",
+  "versions": {
+    "python": "3.10.12",
+    "torch": "2.8.0+cu128",
+    "transformers": "4.56.2",
+    "peft": "0.21.0",
+    "accelerate": "1.15.0"
+  },
+  "gpu": "NVIDIA H100",
+  "host": "<compute-node>",
+  "condor_job": "17607643.0",
+  "started_at": "2026-09-23T19:07:09+00:00",
+  "finished_at": "2026-09-23T19:57:24+00:00",
+  "prompts": {
+    "source": "data/dolly-brainstorming-prompts.jsonl",
+    "n": 1751,
+    "sha256": "7a72379f221c2a481448f42897db4069d051344e08ea370e501df810f0745549"
+  },
+  "counts": {
+    "clean": 876,
+    "modified": 875,
+    "skipped": 0
+  }
+}

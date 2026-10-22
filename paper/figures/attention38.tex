@@ -1,0 +1,31 @@
+% Plant-reading softmax heads of the fine-tuned Qwen3.8-27B (layers 1-indexed).
+% Data: figures/attention38-softmax-ft.dat, from the "Qwen3.8 Tamper-Reading Heads" artifact
+%   (job 17621989, prefill_awareness.tamper_attention),
+%   map tuned|decide|full.excess (base model: max excess 0.0006). Rows are the 16 softmax layers.
+%   Negative values (>= -0.004) shown as 0.
+\begin{figure}[t]
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+    scale only axis,
+    width=0.42\textwidth, height=0.28\textwidth,
+    enlargelimits=false,
+    y dir=reverse,
+    tick label style={font=\scriptsize},
+    label style={font=\small},
+    xlabel={head}, ylabel={layer},
+    xmin=-0.5, xmax=23.5, ymin=0.5, ymax=16.5, xtick={0,8,16,23},
+    ytick={1,4,8,12,16}, yticklabels={4,16,32,48,64},
+    colormap={attn}{rgb255(0)=(240,242,244) rgb255(1)=(150,190,235) rgb255(2)=(42,120,214) rgb255(3)=(12,45,110)},
+    point meta min=0, point meta max=0.55,
+    colorbar,
+    colorbar style={y dir=normal, width=0.25cm, ytick={0,0.1,...,0.5}, yticklabel style={font=\scriptsize},
+        ylabel={attention to plant $-$ average token}, ylabel style={font=\scriptsize}},
+]
+\addplot[matrix plot*, mesh/cols=24, mesh/rows=16, point meta=explicit]
+    table[x=head, y=row, meta=excess] {figures/attention38-softmax-ft.dat};
+\end{axis}
+\end{tikzpicture}
+\caption{Attention from the last position before the reply to the planted token, minus its mean attention to the other tokens of the answer, for every head of the 16 softmax-attention layers (every fourth layer, 4--64, 24 heads each) of the fine-tuned \qwenB{}, averaged over the 161 single-plant tampered test answers. Fine-tuning creates two decision heads in the last layer (layer 64, heads 7 and 19: +0.55, +0.53), with weaker ones beside them (heads 6 and 9: +0.23, +0.20). In the base model, no head attends to the plant above average (maximum 0.001).}
+\label{fig:attention-heads-38}
+\end{figure}

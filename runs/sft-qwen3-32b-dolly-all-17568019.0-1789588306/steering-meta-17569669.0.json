@@ -1,0 +1,95 @@
+{
+  "command": "python -m prefill_awareness.steer --model Qwen/Qwen3-32B --run runs/sft-qwen3-32b-dolly-all-17568019.0-1789588306 --checkpoint checkpoint-1108 --data data/qwen3-32b-dolly-brainstorming-17567181.0-1789569567.jsonl data/qwen3-32b-dolly-rest-17567560.0-1789577293.jsonl --eval runs/sft-qwen3-32b-dolly-all-17568019.0-1789588306/eval-checkpoint-1108-test-17568216.0.json --directions runs/sft-qwen3-32b-dolly-all-17568019.0-1789588306/hidden-17569245.0/directions-17569599.0.pt --n-samples 3 --tag 17569669.0",
+  "args": {
+    "model": "Qwen/Qwen3-32B",
+    "run": "runs/sft-qwen3-32b-dolly-all-17568019.0-1789588306",
+    "checkpoint": "checkpoint-1108",
+    "data": [
+      "data/qwen3-32b-dolly-brainstorming-17567181.0-1789569567.jsonl",
+      "data/qwen3-32b-dolly-rest-17567560.0-1789577293.jsonl"
+    ],
+    "eval": "runs/sft-qwen3-32b-dolly-all-17568019.0-1789588306/eval-checkpoint-1108-test-17568216.0.json",
+    "directions": "runs/sft-qwen3-32b-dolly-all-17568019.0-1789588306/hidden-17569245.0/directions-17569599.0.pt",
+    "definitions": [
+      "rest",
+      "pair"
+    ],
+    "n_samples": 3,
+    "seed": 0,
+    "alphas": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1,
+      1.25,
+      1.5,
+      1.75,
+      2,
+      2.5,
+      3,
+      3.5,
+      4,
+      5,
+      6,
+      8,
+      10,
+      12,
+      16,
+      24,
+      32
+    ],
+    "layers": null,
+    "max_new_tokens": 16,
+    "tag": "17569669.0",
+    "dtype": "bfloat16",
+    "allow_dirty": false
+  },
+  "git": {
+    "commit": "2db4daf25a18bdcdb942110bd6f0eb0f2c312501",
+    "dirty": false
+  },
+  "model_revision": "9216db5781bf21249d130ec9da846c4624c16137",
+  "versions": {
+    "python": "3.10.12",
+    "torch": "2.8.0+cu128",
+    "transformers": "4.56.2",
+    "peft": "0.21.0",
+    "accelerate": "1.15.0"
+  },
+  "gpu": "NVIDIA H100",
+  "host": "<compute-node>",
+  "condor_job": "17569669.0",
+  "started_at": "2026-09-17T10:26:41+00:00",
+  "finished_at": "2026-09-17T11:44:05+00:00",
+  "data": {
+    "data/qwen3-32b-dolly-brainstorming-17567181.0-1789569567.jsonl": "e68724f3de9e29d20717dfeee8209594ed7eb850a87a15da570011fda8084f76",
+    "data/qwen3-32b-dolly-rest-17567560.0-1789577293.jsonl": "674d431f71be15d145c3d65b57a8101e61abb8bd994b5eeb0d8557a60d20acf3"
+  },
+  "targets": [
+    {
+      "index": 940,
+      "id": "000-007937",
+      "answer_index": 134,
+      "position": 163,
+      "token_id": 15614,
+      "text": "accessible"
+    },
+    {
+      "index": 437,
+      "id": "000-002709",
+      "answer_index": 13,
+      "position": 91,
+      "token_id": 429,
+      "text": "that"
+    },
+    {
+      "index": 849,
+      "id": "000-007009",
+      "answer_index": 122,
+      "position": 149,
+      "token_id": 19653,
+      "text": "rice"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "command": "python -m prefill_awareness.data_gen --model Qwen/Qwen3-32B --no-enable-thinking --prompts data/dolly-rest-prompts.jsonl --out data/qwen3-32b-dolly-rest-17567560.0-1789577293.jsonl --n 100000 --batch-size 32 --greedy --max-words 200 --max-new-tokens 512 --min-response-tokens 100",
+  "args": {
+    "model": "Qwen/Qwen3-32B",
+    "enable_thinking": false,
+    "prompts": "data/dolly-rest-prompts.jsonl",
+    "categories": "",
+    "out": "data/qwen3-32b-dolly-rest-17567560.0-1789577293.jsonl",
+    "n": 100000,
+    "batch_size": 32,
+    "neg_frac": 0.5,
+    "test_pct": 10,
+    "max_words": 200,
+    "max_new_tokens": 512,
+    "top_p": 0.9,
+    "temperature": 1.0,
+    "greedy": true,
+    "p_max": 0.01,
+    "p_min": 0.0001,
+    "max_orig_prob": 0.9,
+    "top_k": 16,
+    "scan": 256,
+    "positions": 16,
+    "min_pos": 8,
+    "min_tail": 8,
+    "min_response_tokens": 100,
+    "word_tokens_only": true,
+    "shards": 1,
+    "shard": 0,
+    "seed": 0,
+    "dtype": "bfloat16",
+    "allow_dirty": false
+  },
+  "git": {
+    "commit": "8ab6e012b383168b748b319e5ac08cae96c7795a",
+    "dirty": false
+  },
+  "model_revision": "9216db5781bf21249d130ec9da846c4624c16137",
+  "versions": {
+    "python": "3.10.12",
+    "torch": "2.8.0+cu128",
+    "transformers": "4.56.2"
+  },
+  "gpu": "NVIDIA H100",
+  "host": "<compute-node>",
+  "condor_job": "17567560.0",
+  "started_at": "2026-09-16T16:51:33+00:00",
+  "finished_at": "2026-09-16T19:50:02+00:00",
+  "prompts": {
+    "source": "data/dolly-rest-prompts.jsonl",
+    "n": 8456,
+    "sha256": "4a10a46860b72397c2113f6e1ea4daafb40d11af96d9959bc25957bfb049ea59"
+  },
+  "counts": {
+    "clean": 4055,
+    "modified": 4055,
+    "skipped": 346
+  }
+}

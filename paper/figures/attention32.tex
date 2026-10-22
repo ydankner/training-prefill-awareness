@@ -1,0 +1,36 @@
+% Plant-reading attention heads of Qwen3-32B, base vs fine-tuned (layers 1-indexed).
+% Data: figures/attention-excess-{base,ft}.dat, written from
+% runs/sft-qwen3-32b-dolly-all-17568019.0-1789588306/attention-summary-17570820.0.json
+% (summary.<model>.last.plant - .other per layer and head). Negative values (>= -0.004) shown as 0.
+\begin{figure}[t]
+\centering
+\begin{tikzpicture}
+\begin{groupplot}[
+    group style={group size=2 by 1, horizontal sep=0.9cm, y descriptions at=edge left},
+    width=0.43\textwidth, height=0.43\textwidth,
+    scale only axis,
+    enlargelimits=false,
+    y dir=reverse,
+    xmin=-0.5, xmax=63.5, ymin=0.5, ymax=64.5,
+    xtick={0,16,32,48,63}, ytick={1,8,16,...,64},
+    tick label style={font=\scriptsize},
+    label style={font=\small},
+    title style={font=\small},
+    xlabel={head},
+    colormap={attn}{rgb255(0)=(240,242,244) rgb255(1)=(150,190,235) rgb255(2)=(42,120,214) rgb255(3)=(12,45,110)},
+    point meta min=0, point meta max=0.5,
+]
+\nextgroupplot[title={Base \qwenA{}}, ylabel={layer}]
+\addplot[matrix plot*, mesh/cols=64, mesh/rows=64, point meta=explicit]
+    table[x=head, y=layer, meta=excess] {figures/attention-excess-base.dat};
+\nextgroupplot[title={Fine-tuned (epoch 2)},
+    colorbar,
+    colorbar style={y dir=normal, width=0.25cm, ytick={0,0.1,...,0.5}, yticklabel style={font=\scriptsize},
+        ylabel={attention to plant $-$ average token}, ylabel style={font=\scriptsize}}]
+\addplot[matrix plot*, mesh/cols=64, mesh/rows=64, point meta=explicit]
+    table[x=head, y=layer, meta=excess] {figures/attention-excess-ft.dat};
+\end{groupplot}
+\end{tikzpicture}
+\caption{Attention from the last position before the reply to the planted token, minus its mean attention to the other tokens of the answer, for every layer (1--64) and head (0--63) of \qwenA{}, averaged over the 491 tampered test answers. No head of the base model attends to the plant (maximum 0.007). Fine-tuning creates nine plant-reading heads in the last two layers (0.18--0.48, largest: layer 63 head 61, layer 64 heads 30 and 26, layer 63 head 55), with a weaker group in layers 45--57.}
+\label{fig:attention-heads}
+\end{figure}

@@ -1,0 +1,5994 @@
+{
+  "n": 997,
+  "n_modified": 499,
+  "detect_acc": 0.5175526579739218,
+  "tpr": 0.04208416833667335,
+  "fpr": 0.006024096385542169,
+  "loc_acc": 0.036072144288577156,
+  "loc_acc_hit": 0.8571428571428571,
+  "format_ok": 1.0,
+  "samples": [
+    {
+      "id": "000-001080",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006242",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004005",
+      "label": "modified",
+      "gold": "went",
+      "generated": "none"
+    },
+    {
+      "id": "000-000048",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-008371",
+      "label": "modified",
+      "gold": "It",
+      "generated": "none"
+    },
+    {
+      "id": "000-008136",
+      "label": "modified",
+      "gold": "dine",
+      "generated": "none"
+    },
+    {
+      "id": "000-000385",
+      "label": "modified",
+      "gold": "charismatic",
+      "generated": "none"
+    },
+    {
+      "id": "000-004819",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002090",
+      "label": "modified",
+      "gold": "followed",
+      "generated": "none"
+    },
+    {
+      "id": "000-004315",
+      "label": "modified",
+      "gold": "unknown",
+      "generated": "none"
+    },
+    {
+      "id": "000-000016",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007604",
+      "label": "modified",
+      "gold": "widely",
+      "generated": "none"
+    },
+    {
+      "id": "000-003234",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000169",
+      "label": "modified",
+      "gold": "training",
+      "generated": "none"
+    },
+    {
+      "id": "000-006809",
+      "label": "modified",
+      "gold": "personalized",
+      "generated": "none"
+    },
+    {
+      "id": "000-004655",
+      "label": "modified",
+      "gold": "cinemat",
+      "generated": "none"
+    },
+    {
+      "id": "000-004040",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000471",
+      "label": "modified",
+      "gold": "meticulous",
+      "generated": "none"
+    },
+    {
+      "id": "000-001918",
+      "label": "modified",
+      "gold": "design",
+      "generated": "none"
+    },
+    {
+      "id": "000-007000",
+      "label": "modified",
+      "gold": "functional",
+      "generated": "none"
+    },
+    {
+      "id": "000-004322",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002073",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001392",
+      "label": "modified",
+      "gold": "switching",
+      "generated": "none"
+    },
+    {
+      "id": "000-002037",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007855",
+      "label": "modified",
+      "gold": "Odd",
+      "generated": "none"
+    },
+    {
+      "id": "000-004685",
+      "label": "modified",
+      "gold": "will",
+      "generated": "none"
+    },
+    {
+      "id": "000-006827",
+      "label": "modified",
+      "gold": "received",
+      "generated": "none"
+    },
+    {
+      "id": "000-004667",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004684",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004122",
+      "label": "modified",
+      "gold": "played",
+      "generated": "none"
+    },
+    {
+      "id": "000-001914",
+      "label": "modified",
+      "gold": "come",
+      "generated": "none"
+    },
+    {
+      "id": "000-000205",
+      "label": "modified",
+      "gold": "fictional",
+      "generated": "none"
+    },
+    {
+      "id": "000-003405",
+      "label": "modified",
+      "gold": "terminology",
+      "generated": "none"
+    },
+    {
+      "id": "000-002765",
+      "label": "modified",
+      "gold": "experience",
+      "generated": "none"
+    },
+    {
+      "id": "000-002550",
+      "label": "modified",
+      "gold": "of",
+      "generated": "none"
+    },
+    {
+      "id": "000-001590",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-008268",
+      "label": "modified",
+      "gold": "technology",
+      "generated": "none"
+    },
+    {
+      "id": "000-007235",
+      "label": "modified",
+      "gold": "it",
+      "generated": "none"
+    },
+    {
+      "id": "000-001409",
+      "label": "modified",
+      "gold": "garden",
+      "generated": "none"
+    },
+    {
+      "id": "000-002947",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003420",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-008296",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002211",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001451",
+      "label": "modified",
+      "gold": "waterfront",
+      "generated": "none"
+    },
+    {
+      "id": "000-000839",
+      "label": "modified",
+      "gold": "patiently",
+      "generated": "none"
+    },
+    {
+      "id": "000-001947",
+      "label": "modified",
+      "gold": "positive",
+      "generated": "none"
+    },
+    {
+      "id": "000-006814",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-008308",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005710",
+      "label": "modified",
+      "gold": "up",
+      "generated": "none"
+    },
+    {
+      "id": "000-007483",
+      "label": "modified",
+      "gold": "practice",
+      "generated": "none"
+    },
+    {
+      "id": "000-003193",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000631",
+      "label": "modified",
+      "gold": "large",
+      "generated": "none"
+    },
+    {
+      "id": "000-001359",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002584",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006987",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001009",
+      "label": "modified",
+      "gold": "Not",
+      "generated": "none"
+    },
+    {
+      "id": "000-000783",
+      "label": "modified",
+      "gold": "monthly",
+      "generated": "none"
+    },
+    {
+      "id": "000-002180",
+      "label": "modified",
+      "gold": "Puerto",
+      "generated": "none"
+    },
+    {
+      "id": "000-000185",
+      "label": "modified",
+      "gold": "connection",
+      "generated": "none"
+    },
+    {
+      "id": "000-004682",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001578",
+      "label": "modified",
+      "gold": "the",
+      "generated": "none"
+    },
+    {
+      "id": "000-007664",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004311",
+      "label": "modified",
+      "gold": "officially",
+      "generated": "none"
+    },
+    {
+      "id": "000-005797",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003291",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005350",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002443",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007662",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000567",
+      "label": "modified",
+      "gold": "saga",
+      "generated": "none"
+    },
+    {
+      "id": "000-000958",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003975",
+      "label": "modified",
+      "gold": "deb",
+      "generated": "none"
+    },
+    {
+      "id": "000-007413",
+      "label": "modified",
+      "gold": "key",
+      "generated": "none"
+    },
+    {
+      "id": "000-000418",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007087",
+      "label": "clean",
+      "gold": "none",
+      "generated": "four"
+    },
+    {
+      "id": "000-000241",
+      "label": "modified",
+      "gold": "Being",
+      "generated": "none"
+    },
+    {
+      "id": "000-006223",
+      "label": "modified",
+      "gold": "until",
+      "generated": "none"
+    },
+    {
+      "id": "000-003433",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007313",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007401",
+      "label": "modified",
+      "gold": "security",
+      "generated": "none"
+    },
+    {
+      "id": "000-008347",
+      "label": "modified",
+      "gold": "Meals",
+      "generated": "none"
+    },
+    {
+      "id": "000-001804",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005807",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001340",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001405",
+      "label": "modified",
+      "gold": "cheesy",
+      "generated": "none"
+    },
+    {
+      "id": "000-001335",
+      "label": "modified",
+      "gold": "In",
+      "generated": "none"
+    },
+    {
+      "id": "000-001238",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005551",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005792",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001505",
+      "label": "modified",
+      "gold": "characters",
+      "generated": "none"
+    },
+    {
+      "id": "000-000017",
+      "label": "modified",
+      "gold": "during",
+      "generated": "none"
+    },
+    {
+      "id": "000-000655",
+      "label": "modified",
+      "gold": "enabled",
+      "generated": "none"
+    },
+    {
+      "id": "000-004551",
+      "label": "modified",
+      "gold": "and",
+      "generated": "none"
+    },
+    {
+      "id": "000-000212",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001584",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002231",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000194",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007616",
+      "label": "modified",
+      "gold": "If",
+      "generated": "none"
+    },
+    {
+      "id": "000-005011",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000519",
+      "label": "modified",
+      "gold": "recipes",
+      "generated": "none"
+    },
+    {
+      "id": "000-000793",
+      "label": "modified",
+      "gold": "showing",
+      "generated": "none"
+    },
+    {
+      "id": "000-004013",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003145",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006645",
+      "label": "modified",
+      "gold": "guided",
+      "generated": "none"
+    },
+    {
+      "id": "000-008397",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005808",
+      "label": "modified",
+      "gold": "from",
+      "generated": "none"
+    },
+    {
+      "id": "000-005033",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000770",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007060",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000367",
+      "label": "modified",
+      "gold": "Vol",
+      "generated": "none"
+    },
+    {
+      "id": "000-001599",
+      "label": "modified",
+      "gold": "F",
+      "generated": "none"
+    },
+    {
+      "id": "000-001517",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002093",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003926",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000003",
+      "label": "modified",
+      "gold": "goals",
+      "generated": "none"
+    },
+    {
+      "id": "000-002396",
+      "label": "modified",
+      "gold": "more",
+      "generated": "none"
+    },
+    {
+      "id": "000-006074",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-008440",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003997",
+      "label": "modified",
+      "gold": "Does",
+      "generated": "none"
+    },
+    {
+      "id": "000-008360",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000553",
+      "label": "modified",
+      "gold": "heartfelt",
+      "generated": "none"
+    },
+    {
+      "id": "000-001486",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004109",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003509",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000573",
+      "label": "modified",
+      "gold": "Show",
+      "generated": "none"
+    },
+    {
+      "id": "000-001475",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000722",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004337",
+      "label": "modified",
+      "gold": "configuration",
+      "generated": "none"
+    },
+    {
+      "id": "000-000347",
+      "label": "modified",
+      "gold": "cognitive",
+      "generated": "none"
+    },
+    {
+      "id": "000-002074",
+      "label": "modified",
+      "gold": "indoor",
+      "generated": "none"
+    },
+    {
+      "id": "000-000140",
+      "label": "modified",
+      "gold": "will",
+      "generated": "none"
+    },
+    {
+      "id": "000-000007",
+      "label": "modified",
+      "gold": "p",
+      "generated": "none"
+    },
+    {
+      "id": "000-005742",
+      "label": "modified",
+      "gold": "its",
+      "generated": "none"
+    },
+    {
+      "id": "000-005018",
+      "label": "modified",
+      "gold": "For",
+      "generated": "none"
+    },
+    {
+      "id": "000-002248",
+      "label": "modified",
+      "gold": "arranging",
+      "generated": "none"
+    },
+    {
+      "id": "000-000582",
+      "label": "modified",
+      "gold": "fast",
+      "generated": "none"
+    },
+    {
+      "id": "000-001238",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003947",
+      "label": "modified",
+      "gold": "perhaps",
+      "generated": "none"
+    },
+    {
+      "id": "000-001461",
+      "label": "modified",
+      "gold": "progressive",
+      "generated": "none"
+    },
+    {
+      "id": "000-000902",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-008349",
+      "label": "modified",
+      "gold": "it",
+      "generated": "none"
+    },
+    {
+      "id": "000-003430",
+      "label": "modified",
+      "gold": "an",
+      "generated": "none"
+    },
+    {
+      "id": "000-000641",
+      "label": "modified",
+      "gold": "systems",
+      "generated": "none"
+    },
+    {
+      "id": "000-000649",
+      "label": "modified",
+      "gold": "camp",
+      "generated": "none"
+    },
+    {
+      "id": "000-002523",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005820",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000607",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005361",
+      "label": "modified",
+      "gold": "mother",
+      "generated": "none"
+    },
+    {
+      "id": "000-000429",
+      "label": "modified",
+      "gold": "transmitting",
+      "generated": "none"
+    },
+    {
+      "id": "000-005901",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002779",
+      "label": "modified",
+      "gold": "gives",
+      "generated": "none"
+    },
+    {
+      "id": "000-001171",
+      "label": "modified",
+      "gold": "elevated",
+      "generated": "none"
+    },
+    {
+      "id": "000-004221",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001801",
+      "label": "modified",
+      "gold": "Investments",
+      "generated": "none"
+    },
+    {
+      "id": "000-002294",
+      "label": "modified",
+      "gold": "affiliated",
+      "generated": "none"
+    },
+    {
+      "id": "000-003334",
+      "label": "modified",
+      "gold": "briefly",
+      "generated": "none"
+    },
+    {
+      "id": "000-008451",
+      "label": "modified",
+      "gold": "astronomy",
+      "generated": "none"
+    },
+    {
+      "id": "000-007190",
+      "label": "modified",
+      "gold": "key",
+      "generated": "none"
+    },
+    {
+      "id": "000-001738",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000826",
+      "label": "modified",
+      "gold": "far",
+      "generated": "none"
+    },
+    {
+      "id": "000-005991",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005887",
+      "label": "modified",
+      "gold": "again",
+      "generated": "none"
+    },
+    {
+      "id": "000-007521",
+      "label": "modified",
+      "gold": "beloved",
+      "generated": "none"
+    },
+    {
+      "id": "000-005382",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001510",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006371",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003257",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-008287",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002960",
+      "label": "modified",
+      "gold": "anth",
+      "generated": "none"
+    },
+    {
+      "id": "000-001004",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000580",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003463",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000545",
+      "label": "modified",
+      "gold": "entry",
+      "generated": "none"
+    },
+    {
+      "id": "000-007552",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004949",
+      "label": "modified",
+      "gold": "deterior",
+      "generated": "none"
+    },
+    {
+      "id": "000-000667",
+      "label": "modified",
+      "gold": "fuzzy",
+      "generated": "none"
+    },
+    {
+      "id": "000-005772",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004257",
+      "label": "modified",
+      "gold": "comply",
+      "generated": "none"
+    },
+    {
+      "id": "000-002084",
+      "label": "modified",
+      "gold": "name",
+      "generated": "none"
+    },
+    {
+      "id": "000-002967",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002764",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006012",
+      "label": "modified",
+      "gold": "as",
+      "generated": "none"
+    },
+    {
+      "id": "000-000870",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006580",
+      "label": "modified",
+      "gold": "versatile",
+      "generated": "systems"
+    },
+    {
+      "id": "000-007753",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001401",
+      "label": "modified",
+      "gold": "meticulous",
+      "generated": "none"
+    },
+    {
+      "id": "000-007255",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003862",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004503",
+      "label": "modified",
+      "gold": "noun",
+      "generated": "none"
+    },
+    {
+      "id": "000-003790",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004794",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007149",
+      "label": "modified",
+      "gold": "peak",
+      "generated": "none"
+    },
+    {
+      "id": "000-007133",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004502",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001995",
+      "label": "modified",
+      "gold": "vibrating",
+      "generated": "none"
+    },
+    {
+      "id": "000-007348",
+      "label": "modified",
+      "gold": "eventually",
+      "generated": "none"
+    },
+    {
+      "id": "000-005673",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000815",
+      "label": "modified",
+      "gold": "newer",
+      "generated": "none"
+    },
+    {
+      "id": "000-006355",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007900",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000937",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-008362",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006227",
+      "label": "modified",
+      "gold": "Tunisia",
+      "generated": "none"
+    },
+    {
+      "id": "000-001281",
+      "label": "modified",
+      "gold": "reproduce",
+      "generated": "none"
+    },
+    {
+      "id": "000-005729",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004198",
+      "label": "modified",
+      "gold": "clear",
+      "generated": "none"
+    },
+    {
+      "id": "000-008080",
+      "label": "modified",
+      "gold": "Louis",
+      "generated": "none"
+    },
+    {
+      "id": "000-004492",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002118",
+      "label": "modified",
+      "gold": "As",
+      "generated": "none"
+    },
+    {
+      "id": "000-006485",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000751",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-008203",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000946",
+      "label": "modified",
+      "gold": "one",
+      "generated": "none"
+    },
+    {
+      "id": "000-000644",
+      "label": "modified",
+      "gold": "perseverance",
+      "generated": "none"
+    },
+    {
+      "id": "000-006432",
+      "label": "modified",
+      "gold": "in",
+      "generated": "none"
+    },
+    {
+      "id": "000-000693",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-008056",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004394",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006175",
+      "label": "modified",
+      "gold": "education",
+      "generated": "none"
+    },
+    {
+      "id": "000-006383",
+      "label": "modified",
+      "gold": "portions",
+      "generated": "none"
+    },
+    {
+      "id": "000-002862",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004500",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-008206",
+      "label": "modified",
+      "gold": "a",
+      "generated": "none"
+    },
+    {
+      "id": "000-006936",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000710",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001100",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006712",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006729",
+      "label": "modified",
+      "gold": "align",
+      "generated": "none"
+    },
+    {
+      "id": "000-007461",
+      "label": "modified",
+      "gold": "federal",
+      "generated": "none"
+    },
+    {
+      "id": "000-007846",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001829",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007148",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003963",
+      "label": "modified",
+      "gold": "having",
+      "generated": "none"
+    },
+    {
+      "id": "000-002087",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003468",
+      "label": "modified",
+      "gold": "Part",
+      "generated": "none"
+    },
+    {
+      "id": "000-006652",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001063",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000201",
+      "label": "modified",
+      "gold": "accustomed",
+      "generated": "none"
+    },
+    {
+      "id": "000-008427",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004450",
+      "label": "modified",
+      "gold": "weight",
+      "generated": "none"
+    },
+    {
+      "id": "000-006307",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005065",
+      "label": "modified",
+      "gold": "time",
+      "generated": "none"
+    },
+    {
+      "id": "000-006829",
+      "label": "modified",
+      "gold": "and",
+      "generated": "none"
+    },
+    {
+      "id": "000-000749",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001701",
+      "label": "modified",
+      "gold": "to",
+      "generated": "none"
+    },
+    {
+      "id": "000-001314",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006492",
+      "label": "modified",
+      "gold": "Originally",
+      "generated": "none"
+    },
+    {
+      "id": "000-003175",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007828",
+      "label": "modified",
+      "gold": "scenic",
+      "generated": "none"
+    },
+    {
+      "id": "000-006512",
+      "label": "modified",
+      "gold": "uses",
+      "generated": "none"
+    },
+    {
+      "id": "000-004824",
+      "label": "modified",
+      "gold": "established",
+      "generated": "none"
+    },
+    {
+      "id": "000-005090",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000343",
+      "label": "modified",
+      "gold": "diversity",
+      "generated": "none"
+    },
+    {
+      "id": "000-001862",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-008188",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005025",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005429",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005339",
+      "label": "modified",
+      "gold": "clear",
+      "generated": "none"
+    },
+    {
+      "id": "000-006139",
+      "label": "modified",
+      "gold": "of",
+      "generated": "none"
+    },
+    {
+      "id": "000-007446",
+      "label": "modified",
+      "gold": "my",
+      "generated": "none"
+    },
+    {
+      "id": "000-002806",
+      "label": "modified",
+      "gold": "Stir",
+      "generated": "none"
+    },
+    {
+      "id": "000-000117",
+      "label": "modified",
+      "gold": "mostly",
+      "generated": "mostly"
+    },
+    {
+      "id": "000-000943",
+      "label": "modified",
+      "gold": "may",
+      "generated": "none"
+    },
+    {
+      "id": "000-002081",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006728",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000284",
+      "label": "modified",
+      "gold": "thin",
+      "generated": "none"
+    },
+    {
+      "id": "000-001140",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002717",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000177",
+      "label": "modified",
+      "gold": "Ne",
+      "generated": "none"
+    },
+    {
+      "id": "000-006650",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007597",
+      "label": "modified",
+      "gold": "highly",
+      "generated": "none"
+    },
+    {
+      "id": "000-002757",
+      "label": "modified",
+      "gold": "factors",
+      "generated": "none"
+    },
+    {
+      "id": "000-006894",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007457",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005581",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002880",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006938",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007995",
+      "label": "modified",
+      "gold": "time",
+      "generated": "none"
+    },
+    {
+      "id": "000-002681",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003361",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001885",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001307",
+      "label": "modified",
+      "gold": "near",
+      "generated": "none"
+    },
+    {
+      "id": "000-003144",
+      "label": "modified",
+      "gold": "cultiv",
+      "generated": "none"
+    },
+    {
+      "id": "000-007515",
+      "label": "modified",
+      "gold": "colorful",
+      "generated": "none"
+    },
+    {
+      "id": "000-000639",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005174",
+      "label": "modified",
+      "gold": "Practice",
+      "generated": "none"
+    },
+    {
+      "id": "000-006571",
+      "label": "modified",
+      "gold": "elsewhere",
+      "generated": "none"
+    },
+    {
+      "id": "000-003937",
+      "label": "modified",
+      "gold": "dance",
+      "generated": "none"
+    },
+    {
+      "id": "000-001962",
+      "label": "modified",
+      "gold": "address",
+      "generated": "none"
+    },
+    {
+      "id": "000-006263",
+      "label": "modified",
+      "gold": "other",
+      "generated": "none"
+    },
+    {
+      "id": "000-003898",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001400",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001325",
+      "label": "modified",
+      "gold": "maybe",
+      "generated": "none"
+    },
+    {
+      "id": "000-003817",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007072",
+      "label": "modified",
+      "gold": "and",
+      "generated": "none"
+    },
+    {
+      "id": "000-003064",
+      "label": "modified",
+      "gold": "transformed",
+      "generated": "none"
+    },
+    {
+      "id": "000-000985",
+      "label": "modified",
+      "gold": "offers",
+      "generated": "none"
+    },
+    {
+      "id": "000-006523",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000029",
+      "label": "modified",
+      "gold": "supply",
+      "generated": "none"
+    },
+    {
+      "id": "000-002611",
+      "label": "modified",
+      "gold": "motto",
+      "generated": "none"
+    },
+    {
+      "id": "000-000103",
+      "label": "modified",
+      "gold": "overall",
+      "generated": "none"
+    },
+    {
+      "id": "000-000822",
+      "label": "modified",
+      "gold": "staying",
+      "generated": "none"
+    },
+    {
+      "id": "000-004967",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001041",
+      "label": "modified",
+      "gold": "animal",
+      "generated": "none"
+    },
+    {
+      "id": "000-002338",
+      "label": "modified",
+      "gold": "comes",
+      "generated": "none"
+    },
+    {
+      "id": "000-007280",
+      "label": "modified",
+      "gold": "U",
+      "generated": "none"
+    },
+    {
+      "id": "000-000278",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002761",
+      "label": "modified",
+      "gold": "conducted",
+      "generated": "none"
+    },
+    {
+      "id": "000-001245",
+      "label": "modified",
+      "gold": "more",
+      "generated": "more"
+    },
+    {
+      "id": "000-007098",
+      "label": "modified",
+      "gold": "amidst",
+      "generated": "none"
+    },
+    {
+      "id": "000-004952",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002577",
+      "label": "modified",
+      "gold": "cues",
+      "generated": "none"
+    },
+    {
+      "id": "000-003073",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004220",
+      "label": "modified",
+      "gold": "creative",
+      "generated": "none"
+    },
+    {
+      "id": "000-000921",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006478",
+      "label": "modified",
+      "gold": "legendary",
+      "generated": "none"
+    },
+    {
+      "id": "000-006895",
+      "label": "modified",
+      "gold": "that",
+      "generated": "none"
+    },
+    {
+      "id": "000-000165",
+      "label": "modified",
+      "gold": "an",
+      "generated": "none"
+    },
+    {
+      "id": "000-005230",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001338",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002811",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003060",
+      "label": "modified",
+      "gold": "six",
+      "generated": "none"
+    },
+    {
+      "id": "000-003376",
+      "label": "modified",
+      "gold": "whole",
+      "generated": "none"
+    },
+    {
+      "id": "000-007338",
+      "label": "modified",
+      "gold": "they",
+      "generated": "none"
+    },
+    {
+      "id": "000-001547",
+      "label": "modified",
+      "gold": "renowned",
+      "generated": "none"
+    },
+    {
+      "id": "000-000770",
+      "label": "modified",
+      "gold": "before",
+      "generated": "none"
+    },
+    {
+      "id": "000-006362",
+      "label": "modified",
+      "gold": "primarily",
+      "generated": "none"
+    },
+    {
+      "id": "000-004597",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001315",
+      "label": "modified",
+      "gold": "ultra",
+      "generated": "none"
+    },
+    {
+      "id": "000-001114",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004911",
+      "label": "modified",
+      "gold": "has",
+      "generated": "none"
+    },
+    {
+      "id": "000-007933",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007656",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003612",
+      "label": "modified",
+      "gold": "offering",
+      "generated": "none"
+    },
+    {
+      "id": "000-001361",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007872",
+      "label": "modified",
+      "gold": "Normally",
+      "generated": "none"
+    },
+    {
+      "id": "000-007399",
+      "label": "modified",
+      "gold": "rust",
+      "generated": "none"
+    },
+    {
+      "id": "000-007361",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007082",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004708",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006465",
+      "label": "modified",
+      "gold": "more",
+      "generated": "none"
+    },
+    {
+      "id": "000-001720",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002033",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006172",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002700",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005334",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003766",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005297",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007084",
+      "label": "modified",
+      "gold": "feeling",
+      "generated": "none"
+    },
+    {
+      "id": "000-003158",
+      "label": "modified",
+      "gold": "Edgar",
+      "generated": "none"
+    },
+    {
+      "id": "000-000905",
+      "label": "modified",
+      "gold": "day",
+      "generated": "none"
+    },
+    {
+      "id": "000-002274",
+      "label": "modified",
+      "gold": "areas",
+      "generated": "pain"
+    },
+    {
+      "id": "000-003482",
+      "label": "modified",
+      "gold": "low",
+      "generated": "none"
+    },
+    {
+      "id": "000-003008",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007887",
+      "label": "modified",
+      "gold": "using",
+      "generated": "none"
+    },
+    {
+      "id": "000-006118",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004461",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000935",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001915",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004219",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000638",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001880",
+      "label": "modified",
+      "gold": "frequently",
+      "generated": "none"
+    },
+    {
+      "id": "000-005306",
+      "label": "modified",
+      "gold": "venue",
+      "generated": "career"
+    },
+    {
+      "id": "000-002840",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001259",
+      "label": "modified",
+      "gold": "recounts",
+      "generated": "none"
+    },
+    {
+      "id": "000-000397",
+      "label": "modified",
+      "gold": "among",
+      "generated": "none"
+    },
+    {
+      "id": "000-008077",
+      "label": "modified",
+      "gold": "restrain",
+      "generated": "none"
+    },
+    {
+      "id": "000-001732",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007336",
+      "label": "modified",
+      "gold": "religious",
+      "generated": "none"
+    },
+    {
+      "id": "000-001486",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006557",
+      "label": "modified",
+      "gold": "Identify",
+      "generated": "none"
+    },
+    {
+      "id": "000-001588",
+      "label": "modified",
+      "gold": "more",
+      "generated": "none"
+    },
+    {
+      "id": "000-002971",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002546",
+      "label": "modified",
+      "gold": "and",
+      "generated": "none"
+    },
+    {
+      "id": "000-001971",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000273",
+      "label": "modified",
+      "gold": "peace",
+      "generated": "none"
+    },
+    {
+      "id": "000-002472",
+      "label": "modified",
+      "gold": "trips",
+      "generated": "none"
+    },
+    {
+      "id": "000-007564",
+      "label": "modified",
+      "gold": "develop",
+      "generated": "none"
+    },
+    {
+      "id": "000-003044",
+      "label": "modified",
+      "gold": "amplified",
+      "generated": "none"
+    },
+    {
+      "id": "000-002381",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000596",
+      "label": "modified",
+      "gold": "a",
+      "generated": "none"
+    },
+    {
+      "id": "000-000389",
+      "label": "modified",
+      "gold": "popular",
+      "generated": "none"
+    },
+    {
+      "id": "000-000473",
+      "label": "modified",
+      "gold": "enthusiastic",
+      "generated": "none"
+    },
+    {
+      "id": "000-000027",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-008065",
+      "label": "modified",
+      "gold": "bi",
+      "generated": "none"
+    },
+    {
+      "id": "000-001907",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004207",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004314",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002773",
+      "label": "modified",
+      "gold": "support",
+      "generated": "none"
+    },
+    {
+      "id": "000-000064",
+      "label": "modified",
+      "gold": "hundreds",
+      "generated": "none"
+    },
+    {
+      "id": "000-000006",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-008069",
+      "label": "modified",
+      "gold": "Though",
+      "generated": "none"
+    },
+    {
+      "id": "000-002046",
+      "label": "modified",
+      "gold": "includes",
+      "generated": "none"
+    },
+    {
+      "id": "000-002514",
+      "label": "modified",
+      "gold": "rotating",
+      "generated": "none"
+    },
+    {
+      "id": "000-005248",
+      "label": "modified",
+      "gold": "adapted",
+      "generated": "none"
+    },
+    {
+      "id": "000-001028",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000905",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005059",
+      "label": "modified",
+      "gold": "representing",
+      "generated": "none"
+    },
+    {
+      "id": "000-007719",
+      "label": "modified",
+      "gold": "original",
+      "generated": "original"
+    },
+    {
+      "id": "000-001505",
+      "label": "modified",
+      "gold": "each",
+      "generated": "none"
+    },
+    {
+      "id": "000-005520",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004189",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001195",
+      "label": "modified",
+      "gold": "Consider",
+      "generated": "none"
+    },
+    {
+      "id": "000-003143",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003835",
+      "label": "modified",
+      "gold": "have",
+      "generated": "none"
+    },
+    {
+      "id": "000-001851",
+      "label": "modified",
+      "gold": "shares",
+      "generated": "none"
+    },
+    {
+      "id": "000-005062",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000618",
+      "label": "modified",
+      "gold": "rural",
+      "generated": "none"
+    },
+    {
+      "id": "000-007332",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007669",
+      "label": "modified",
+      "gold": "his",
+      "generated": "none"
+    },
+    {
+      "id": "000-006976",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007392",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004564",
+      "label": "modified",
+      "gold": "several",
+      "generated": "none"
+    },
+    {
+      "id": "000-002936",
+      "label": "modified",
+      "gold": "printed",
+      "generated": "none"
+    },
+    {
+      "id": "000-001478",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000086",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006858",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001940",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000562",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000557",
+      "label": "modified",
+      "gold": "royal",
+      "generated": "none"
+    },
+    {
+      "id": "000-003315",
+      "label": "modified",
+      "gold": "actual",
+      "generated": "none"
+    },
+    {
+      "id": "000-004752",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004617",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000497",
+      "label": "modified",
+      "gold": "optim",
+      "generated": "optim"
+    },
+    {
+      "id": "000-000737",
+      "label": "modified",
+      "gold": "at",
+      "generated": "none"
+    },
+    {
+      "id": "000-000520",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000792",
+      "label": "modified",
+      "gold": "Pe",
+      "generated": "none"
+    },
+    {
+      "id": "000-000382",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004229",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004068",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002599",
+      "label": "modified",
+      "gold": "and",
+      "generated": "none"
+    },
+    {
+      "id": "000-008377",
+      "label": "modified",
+      "gold": "and",
+      "generated": "none"
+    },
+    {
+      "id": "000-000778",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002626",
+      "label": "modified",
+      "gold": "Typically",
+      "generated": "none"
+    },
+    {
+      "id": "000-005516",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000176",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006914",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003573",
+      "label": "modified",
+      "gold": "became",
+      "generated": "none"
+    },
+    {
+      "id": "000-007568",
+      "label": "modified",
+      "gold": "red",
+      "generated": "none"
+    },
+    {
+      "id": "000-001021",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004283",
+      "label": "modified",
+      "gold": "stylish",
+      "generated": "none"
+    },
+    {
+      "id": "000-002085",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000232",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004726",
+      "label": "modified",
+      "gold": "wide",
+      "generated": "none"
+    },
+    {
+      "id": "000-002582",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007695",
+      "label": "modified",
+      "gold": "the",
+      "generated": "none"
+    },
+    {
+      "id": "000-006681",
+      "label": "modified",
+      "gold": "took",
+      "generated": "none"
+    },
+    {
+      "id": "000-007450",
+      "label": "modified",
+      "gold": "through",
+      "generated": "none"
+    },
+    {
+      "id": "000-005102",
+      "label": "modified",
+      "gold": "common",
+      "generated": "none"
+    },
+    {
+      "id": "000-001957",
+      "label": "modified",
+      "gold": "remain",
+      "generated": "none"
+    },
+    {
+      "id": "000-004402",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000267",
+      "label": "modified",
+      "gold": "investigate",
+      "generated": "none"
+    },
+    {
+      "id": "000-006144",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001606",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007589",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007690",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001158",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001587",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002589",
+      "label": "modified",
+      "gold": "an",
+      "generated": "none"
+    },
+    {
+      "id": "000-000976",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005384",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005281",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002643",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002153",
+      "label": "modified",
+      "gold": "for",
+      "generated": "none"
+    },
+    {
+      "id": "000-005739",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003189",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005956",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007827",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003879",
+      "label": "modified",
+      "gold": "flowers",
+      "generated": "none"
+    },
+    {
+      "id": "000-000483",
+      "label": "modified",
+      "gold": "easy",
+      "generated": "none"
+    },
+    {
+      "id": "000-003314",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000542",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005843",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000021",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004460",
+      "label": "modified",
+      "gold": "claiming",
+      "generated": "none"
+    },
+    {
+      "id": "000-004151",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000584",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003385",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001650",
+      "label": "modified",
+      "gold": "defenses",
+      "generated": "none"
+    },
+    {
+      "id": "000-000329",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005995",
+      "label": "modified",
+      "gold": "physical",
+      "generated": "none"
+    },
+    {
+      "id": "000-006286",
+      "label": "modified",
+      "gold": "While",
+      "generated": "none"
+    },
+    {
+      "id": "000-004215",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001116",
+      "label": "modified",
+      "gold": "shallow",
+      "generated": "none"
+    },
+    {
+      "id": "000-006915",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007878",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000313",
+      "label": "modified",
+      "gold": "invoked",
+      "generated": "none"
+    },
+    {
+      "id": "000-000808",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004048",
+      "label": "modified",
+      "gold": "level",
+      "generated": "level"
+    },
+    {
+      "id": "000-001066",
+      "label": "modified",
+      "gold": "liabilities",
+      "generated": "none"
+    },
+    {
+      "id": "000-007178",
+      "label": "modified",
+      "gold": "primarily",
+      "generated": "none"
+    },
+    {
+      "id": "000-000208",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004710",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003984",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001350",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006929",
+      "label": "modified",
+      "gold": "advantages",
+      "generated": "none"
+    },
+    {
+      "id": "000-003820",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003636",
+      "label": "modified",
+      "gold": "g",
+      "generated": "none"
+    },
+    {
+      "id": "000-003662",
+      "label": "modified",
+      "gold": "ech",
+      "generated": "none"
+    },
+    {
+      "id": "000-007816",
+      "label": "modified",
+      "gold": "borders",
+      "generated": "none"
+    },
+    {
+      "id": "000-008423",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000362",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001101",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-008192",
+      "label": "modified",
+      "gold": "health",
+      "generated": "none"
+    },
+    {
+      "id": "000-002792",
+      "label": "modified",
+      "gold": "and",
+      "generated": "none"
+    },
+    {
+      "id": "000-000745",
+      "label": "modified",
+      "gold": "support",
+      "generated": "none"
+    },
+    {
+      "id": "000-004058",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006170",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002705",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003614",
+      "label": "modified",
+      "gold": "among",
+      "generated": "none"
+    },
+    {
+      "id": "000-005571",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007079",
+      "label": "modified",
+      "gold": "originates",
+      "generated": "none"
+    },
+    {
+      "id": "000-000661",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007135",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000376",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006717",
+      "label": "modified",
+      "gold": "building",
+      "generated": "none"
+    },
+    {
+      "id": "000-005469",
+      "label": "modified",
+      "gold": "finish",
+      "generated": "none"
+    },
+    {
+      "id": "000-002217",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007185",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000665",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001374",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-008412",
+      "label": "modified",
+      "gold": "held",
+      "generated": "none"
+    },
+    {
+      "id": "000-005916",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000301",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001353",
+      "label": "modified",
+      "gold": "speed",
+      "generated": "none"
+    },
+    {
+      "id": "000-001102",
+      "label": "modified",
+      "gold": "its",
+      "generated": "none"
+    },
+    {
+      "id": "000-003848",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000644",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007161",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003878",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003600",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006214",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001096",
+      "label": "modified",
+      "gold": "format",
+      "generated": "none"
+    },
+    {
+      "id": "000-000451",
+      "label": "modified",
+      "gold": "confidence",
+      "generated": "confidence"
+    },
+    {
+      "id": "000-000961",
+      "label": "modified",
+      "gold": "whether",
+      "generated": "none"
+    },
+    {
+      "id": "000-001179",
+      "label": "modified",
+      "gold": "store",
+      "generated": "store"
+    },
+    {
+      "id": "000-007630",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-008038",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004552",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007723",
+      "label": "modified",
+      "gold": "autom",
+      "generated": "none"
+    },
+    {
+      "id": "000-000806",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005156",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007162",
+      "label": "modified",
+      "gold": "radi",
+      "generated": "none"
+    },
+    {
+      "id": "000-002782",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005732",
+      "label": "modified",
+      "gold": "started",
+      "generated": "none"
+    },
+    {
+      "id": "000-000197",
+      "label": "modified",
+      "gold": "accounts",
+      "generated": "none"
+    },
+    {
+      "id": "000-006802",
+      "label": "modified",
+      "gold": "fuel",
+      "generated": "none"
+    },
+    {
+      "id": "000-003012",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-008363",
+      "label": "modified",
+      "gold": "younger",
+      "generated": "none"
+    },
+    {
+      "id": "000-000623",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000449",
+      "label": "modified",
+      "gold": "tackles",
+      "generated": "none"
+    },
+    {
+      "id": "000-007371",
+      "label": "modified",
+      "gold": "only",
+      "generated": "none"
+    },
+    {
+      "id": "000-007697",
+      "label": "modified",
+      "gold": "responsibilities",
+      "generated": "none"
+    },
+    {
+      "id": "000-007772",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000133",
+      "label": "modified",
+      "gold": "layout",
+      "generated": "none"
+    },
+    {
+      "id": "000-000370",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000657",
+      "label": "modified",
+      "gold": "April",
+      "generated": "none"
+    },
+    {
+      "id": "000-005502",
+      "label": "modified",
+      "gold": "workouts",
+      "generated": "none"
+    },
+    {
+      "id": "000-003829",
+      "label": "modified",
+      "gold": "many",
+      "generated": "none"
+    },
+    {
+      "id": "000-000761",
+      "label": "modified",
+      "gold": "vicinity",
+      "generated": "none"
+    },
+    {
+      "id": "000-004802",
+      "label": "modified",
+      "gold": "Danielle",
+      "generated": "none"
+    },
+    {
+      "id": "000-001422",
+      "label": "modified",
+      "gold": "education",
+      "generated": "none"
+    },
+    {
+      "id": "000-000888",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001483",
+      "label": "modified",
+      "gold": "meaningful",
+      "generated": "none"
+    },
+    {
+      "id": "000-006817",
+      "label": "modified",
+      "gold": "In",
+      "generated": "none"
+    },
+    {
+      "id": "000-001044",
+      "label": "modified",
+      "gold": "increases",
+      "generated": "none"
+    },
+    {
+      "id": "000-001005",
+      "label": "modified",
+      "gold": "reduce",
+      "generated": "none"
+    },
+    {
+      "id": "000-003756",
+      "label": "modified",
+      "gold": "snack",
+      "generated": "none"
+    },
+    {
+      "id": "000-007268",
+      "label": "modified",
+      "gold": "sport",
+      "generated": "none"
+    },
+    {
+      "id": "000-008263",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004088",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001499",
+      "label": "modified",
+      "gold": "like",
+      "generated": "none"
+    },
+    {
+      "id": "000-000312",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002533",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002621",
+      "label": "modified",
+      "gold": "seeming",
+      "generated": "none"
+    },
+    {
+      "id": "000-003187",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006782",
+      "label": "modified",
+      "gold": "display",
+      "generated": "none"
+    },
+    {
+      "id": "000-002242",
+      "label": "modified",
+      "gold": "toward",
+      "generated": "none"
+    },
+    {
+      "id": "000-003018",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001227",
+      "label": "modified",
+      "gold": "divisions",
+      "generated": "none"
+    },
+    {
+      "id": "000-004279",
+      "label": "modified",
+      "gold": "varied",
+      "generated": "none"
+    },
+    {
+      "id": "000-005389",
+      "label": "modified",
+      "gold": "extensive",
+      "generated": "none"
+    },
+    {
+      "id": "000-008237",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000378",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002667",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007305",
+      "label": "modified",
+      "gold": "combust",
+      "generated": "none"
+    },
+    {
+      "id": "000-007303",
+      "label": "modified",
+      "gold": "might",
+      "generated": "none"
+    },
+    {
+      "id": "000-000555",
+      "label": "modified",
+      "gold": "per",
+      "generated": "none"
+    },
+    {
+      "id": "000-001653",
+      "label": "modified",
+      "gold": "construction",
+      "generated": "construction"
+    },
+    {
+      "id": "000-006280",
+      "label": "modified",
+      "gold": "Despite",
+      "generated": "none"
+    },
+    {
+      "id": "000-003733",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005845",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002854",
+      "label": "modified",
+      "gold": "contributes",
+      "generated": "none"
+    },
+    {
+      "id": "000-001241",
+      "label": "modified",
+      "gold": "extensive",
+      "generated": "none"
+    },
+    {
+      "id": "000-000868",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000963",
+      "label": "modified",
+      "gold": "is",
+      "generated": "none"
+    },
+    {
+      "id": "000-008409",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004002",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005491",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004137",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001742",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006790",
+      "label": "modified",
+      "gold": "John",
+      "generated": "none"
+    },
+    {
+      "id": "000-007663",
+      "label": "modified",
+      "gold": "strengths",
+      "generated": "none"
+    },
+    {
+      "id": "000-000507",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004359",
+      "label": "modified",
+      "gold": "overall",
+      "generated": "none"
+    },
+    {
+      "id": "000-007860",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001607",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005392",
+      "label": "modified",
+      "gold": "includes",
+      "generated": "none"
+    },
+    {
+      "id": "000-000394",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007987",
+      "label": "modified",
+      "gold": "divine",
+      "generated": "none"
+    },
+    {
+      "id": "000-008124",
+      "label": "modified",
+      "gold": "Teach",
+      "generated": "none"
+    },
+    {
+      "id": "000-004715",
+      "label": "modified",
+      "gold": "I",
+      "generated": "none"
+    },
+    {
+      "id": "000-000370",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005810",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006143",
+      "label": "modified",
+      "gold": "federal",
+      "generated": "none"
+    },
+    {
+      "id": "000-007952",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000157",
+      "label": "modified",
+      "gold": "with",
+      "generated": "none"
+    },
+    {
+      "id": "000-002313",
+      "label": "modified",
+      "gold": "ambient",
+      "generated": "none"
+    },
+    {
+      "id": "000-003687",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000921",
+      "label": "modified",
+      "gold": "silicon",
+      "generated": "none"
+    },
+    {
+      "id": "000-001136",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000886",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006030",
+      "label": "modified",
+      "gold": "AU",
+      "generated": "none"
+    },
+    {
+      "id": "000-000319",
+      "label": "modified",
+      "gold": "publishing",
+      "generated": "none"
+    },
+    {
+      "id": "000-003530",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003435",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002424",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001318",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-008106",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006504",
+      "label": "modified",
+      "gold": "keeping",
+      "generated": "none"
+    },
+    {
+      "id": "000-006400",
+      "label": "modified",
+      "gold": "vital",
+      "generated": "none"
+    },
+    {
+      "id": "000-000674",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-008021",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007439",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000715",
+      "label": "modified",
+      "gold": "permanent",
+      "generated": "none"
+    },
+    {
+      "id": "000-007069",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007443",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005226",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002121",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002547",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003005",
+      "label": "modified",
+      "gold": "online",
+      "generated": "none"
+    },
+    {
+      "id": "000-005249",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000600",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000172",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006541",
+      "label": "modified",
+      "gold": "crispy",
+      "generated": "none"
+    },
+    {
+      "id": "000-007067",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002050",
+      "label": "modified",
+      "gold": "Here",
+      "generated": "none"
+    },
+    {
+      "id": "000-006292",
+      "label": "modified",
+      "gold": "purs",
+      "generated": "none"
+    },
+    {
+      "id": "000-003571",
+      "label": "modified",
+      "gold": "name",
+      "generated": "none"
+    },
+    {
+      "id": "000-002350",
+      "label": "modified",
+      "gold": "feeling",
+      "generated": "none"
+    },
+    {
+      "id": "000-006301",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-008405",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000174",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001052",
+      "label": "modified",
+      "gold": "and",
+      "generated": "none"
+    },
+    {
+      "id": "000-003305",
+      "label": "modified",
+      "gold": "widely",
+      "generated": "none"
+    },
+    {
+      "id": "000-006218",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004290",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000482",
+      "label": "modified",
+      "gold": "with",
+      "generated": "none"
+    },
+    {
+      "id": "000-008293",
+      "label": "modified",
+      "gold": "sequences",
+      "generated": "none"
+    },
+    {
+      "id": "000-003227",
+      "label": "modified",
+      "gold": "stands",
+      "generated": "none"
+    },
+    {
+      "id": "000-000856",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005582",
+      "label": "modified",
+      "gold": "However",
+      "generated": "none"
+    },
+    {
+      "id": "000-004392",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006474",
+      "label": "modified",
+      "gold": "countless",
+      "generated": "none"
+    },
+    {
+      "id": "000-001543",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001449",
+      "label": "modified",
+      "gold": "types",
+      "generated": "none"
+    },
+    {
+      "id": "000-001337",
+      "label": "modified",
+      "gold": "Keto",
+      "generated": "none"
+    },
+    {
+      "id": "000-001211",
+      "label": "modified",
+      "gold": "painted",
+      "generated": "none"
+    },
+    {
+      "id": "000-007367",
+      "label": "modified",
+      "gold": "especially",
+      "generated": "none"
+    },
+    {
+      "id": "000-000970",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005304",
+      "label": "modified",
+      "gold": "being",
+      "generated": "none"
+    },
+    {
+      "id": "000-003890",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007385",
+      "label": "modified",
+      "gold": "referring",
+      "generated": "none"
+    },
+    {
+      "id": "000-002632",
+      "label": "modified",
+      "gold": "based",
+      "generated": "none"
+    },
+    {
+      "id": "000-001761",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002035",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001001",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007180",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007640",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002326",
+      "label": "modified",
+      "gold": "expands",
+      "generated": "none"
+    },
+    {
+      "id": "000-005264",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002419",
+      "label": "modified",
+      "gold": "alliances",
+      "generated": "none"
+    },
+    {
+      "id": "000-001974",
+      "label": "modified",
+      "gold": "instructions",
+      "generated": "instructions"
+    },
+    {
+      "id": "000-001634",
+      "label": "modified",
+      "gold": "moon",
+      "generated": "none"
+    },
+    {
+      "id": "000-000120",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007831",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001193",
+      "label": "modified",
+      "gold": "gy",
+      "generated": "none"
+    },
+    {
+      "id": "000-007080",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007448",
+      "label": "modified",
+      "gold": "or",
+      "generated": "none"
+    },
+    {
+      "id": "000-007891",
+      "label": "modified",
+      "gold": "will",
+      "generated": "none"
+    },
+    {
+      "id": "000-000247",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-008049",
+      "label": "modified",
+      "gold": "provides",
+      "generated": "none"
+    },
+    {
+      "id": "000-008358",
+      "label": "modified",
+      "gold": "attraction",
+      "generated": "none"
+    },
+    {
+      "id": "000-001017",
+      "label": "modified",
+      "gold": "gives",
+      "generated": "none"
+    },
+    {
+      "id": "000-002300",
+      "label": "modified",
+      "gold": "separate",
+      "generated": "none"
+    },
+    {
+      "id": "000-002629",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001297",
+      "label": "modified",
+      "gold": "at",
+      "generated": "none"
+    },
+    {
+      "id": "000-000088",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000548",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005311",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003762",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002049",
+      "label": "modified",
+      "gold": "Ob",
+      "generated": "none"
+    },
+    {
+      "id": "000-002753",
+      "label": "modified",
+      "gold": "deeper",
+      "generated": "none"
+    },
+    {
+      "id": "000-003026",
+      "label": "modified",
+      "gold": "debated",
+      "generated": "none"
+    },
+    {
+      "id": "000-004563",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007181",
+      "label": "modified",
+      "gold": "family",
+      "generated": "none"
+    },
+    {
+      "id": "000-000676",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002508",
+      "label": "modified",
+      "gold": "users",
+      "generated": "none"
+    },
+    {
+      "id": "000-002982",
+      "label": "modified",
+      "gold": "development",
+      "generated": "development"
+    },
+    {
+      "id": "000-007415",
+      "label": "modified",
+      "gold": "partially",
+      "generated": "none"
+    },
+    {
+      "id": "000-001079",
+      "label": "modified",
+      "gold": "cinematic",
+      "generated": "cinematic"
+    },
+    {
+      "id": "000-005171",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001189",
+      "label": "modified",
+      "gold": "approximately",
+      "generated": "none"
+    },
+    {
+      "id": "000-008227",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001256",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003343",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007563",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005289",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001479",
+      "label": "modified",
+      "gold": "Hotel",
+      "generated": "none"
+    },
+    {
+      "id": "000-000909",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000479",
+      "label": "modified",
+      "gold": "great",
+      "generated": "none"
+    },
+    {
+      "id": "000-003146",
+      "label": "modified",
+      "gold": "diminishing",
+      "generated": "none"
+    },
+    {
+      "id": "000-006796",
+      "label": "modified",
+      "gold": "Special",
+      "generated": "none"
+    },
+    {
+      "id": "000-006290",
+      "label": "modified",
+      "gold": "that",
+      "generated": "none"
+    },
+    {
+      "id": "000-001763",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007388",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005830",
+      "label": "modified",
+      "gold": "and",
+      "generated": "none"
+    },
+    {
+      "id": "000-003436",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002852",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005719",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002608",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000569",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003604",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004051",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001236",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007105",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003693",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007701",
+      "label": "modified",
+      "gold": "employing",
+      "generated": "employing"
+    },
+    {
+      "id": "000-002385",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005848",
+      "label": "modified",
+      "gold": "Typically",
+      "generated": "none"
+    },
+    {
+      "id": "000-000337",
+      "label": "modified",
+      "gold": "increasingly",
+      "generated": "none"
+    },
+    {
+      "id": "000-005305",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007915",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006052",
+      "label": "modified",
+      "gold": "Ge",
+      "generated": "none"
+    },
+    {
+      "id": "000-008429",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001109",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001709",
+      "label": "modified",
+      "gold": "briefly",
+      "generated": "none"
+    },
+    {
+      "id": "000-003594",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005621",
+      "label": "modified",
+      "gold": "inventor",
+      "generated": "none"
+    },
+    {
+      "id": "000-007841",
+      "label": "modified",
+      "gold": "candid",
+      "generated": "none"
+    },
+    {
+      "id": "000-000823",
+      "label": "modified",
+      "gold": "cere",
+      "generated": "none"
+    },
+    {
+      "id": "000-006412",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003104",
+      "label": "modified",
+      "gold": "and",
+      "generated": "none"
+    },
+    {
+      "id": "000-003289",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003656",
+      "label": "modified",
+      "gold": "widely",
+      "generated": "none"
+    },
+    {
+      "id": "000-007850",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000187",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000146",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000847",
+      "label": "modified",
+      "gold": "internet",
+      "generated": "none"
+    },
+    {
+      "id": "000-000377",
+      "label": "modified",
+      "gold": "Who",
+      "generated": "none"
+    },
+    {
+      "id": "000-001934",
+      "label": "modified",
+      "gold": "literary",
+      "generated": "none"
+    },
+    {
+      "id": "000-007905",
+      "label": "modified",
+      "gold": "Retrie",
+      "generated": "none"
+    },
+    {
+      "id": "000-001011",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004418",
+      "label": "modified",
+      "gold": "increases",
+      "generated": "none"
+    },
+    {
+      "id": "000-002762",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005853",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003055",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004138",
+      "label": "modified",
+      "gold": "leading",
+      "generated": "none"
+    },
+    {
+      "id": "000-001419",
+      "label": "modified",
+      "gold": "resources",
+      "generated": "none"
+    },
+    {
+      "id": "000-001574",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007101",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006597",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002540",
+      "label": "modified",
+      "gold": "Remark",
+      "generated": "none"
+    },
+    {
+      "id": "000-000761",
+      "label": "modified",
+      "gold": "long",
+      "generated": "none"
+    },
+    {
+      "id": "000-002931",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001566",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005285",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006570",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000833",
+      "label": "modified",
+      "gold": "visits",
+      "generated": "none"
+    },
+    {
+      "id": "000-002939",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000540",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000807",
+      "label": "modified",
+      "gold": "ordinary",
+      "generated": "none"
+    },
+    {
+      "id": "000-001346",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004602",
+      "label": "modified",
+      "gold": "your",
+      "generated": "none"
+    },
+    {
+      "id": "000-001525",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001059",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006442",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000393",
+      "label": "modified",
+      "gold": "boast",
+      "generated": "none"
+    },
+    {
+      "id": "000-000798",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002794",
+      "label": "modified",
+      "gold": "systematically",
+      "generated": "none"
+    },
+    {
+      "id": "000-002224",
+      "label": "modified",
+      "gold": "last",
+      "generated": "none"
+    },
+    {
+      "id": "000-001332",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-008260",
+      "label": "modified",
+      "gold": "processes",
+      "generated": "none"
+    },
+    {
+      "id": "000-001605",
+      "label": "modified",
+      "gold": "begin",
+      "generated": "none"
+    },
+    {
+      "id": "000-006963",
+      "label": "modified",
+      "gold": "maintain",
+      "generated": "none"
+    },
+    {
+      "id": "000-001440",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004531",
+      "label": "modified",
+      "gold": "Vir",
+      "generated": "none"
+    },
+    {
+      "id": "000-005448",
+      "label": "modified",
+      "gold": "sm",
+      "generated": "none"
+    },
+    {
+      "id": "000-008339",
+      "label": "modified",
+      "gold": "drew",
+      "generated": "none"
+    },
+    {
+      "id": "000-000144",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002140",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000558",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006920",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000716",
+      "label": "modified",
+      "gold": "major",
+      "generated": "none"
+    },
+    {
+      "id": "000-006212",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006186",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000559",
+      "label": "modified",
+      "gold": "perspective",
+      "generated": "none"
+    },
+    {
+      "id": "000-004749",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000683",
+      "label": "modified",
+      "gold": "laws",
+      "generated": "none"
+    },
+    {
+      "id": "000-001180",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005021",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003703",
+      "label": "modified",
+      "gold": "leading",
+      "generated": "none"
+    },
+    {
+      "id": "000-007590",
+      "label": "modified",
+      "gold": "revolutions",
+      "generated": "none"
+    },
+    {
+      "id": "000-000942",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000796",
+      "label": "modified",
+      "gold": "for",
+      "generated": "none"
+    },
+    {
+      "id": "000-003341",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001916",
+      "label": "modified",
+      "gold": "accompanied",
+      "generated": "none"
+    },
+    {
+      "id": "000-000437",
+      "label": "modified",
+      "gold": "Thi",
+      "generated": "none"
+    },
+    {
+      "id": "000-005992",
+      "label": "modified",
+      "gold": "pair",
+      "generated": "pair"
+    },
+    {
+      "id": "000-001131",
+      "label": "modified",
+      "gold": "as",
+      "generated": "none"
+    },
+    {
+      "id": "000-000478",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002534",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-008202",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003638",
+      "label": "modified",
+      "gold": "possible",
+      "generated": "none"
+    },
+    {
+      "id": "000-003761",
+      "label": "modified",
+      "gold": "deliberately",
+      "generated": "none"
+    },
+    {
+      "id": "000-001631",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005142",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006968",
+      "label": "modified",
+      "gold": "view",
+      "generated": "none"
+    },
+    {
+      "id": "000-007528",
+      "label": "modified",
+      "gold": "center",
+      "generated": "none"
+    },
+    {
+      "id": "000-004849",
+      "label": "modified",
+      "gold": "as",
+      "generated": "none"
+    },
+    {
+      "id": "000-008134",
+      "label": "modified",
+      "gold": "was",
+      "generated": "none"
+    },
+    {
+      "id": "000-002454",
+      "label": "modified",
+      "gold": "long",
+      "generated": "none"
+    },
+    {
+      "id": "000-001263",
+      "label": "modified",
+      "gold": "like",
+      "generated": "none"
+    },
+    {
+      "id": "000-000973",
+      "label": "modified",
+      "gold": "Be",
+      "generated": "none"
+    },
+    {
+      "id": "000-004525",
+      "label": "modified",
+      "gold": "rivalry",
+      "generated": "none"
+    },
+    {
+      "id": "000-002843",
+      "label": "modified",
+      "gold": "become",
+      "generated": "none"
+    },
+    {
+      "id": "000-005114",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003427",
+      "label": "modified",
+      "gold": "skilled",
+      "generated": "none"
+    },
+    {
+      "id": "000-002234",
+      "label": "modified",
+      "gold": "lose",
+      "generated": "none"
+    },
+    {
+      "id": "000-007396",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000199",
+      "label": "modified",
+      "gold": "richest",
+      "generated": "none"
+    },
+    {
+      "id": "000-005711",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001250",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001118",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007885",
+      "label": "modified",
+      "gold": "every",
+      "generated": "none"
+    },
+    {
+      "id": "000-003290",
+      "label": "modified",
+      "gold": "accepted",
+      "generated": "none"
+    },
+    {
+      "id": "000-008344",
+      "label": "clean",
+      "gold": "none",
+      "generated": "Across"
+    },
+    {
+      "id": "000-001251",
+      "label": "modified",
+      "gold": "though",
+      "generated": "none"
+    },
+    {
+      "id": "000-005758",
+      "label": "modified",
+      "gold": "height",
+      "generated": "none"
+    },
+    {
+      "id": "000-005952",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004528",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005189",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000272",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002285",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006219",
+      "label": "modified",
+      "gold": "Edwin",
+      "generated": "none"
+    },
+    {
+      "id": "000-001431",
+      "label": "modified",
+      "gold": "Even",
+      "generated": "none"
+    },
+    {
+      "id": "000-005020",
+      "label": "modified",
+      "gold": "seamless",
+      "generated": "none"
+    },
+    {
+      "id": "000-002440",
+      "label": "modified",
+      "gold": "awards",
+      "generated": "awards"
+    },
+    {
+      "id": "000-007586",
+      "label": "modified",
+      "gold": "representing",
+      "generated": "none"
+    },
+    {
+      "id": "000-002491",
+      "label": "modified",
+      "gold": "stunned",
+      "generated": "none"
+    },
+    {
+      "id": "000-000328",
+      "label": "modified",
+      "gold": "is",
+      "generated": "none"
+    },
+    {
+      "id": "000-001869",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006387",
+      "label": "modified",
+      "gold": "North",
+      "generated": "none"
+    },
+    {
+      "id": "000-007153",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002842",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006045",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002003",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007441",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006933",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-008164",
+      "label": "modified",
+      "gold": "instructor",
+      "generated": "none"
+    },
+    {
+      "id": "000-001660",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005703",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007469",
+      "label": "modified",
+      "gold": "mix",
+      "generated": "none"
+    },
+    {
+      "id": "000-001174",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000362",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005613",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005519",
+      "label": "modified",
+      "gold": "past",
+      "generated": "none"
+    },
+    {
+      "id": "000-005450",
+      "label": "modified",
+      "gold": "after",
+      "generated": "none"
+    },
+    {
+      "id": "000-005902",
+      "label": "modified",
+      "gold": "important",
+      "generated": "important"
+    },
+    {
+      "id": "000-001906",
+      "label": "modified",
+      "gold": "global",
+      "generated": "none"
+    },
+    {
+      "id": "000-001049",
+      "label": "modified",
+      "gold": "show",
+      "generated": "none"
+    },
+    {
+      "id": "000-002561",
+      "label": "modified",
+      "gold": "stamina",
+      "generated": "none"
+    },
+    {
+      "id": "000-002810",
+      "label": "modified",
+      "gold": "became",
+      "generated": "none"
+    },
+    {
+      "id": "000-004277",
+      "label": "modified",
+      "gold": "possess",
+      "generated": "none"
+    },
+    {
+      "id": "000-001346",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006197",
+      "label": "modified",
+      "gold": "automobile",
+      "generated": "none"
+    },
+    {
+      "id": "000-004721",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004829",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000374",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003667",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-008097",
+      "label": "modified",
+      "gold": "mutually",
+      "generated": "none"
+    },
+    {
+      "id": "000-000276",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000944",
+      "label": "modified",
+      "gold": "Map",
+      "generated": "none"
+    },
+    {
+      "id": "000-002604",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007807",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000335",
+      "label": "modified",
+      "gold": "Lyon",
+      "generated": "Lyon"
+    },
+    {
+      "id": "000-004395",
+      "label": "modified",
+      "gold": "typical",
+      "generated": "none"
+    },
+    {
+      "id": "000-007930",
+      "label": "modified",
+      "gold": "Critical",
+      "generated": "none"
+    },
+    {
+      "id": "000-002992",
+      "label": "modified",
+      "gold": "historical",
+      "generated": "none"
+    },
+    {
+      "id": "000-005607",
+      "label": "modified",
+      "gold": "executes",
+      "generated": "none"
+    },
+    {
+      "id": "000-004365",
+      "label": "modified",
+      "gold": "an",
+      "generated": "none"
+    },
+    {
+      "id": "000-002638",
+      "label": "modified",
+      "gold": "A",
+      "generated": "none"
+    },
+    {
+      "id": "000-001366",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000829",
+      "label": "modified",
+      "gold": "various",
+      "generated": "none"
+    },
+    {
+      "id": "000-006102",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001159",
+      "label": "modified",
+      "gold": "sign",
+      "generated": "none"
+    },
+    {
+      "id": "000-001047",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003964",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003738",
+      "label": "modified",
+      "gold": "playing",
+      "generated": "none"
+    },
+    {
+      "id": "000-001714",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001942",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000978",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006181",
+      "label": "modified",
+      "gold": "Female",
+      "generated": "none"
+    },
+    {
+      "id": "000-007208",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003084",
+      "label": "modified",
+      "gold": "belong",
+      "generated": "none"
+    },
+    {
+      "id": "000-000116",
+      "label": "modified",
+      "gold": "enjoyed",
+      "generated": "none"
+    },
+    {
+      "id": "000-001109",
+      "label": "modified",
+      "gold": "Mini",
+      "generated": "none"
+    },
+    {
+      "id": "000-006830",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007849",
+      "label": "modified",
+      "gold": "King",
+      "generated": "none"
+    },
+    {
+      "id": "000-001121",
+      "label": "modified",
+      "gold": "prioritize",
+      "generated": "none"
+    },
+    {
+      "id": "000-001403",
+      "label": "modified",
+      "gold": "route",
+      "generated": "none"
+    },
+    {
+      "id": "000-000162",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000775",
+      "label": "modified",
+      "gold": "study",
+      "generated": "none"
+    },
+    {
+      "id": "000-006258",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002092",
+      "label": "modified",
+      "gold": "hub",
+      "generated": "none"
+    },
+    {
+      "id": "000-008142",
+      "label": "modified",
+      "gold": "want",
+      "generated": "none"
+    },
+    {
+      "id": "000-001408",
+      "label": "modified",
+      "gold": "basket",
+      "generated": "none"
+    },
+    {
+      "id": "000-007485",
+      "label": "modified",
+      "gold": "cooking",
+      "generated": "none"
+    },
+    {
+      "id": "000-003513",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005385",
+      "label": "modified",
+      "gold": "small",
+      "generated": "none"
+    },
+    {
+      "id": "000-005244",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003487",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001460",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007028",
+      "label": "modified",
+      "gold": "delay",
+      "generated": "none"
+    },
+    {
+      "id": "000-000465",
+      "label": "modified",
+      "gold": "inspired",
+      "generated": "none"
+    },
+    {
+      "id": "000-006220",
+      "label": "clean",
+      "gold": "none",
+      "generated": "pancakes"
+    },
+    {
+      "id": "000-006551",
+      "label": "modified",
+      "gold": "forms",
+      "generated": "none"
+    },
+    {
+      "id": "000-000015",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002387",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000424",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006738",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001531",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003402",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-008071",
+      "label": "modified",
+      "gold": "parliamentary",
+      "generated": "none"
+    },
+    {
+      "id": "000-002432",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002661",
+      "label": "modified",
+      "gold": "similar",
+      "generated": "none"
+    },
+    {
+      "id": "000-002053",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003825",
+      "label": "modified",
+      "gold": "pushing",
+      "generated": "none"
+    },
+    {
+      "id": "000-005963",
+      "label": "modified",
+      "gold": "nour",
+      "generated": "none"
+    },
+    {
+      "id": "000-000871",
+      "label": "modified",
+      "gold": "service",
+      "generated": "none"
+    },
+    {
+      "id": "000-001311",
+      "label": "modified",
+      "gold": "fish",
+      "generated": "none"
+    },
+    {
+      "id": "000-001850",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004813",
+      "label": "modified",
+      "gold": "spoken",
+      "generated": "none"
+    },
+    {
+      "id": "000-005391",
+      "label": "modified",
+      "gold": "Bangladesh",
+      "generated": "none"
+    },
+    {
+      "id": "000-000659",
+      "label": "modified",
+      "gold": "wasn",
+      "generated": "none"
+    },
+    {
+      "id": "000-005431",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007466",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000145",
+      "label": "modified",
+      "gold": "time",
+      "generated": "none"
+    },
+    {
+      "id": "000-005527",
+      "label": "modified",
+      "gold": "comes",
+      "generated": "none"
+    },
+    {
+      "id": "000-001612",
+      "label": "modified",
+      "gold": "to",
+      "generated": "none"
+    },
+    {
+      "id": "000-005993",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007404",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007364",
+      "label": "modified",
+      "gold": "Production",
+      "generated": "none"
+    },
+    {
+      "id": "000-000163",
+      "label": "modified",
+      "gold": "showcase",
+      "generated": "none"
+    },
+    {
+      "id": "000-004644",
+      "label": "modified",
+      "gold": "waves",
+      "generated": "none"
+    },
+    {
+      "id": "000-003063",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006818",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005138",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001255",
+      "label": "modified",
+      "gold": "Rooney",
+      "generated": "none"
+    },
+    {
+      "id": "000-005419",
+      "label": "modified",
+      "gold": "a",
+      "generated": "none"
+    },
+    {
+      "id": "000-008066",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000109",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006696",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002780",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003526",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004540",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000893",
+      "label": "modified",
+      "gold": "a",
+      "generated": "none"
+    },
+    {
+      "id": "000-002731",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000367",
+      "label": "modified",
+      "gold": "Arizona",
+      "generated": "Arizona"
+    },
+    {
+      "id": "000-006402",
+      "label": "modified",
+      "gold": "later",
+      "generated": "none"
+    },
+    {
+      "id": "000-006706",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-000485",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005668",
+      "label": "modified",
+      "gold": "unlocking",
+      "generated": "none"
+    },
+    {
+      "id": "000-002485",
+      "label": "modified",
+      "gold": "opportunities",
+      "generated": "none"
+    },
+    {
+      "id": "000-000710",
+      "label": "modified",
+      "gold": "faithfully",
+      "generated": "none"
+    },
+    {
+      "id": "000-004922",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-006708",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003452",
+      "label": "modified",
+      "gold": "prohibited",
+      "generated": "none"
+    },
+    {
+      "id": "000-008332",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002379",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007146",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-003663",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-004280",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-002890",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-007634",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-001240",
+      "label": "clean",
+      "gold": "none",
+      "generated": "none"
+    },
+    {
+      "id": "000-005982",
+      "label": "modified",
+      "gold": "also",
+      "generated": "none"
+    },
+    {
+      "id": "000-001435",
+      "label": "modified",
+      "gold": "central",
+      "generated": "central"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+[submodule "ciaware/CIAware-Bench"]
+	path = ciaware/CIAware-Bench
+	url = https://github.com/ydankner/CIAware-Bench.git

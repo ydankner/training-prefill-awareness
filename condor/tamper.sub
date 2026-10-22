@@ -1,0 +1,26 @@
+# Tampering-marker experiment. From the root of your own clone:
+#   condor_submit_bid 35 condor/tamper.sub -append 'phase = pilot'
+# phase: pilot | histories | conversations | train <name>
+# 4 CPUs + 64 GB + 1 GPU = 28 computing units (1 H100 at the minimum bid 35: 980 credits/h).
+universe = vanilla
+executable = /bin/bash
+arguments = condor/tamper.sh $(phase)
+environment = "HOME=$ENV(HOME) BATCH=$(batch) EXTRA=$(extra) FLA=$(fla)"
+batch = 32
+extra =
+fla =
+request_cpus = 4
+request_memory = 64GB
+request_disk = 20GB
+request_gpus = 1
+# Generation fits an 80 GB H100; pass -append 'gpumem = 90000' for training (96 GB H100s).
+gpumem = 80000
+requirements = (CUDAGlobalMemoryMb >= $(gpumem)) && regexp("H100", CUDADeviceName)
+should_transfer_files = NO
+output = logs/tamper-$(Cluster).$(Process).out
+error = logs/tamper-$(Cluster).$(Process).err
+log = logs/tamper-$(Cluster).log
+on_exit_hold = (ExitBySignal == true) || (ExitCode != 0)
+# 20 h backstop; histories and training resume where they stopped.
+periodic_hold = (JobStatus == 2) && (time() - JobCurrentStartDate > 72000)
+queue 1

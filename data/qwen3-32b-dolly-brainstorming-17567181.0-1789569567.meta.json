@@ -1,0 +1,57 @@
+{
+  "command": "python -m prefill_awareness.data_gen --model Qwen/Qwen3-32B --no-enable-thinking --prompts data/dolly-brainstorming-prompts.jsonl --out data/qwen3-32b-dolly-brainstorming-17567181.0-1789569567.jsonl --n 1751 --batch-size 32 --greedy --max-words 200 --max-new-tokens 512",
+  "args": {
+    "model": "Qwen/Qwen3-32B",
+    "enable_thinking": false,
+    "prompts": "data/dolly-brainstorming-prompts.jsonl",
+    "categories": "",
+    "out": "data/qwen3-32b-dolly-brainstorming-17567181.0-1789569567.jsonl",
+    "n": 1751,
+    "batch_size": 32,
+    "neg_frac": 0.5,
+    "test_pct": 10,
+    "max_words": 200,
+    "max_new_tokens": 512,
+    "top_p": 0.9,
+    "temperature": 1.0,
+    "greedy": true,
+    "p_max": 0.01,
+    "p_min": 0.0001,
+    "max_orig_prob": 0.9,
+    "top_k": 16,
+    "scan": 256,
+    "positions": 16,
+    "min_pos": 8,
+    "min_tail": 8,
+    "word_tokens_only": true,
+    "shards": 1,
+    "shard": 0,
+    "seed": 0,
+    "dtype": "bfloat16",
+    "allow_dirty": false
+  },
+  "git": {
+    "commit": "b16c6949a9a461f48409ff99df891208fe103cd1",
+    "dirty": false
+  },
+  "model_revision": "9216db5781bf21249d130ec9da846c4624c16137",
+  "versions": {
+    "python": "3.10.12",
+    "torch": "2.8.0+cu128",
+    "transformers": "4.56.2"
+  },
+  "gpu": "NVIDIA H100",
+  "host": "<compute-node>",
+  "condor_job": "17567181.0",
+  "prompts": {
+    "source": "data/dolly-brainstorming-prompts.jsonl",
+    "n": 1751,
+    "sha256": "7a72379f221c2a481448f42897db4069d051344e08ea370e501df810f0745549"
+  },
+  "started_at": "2026-09-16T14:43:05+00:00",
+  "finished_at": "2026-09-16T15:29:52+00:00",
+  "counts": {
+    "clean": 876,
+    "modified": 875
+  }
+}

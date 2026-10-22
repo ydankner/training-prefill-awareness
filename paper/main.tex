@@ -1,0 +1,81 @@
+\documentclass{article}
+\usepackage{iclr2027_conference,times}
+\iclrfinalcopy % show author names; the header is overridden to "Preprint" below
+
+\input{math_commands.tex}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepgfplotslibrary{groupplots}
+\usetikzlibrary{positioning,arrows.meta,fit,backgrounds}
+\usepackage{enumitem}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=blue!60!black,citecolor=blue!60!black,urlcolor=blue!60!black}
+\usepackage{url}
+\usepackage[capitalize,noabbrev,nameinlink]{cleveref}
+
+% ---------------------------------------------------------------------------
+% Scaffold notes: planning bullets rendered in grey boxes.
+% Set \showplanfalse to hide them all once the prose is written.
+\newif\ifshowplan
+\showplantrue
+\definecolor{plancolor}{gray}{0.40}
+\ifshowplan
+  \newenvironment{plan}%
+    {\par\smallskip\noindent\begin{minipage}{\linewidth}\color{plancolor}\small
+     \textbf{[Plan]}\begin{itemize}[leftmargin=1.5em,itemsep=0pt,topsep=2pt]}%
+    {\end{itemize}\end{minipage}\par\smallskip}
+\else
+  \usepackage{comment}
+  \excludecomment{plan}
+\fi
+\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
+
+% Short names used throughout
+\newcommand{\qwenA}{Qwen3-32B}
+\newcommand{\qwenB}{Qwen3.8-27B}
+\newcommand{\marker}{\texttt{¦}}
+
+\title{Training Prefill-Awareness in Small Models\thanks{Code: \url{https://github.com/ydankner/training-prefill-awareness}}}
+
+\author{Yonatan Dankner \\
+University of T\"ubingen \\
+\texttt{yonatan.dankner@student.uni-tuebingen.de}
+\AND
+Jonas Geiping \textmd{(Supervisor)} \\
+ELLIS Institute T\"ubingen \\
+Max Planck Institute for Intelligent Systems \\
+T\"ubingen AI Center
+}
+
+\begin{document}
+
+\maketitle
+\lhead{Preprint}
+
+\begin{abstract}
+Prefill awareness in language models is becoming the focus of many recent studies for its effect on the accuracy of evaluation methods and for its promise for improving adversarial prefill robustness. We take the approach of fine-tuning small models (27 - 32 billion parameters) to train prefill awareness of token-level edits, in order to study the mechanisms that drive it and their limits. We demonstrate that detecting subtle token-level edits of previous assistant turns is a trainable capability, even when the edits are very hard for a human observer to spot. This capability is trainable even when the reasoning trace of the previous edited turn is removed from the context before detection. We provide an analysis of the trained capabilities and their mechanistic processes in various experimental settings. We find that while these mechanisms are largely absent from the untuned model, they utilize a signal already present in the untuned model's residual stream, sharpened by fine-tuning. We show that the resulting models perform on par with frontier models on a control intervention awareness benchmark \citep{schaeffer2026ciaware}.
+\end{abstract}
+
+\input{sections/01_introduction}
+\input{sections/02_related_work}
+\input{sections/03_method}
+\input{sections/04_experiments}
+\input{sections/05_discussion}
+
+\bibliography{references}
+\bibliographystyle{iclr2027_conference}
+
+\newpage
+\appendix
+\input{sections/appendix}
+
+\end{document}

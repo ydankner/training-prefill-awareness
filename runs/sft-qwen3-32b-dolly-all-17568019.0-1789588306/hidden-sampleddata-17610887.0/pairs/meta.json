@@ -1,0 +1,49 @@
+{
+  "command": "python -m prefill_awareness.hidden_states --model Qwen/Qwen3-32B --run runs/sft-qwen3-32b-dolly-all-17568019.0-1789588306 --checkpoint checkpoint-1108 --data data/qwen3-32b-dolly-brainstorming-sampled-17607643.0-1790190404.jsonl data/qwen3-32b-dolly-rest-sampled-17607643.1-1790190405.000.jsonl data/qwen3-32b-dolly-rest-sampled-17607643.2-1790190408.001.jsonl --out $_CONDOR_SCRATCH_DIR/hidden-17610887.0 --pairs",
+  "args": {
+    "model": "Qwen/Qwen3-32B",
+    "run": "runs/sft-qwen3-32b-dolly-all-17568019.0-1789588306",
+    "checkpoint": "checkpoint-1108",
+    "data": [
+      "data/qwen3-32b-dolly-brainstorming-sampled-17607643.0-1790190404.jsonl",
+      "data/qwen3-32b-dolly-rest-sampled-17607643.1-1790190405.000.jsonl",
+      "data/qwen3-32b-dolly-rest-sampled-17607643.2-1790190408.001.jsonl"
+    ],
+    "split": "test",
+    "limit": null,
+    "base": true,
+    "out": "$_CONDOR_SCRATCH_DIR/hidden-17610887.0",
+    "tag": null,
+    "pairs": true,
+    "dtype": "bfloat16",
+    "allow_dirty": false
+  },
+  "git": {
+    "commit": "a8625a8efbf73e79a42c4b6574faa9a807536cd1",
+    "dirty": false
+  },
+  "model_revision": "9216db5781bf21249d130ec9da846c4624c16137",
+  "versions": {
+    "python": "3.10.12",
+    "torch": "2.8.0+cu128",
+    "transformers": "4.56.2",
+    "peft": "0.21.0",
+    "accelerate": "1.15.0"
+  },
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "host": "<compute-node>",
+  "condor_job": "17610887.0",
+  "started_at": "2026-09-24T10:02:05+00:00",
+  "finished_at": "2026-09-24T10:03:34+00:00",
+  "checkpoint": "checkpoint-1108",
+  "models": [
+    "base",
+    "checkpoint-1108"
+  ],
+  "data": {
+    "data/qwen3-32b-dolly-brainstorming-sampled-17607643.0-1790190404.jsonl": "682c049f61af6e4378d34433e31bc33888b7b777c54659b5a7ee846ec4ebc6a7",
+    "data/qwen3-32b-dolly-rest-sampled-17607643.1-1790190405.000.jsonl": "2ca3e0d424e37826a1a9e7c422dd21021751ef9dfa643aefb239a158ff639d9e",
+    "data/qwen3-32b-dolly-rest-sampled-17607643.2-1790190408.001.jsonl": "8d05f5fb8f1ba361411d3120e39c378e61e58182e5a359e63ae5a35ff9c69bcb"
+  },
+  "layout": "pairs/<model>/{plant,orig}/layer-NN.bin, one row per line of pairs/index.jsonl"
+}

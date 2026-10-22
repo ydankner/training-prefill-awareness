@@ -1,0 +1,12 @@
+{
+  "command": "python condor/prepare_no_robots.py --out data/no-robots-prompts.jsonl",
+  "dataset": "HuggingFaceH4/no_robots",
+  "categories": [
+    "Brainstorm",
+    "Coding",
+    "Generation",
+    "Open QA"
+  ],
+  "n": 7247,
+  "sha256": "b900a96bbae5fa4e610c9bf108932b0975afe267568f9343bad447e038d0b744"
+}

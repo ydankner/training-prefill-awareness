@@ -1,0 +1,59 @@
+{
+  "reconstructed": "Written by hand after the run, which predates automatic metadata. Sources: condor/pilot.sh, the job's Condor event and stdout logs, logs/environment.txt and logs/model-revision.txt on the cluster. The code was copied to the cluster rather than checked out, so there is no commit; data_gen.py matched commit 89bf2bd except for one help string.",
+  "command": "python -m prefill_awareness.data_gen --model Qwen/Qwen3-32B --no-enable-thinking --prompts data/pilot-prompts.jsonl --out data/qwen3-32b-pilot-17566671.0-1789561019.jsonl --n 32 --batch-size 1 --greedy --max-words 200 --max-new-tokens 512",
+  "args": {
+    "model": "Qwen/Qwen3-32B",
+    "enable_thinking": false,
+    "prompts": "data/pilot-prompts.jsonl",
+    "categories": "",
+    "out": "data/qwen3-32b-pilot-17566671.0-1789561019.jsonl",
+    "n": 32,
+    "batch_size": 1,
+    "neg_frac": 0.5,
+    "test_pct": 10,
+    "max_words": 200,
+    "max_new_tokens": 512,
+    "top_p": 0.9,
+    "temperature": 1.0,
+    "greedy": true,
+    "p_max": 0.01,
+    "p_min": 0.0001,
+    "max_orig_prob": 0.9,
+    "top_k": 16,
+    "scan": 256,
+    "positions": 16,
+    "min_pos": 8,
+    "min_tail": 8,
+    "word_tokens_only": true,
+    "shards": 1,
+    "shard": 0,
+    "seed": 0,
+    "dtype": "bfloat16"
+  },
+  "git": {
+    "commit": null,
+    "dirty": null
+  },
+  "model_revision": "9216db5781bf21249d130ec9da846c4624c16137",
+  "versions": {
+    "python": "3.10.12",
+    "torch": "2.8.0",
+    "transformers": "4.56.2"
+  },
+  "gpu": "NVIDIA H100",
+  "host": "<compute-node>",
+  "condor_job": "17566671.0",
+  "prompts": {
+    "source": "data/pilot-prompts.jsonl",
+    "prepared_by": "condor/prepare_prompts.py: the first 256 Dolly brainstorming prompts after load_prompts' filter and seed-0 shuffle",
+    "file_sha256": "e5cf519c904c5df419e442c48556f47e00fcf14b8546d1b64bf570005c8ce744",
+    "n": 32,
+    "sha256": "70b16cd797a0203042ff7b5d1989f803bc3a9780761f87728607080577a9de38"
+  },
+  "started_at": "2026-09-16T12:16:59+00:00",
+  "finished_at": "2026-09-16T12:26:46+00:00",
+  "counts": {
+    "clean": 16,
+    "modified": 16
+  }
+}

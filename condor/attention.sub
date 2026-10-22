@@ -1,0 +1,19 @@
+# Submit from ~/prefill-awareness using: condor_submit_bid 35 condor/attention.sub
+universe = vanilla
+executable = /bin/bash
+arguments = condor/attention.sh $(Cluster).$(Process)
+initialdir = $ENV(HOME)/prefill-awareness
+environment = "HOME=$ENV(HOME)"
+request_cpus = 4
+request_memory = 96GB
+request_disk = 2GB
+request_gpus = 1
+requirements = (CUDAGlobalMemoryMb >= 80000) && regexp("H100", CUDADeviceName)
+should_transfer_files = NO
+output = logs/attention-$(Cluster).$(Process).out
+error = logs/attention-$(Cluster).$(Process).err
+log = logs/attention-$(Cluster).log
+# Hold failures for inspection; stop the allocation after 2h15m.
+on_exit_hold = (ExitBySignal == true) || (ExitCode != 0)
+periodic_hold = (JobStatus == 2) && (time() - JobCurrentStartDate > 8100)
+queue 1

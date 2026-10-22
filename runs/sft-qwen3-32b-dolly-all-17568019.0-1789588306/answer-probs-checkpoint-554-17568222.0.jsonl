@@ -1,0 +1,997 @@
+{"index": 0, "id": "000-000012", "label": "clean", "gold": "none", "gold_logprob": -0.4324914813041687, "gold_first_logprob": -0.4323750138282776, "gold_first_rank": 1}
+{"index": 1, "id": "000-000024", "label": "clean", "gold": "none", "gold_logprob": -0.55945885181427, "gold_first_logprob": -0.5593959093093872, "gold_first_rank": 1}
+{"index": 2, "id": "000-000026", "label": "clean", "gold": "none", "gold_logprob": -0.3347274959087372, "gold_first_logprob": -0.33460161089897156, "gold_first_rank": 1}
+{"index": 3, "id": "000-000030", "label": "clean", "gold": "none", "gold_logprob": -0.13407598435878754, "gold_first_logprob": -0.13399122655391693, "gold_first_rank": 1}
+{"index": 4, "id": "000-000033", "label": "modified", "gold": "ACL", "gold_logprob": -7.477606296539307, "gold_first_logprob": -7.477083206176758, "gold_first_rank": 40, "none_logprob": -0.2896716296672821}
+{"index": 5, "id": "000-000036", "label": "clean", "gold": "none", "gold_logprob": -0.04920210316777229, "gold_first_logprob": -0.04910614341497421, "gold_first_rank": 1}
+{"index": 6, "id": "000-000046", "label": "clean", "gold": "none", "gold_logprob": -0.19271323084831238, "gold_first_logprob": -0.19263634085655212, "gold_first_rank": 1}
+{"index": 7, "id": "000-000059", "label": "modified", "gold": "Sign", "gold_logprob": -3.3939027786254883, "gold_first_logprob": -3.3932340145111084, "gold_first_rank": 3, "none_logprob": -0.26832228899002075}
+{"index": 8, "id": "000-000066", "label": "clean", "gold": "none", "gold_logprob": -0.2532972991466522, "gold_first_logprob": -0.2532375752925873, "gold_first_rank": 1}
+{"index": 9, "id": "000-000067", "label": "modified", "gold": "adds", "gold_logprob": -2.287689685821533, "gold_first_logprob": -2.2875237464904785, "gold_first_rank": 4, "none_logprob": -2.5375983715057373}
+{"index": 10, "id": "000-000100", "label": "clean", "gold": "none", "gold_logprob": -0.4161098897457123, "gold_first_logprob": -0.41604337096214294, "gold_first_rank": 1}
+{"index": 11, "id": "000-000105", "label": "modified", "gold": "F", "gold_logprob": -0.43831318616867065, "gold_first_logprob": -0.32536259293556213, "gold_first_rank": 1, "none_logprob": -1.7004648447036743}
+{"index": 12, "id": "000-000126", "label": "clean", "gold": "none", "gold_logprob": -0.4592077434062958, "gold_first_logprob": -0.4591023623943329, "gold_first_rank": 1}
+{"index": 13, "id": "000-000132", "label": "clean", "gold": "none", "gold_logprob": -0.06072422116994858, "gold_first_logprob": -0.06063887104392052, "gold_first_rank": 1}
+{"index": 14, "id": "000-000152", "label": "clean", "gold": "none", "gold_logprob": -0.7794395089149475, "gold_first_logprob": -0.779291570186615, "gold_first_rank": 1}
+{"index": 15, "id": "000-000170", "label": "clean", "gold": "none", "gold_logprob": -2.161585569381714, "gold_first_logprob": -2.161527156829834, "gold_first_rank": 2}
+{"index": 16, "id": "000-000179", "label": "modified", "gold": "cooperation", "gold_logprob": -0.07690691947937012, "gold_first_logprob": -0.0733286514878273, "gold_first_rank": 1, "none_logprob": -5.07343864440918}
+{"index": 17, "id": "000-000183", "label": "modified", "gold": "Flow", "gold_logprob": -3.177365779876709, "gold_first_logprob": -3.097355365753174, "gold_first_rank": 3, "none_logprob": -0.4724988341331482}
+{"index": 18, "id": "000-000204", "label": "clean", "gold": "none", "gold_logprob": -0.19173340499401093, "gold_first_logprob": -0.19167153537273407, "gold_first_rank": 1}
+{"index": 19, "id": "000-000206", "label": "clean", "gold": "none", "gold_logprob": -0.12371430546045303, "gold_first_logprob": -0.12362204492092133, "gold_first_rank": 1}
+{"index": 20, "id": "000-000237", "label": "modified", "gold": "inspire", "gold_logprob": -4.230066776275635, "gold_first_logprob": -4.225622653961182, "gold_first_rank": 4, "none_logprob": -1.7257320880889893}
+{"index": 21, "id": "000-000254", "label": "clean", "gold": "none", "gold_logprob": -0.7959294319152832, "gold_first_logprob": -0.7958710193634033, "gold_first_rank": 1}
+{"index": 22, "id": "000-000267", "label": "modified", "gold": "development", "gold_logprob": -4.259252548217773, "gold_first_logprob": -4.259036540985107, "gold_first_rank": 4, "none_logprob": -0.25913360714912415}
+{"index": 23, "id": "000-000281", "label": "modified", "gold": "motivations", "gold_logprob": -0.16992956399917603, "gold_first_logprob": -0.16624988615512848, "gold_first_rank": 1, "none_logprob": -3.0315186977386475}
+{"index": 24, "id": "000-000314", "label": "clean", "gold": "none", "gold_logprob": -0.13645702600479126, "gold_first_logprob": -0.1363716721534729, "gold_first_rank": 1}
+{"index": 25, "id": "000-000317", "label": "modified", "gold": "This", "gold_logprob": -0.09810511767864227, "gold_first_logprob": -0.09797649830579758, "gold_first_rank": 1, "none_logprob": -4.222995758056641}
+{"index": 26, "id": "000-000329", "label": "modified", "gold": "Rust", "gold_logprob": -0.4372723400592804, "gold_first_logprob": -0.14792174100875854, "gold_first_rank": 1, "none_logprob": -2.3979902267456055}
+{"index": 27, "id": "000-000341", "label": "modified", "gold": "extracts", "gold_logprob": -0.5858770608901978, "gold_first_logprob": -0.5591449737548828, "gold_first_rank": 1, "none_logprob": -2.434234619140625}
+{"index": 28, "id": "000-000360", "label": "clean", "gold": "none", "gold_logprob": -0.171904057264328, "gold_first_logprob": -0.17179664969444275, "gold_first_rank": 1}
+{"index": 29, "id": "000-000373", "label": "modified", "gold": "which", "gold_logprob": -1.4136860370635986, "gold_first_logprob": -1.413457989692688, "gold_first_rank": 2, "none_logprob": -1.0385714769363403}
+{"index": 30, "id": "000-000392", "label": "clean", "gold": "none", "gold_logprob": -0.37125229835510254, "gold_first_logprob": -0.37109410762786865, "gold_first_rank": 1}
+{"index": 31, "id": "000-000395", "label": "modified", "gold": "drove", "gold_logprob": -7.042192459106445, "gold_first_logprob": -7.029369354248047, "gold_first_rank": 14, "none_logprob": -0.7794985175132751}
+{"index": 32, "id": "000-000400", "label": "clean", "gold": "none", "gold_logprob": -0.4537648558616638, "gold_first_logprob": -0.4536594748497009, "gold_first_rank": 1}
+{"index": 33, "id": "000-000415", "label": "modified", "gold": "base", "gold_logprob": -5.1158766746521, "gold_first_logprob": -5.115508079528809, "gold_first_rank": 7, "none_logprob": -0.5426886081695557}
+{"index": 34, "id": "000-000416", "label": "clean", "gold": "none", "gold_logprob": -0.6486738324165344, "gold_first_logprob": -0.6485605835914612, "gold_first_rank": 1}
+{"index": 35, "id": "000-000425", "label": "modified", "gold": "journey", "gold_logprob": -2.769644260406494, "gold_first_logprob": -2.768920660018921, "gold_first_rank": 4, "none_logprob": -0.6440290212631226}
+{"index": 36, "id": "000-000440", "label": "clean", "gold": "none", "gold_logprob": -0.4953925907611847, "gold_first_logprob": -0.49530401825904846, "gold_first_rank": 1}
+{"index": 37, "id": "000-000447", "label": "modified", "gold": "reckless", "gold_logprob": -3.847362756729126, "gold_first_logprob": -3.844569683074951, "gold_first_rank": 4, "none_logprob": -0.34468284249305725}
+{"index": 38, "id": "000-000453", "label": "modified", "gold": "over", "gold_logprob": -2.8843026161193848, "gold_first_logprob": -2.8802123069763184, "gold_first_rank": 2, "none_logprob": -0.2553039491176605}
+{"index": 39, "id": "000-000468", "label": "clean", "gold": "none", "gold_logprob": -0.6428806781768799, "gold_first_logprob": -0.6427538394927979, "gold_first_rank": 1}
+{"index": 40, "id": "000-000472", "label": "clean", "gold": "none", "gold_logprob": -0.7059291005134583, "gold_first_logprob": -0.705840528011322, "gold_first_rank": 1}
+{"index": 41, "id": "000-000473", "label": "modified", "gold": "include", "gold_logprob": -0.1711881011724472, "gold_first_logprob": -0.17108581960201263, "gold_first_rank": 1, "none_logprob": -2.796182870864868}
+{"index": 42, "id": "000-000474", "label": "clean", "gold": "none", "gold_logprob": -0.2670774459838867, "gold_first_logprob": -0.26694512367248535, "gold_first_rank": 1}
+{"index": 43, "id": "000-000481", "label": "modified", "gold": "aesthetic", "gold_logprob": -1.1445413827896118, "gold_first_logprob": -0.9041783213615417, "gold_first_rank": 1, "none_logprob": -1.5292590856552124}
+{"index": 44, "id": "000-000482", "label": "clean", "gold": "none", "gold_logprob": -0.35133785009384155, "gold_first_logprob": -0.3512560725212097, "gold_first_rank": 1}
+{"index": 45, "id": "000-000484", "label": "clean", "gold": "none", "gold_logprob": -0.2213030755519867, "gold_first_logprob": -0.22121164202690125, "gold_first_rank": 1}
+{"index": 46, "id": "000-000488", "label": "clean", "gold": "none", "gold_logprob": -0.13698473572731018, "gold_first_logprob": -0.13690271973609924, "gold_first_rank": 1}
+{"index": 47, "id": "000-000490", "label": "clean", "gold": "none", "gold_logprob": -0.22533488273620605, "gold_first_logprob": -0.22524714469909668, "gold_first_rank": 1}
+{"index": 48, "id": "000-000498", "label": "clean", "gold": "none", "gold_logprob": -0.2064860761165619, "gold_first_logprob": -0.20642659068107605, "gold_first_rank": 1}
+{"index": 49, "id": "000-000533", "label": "modified", "gold": "for", "gold_logprob": -0.44485369324684143, "gold_first_logprob": -0.4421885907649994, "gold_first_rank": 1, "none_logprob": -1.4422663450241089}
+{"index": 50, "id": "000-000535", "label": "modified", "gold": "Millennium", "gold_logprob": -7.266932964324951, "gold_first_logprob": -7.263049125671387, "gold_first_rank": 28, "none_logprob": -0.40069857239723206}
+{"index": 51, "id": "000-000546", "label": "clean", "gold": "none", "gold_logprob": -0.3246766924858093, "gold_first_logprob": -0.32456332445144653, "gold_first_rank": 1}
+{"index": 52, "id": "000-000555", "label": "modified", "gold": "teamwork", "gold_logprob": -18.505441665649414, "gold_first_logprob": -7.128914833068848, "gold_first_rank": 20, "none_logprob": -0.12901107966899872}
+{"index": 53, "id": "000-000578", "label": "clean", "gold": "none", "gold_logprob": -0.23437894880771637, "gold_first_logprob": -0.23432888090610504, "gold_first_rank": 1}
+{"index": 54, "id": "000-000582", "label": "clean", "gold": "none", "gold_logprob": -0.16140569746494293, "gold_first_logprob": -0.1612945944070816, "gold_first_rank": 1}
+{"index": 55, "id": "000-000588", "label": "clean", "gold": "none", "gold_logprob": -0.14579348266124725, "gold_first_logprob": -0.14568810164928436, "gold_first_rank": 1}
+{"index": 56, "id": "000-000589", "label": "modified", "gold": "what", "gold_logprob": -4.537872791290283, "gold_first_logprob": -4.537501335144043, "gold_first_rank": 9, "none_logprob": -0.9126231670379639}
+{"index": 57, "id": "000-000595", "label": "modified", "gold": "with", "gold_logprob": -0.09366778284311295, "gold_first_logprob": -0.09258320182561874, "gold_first_rank": 1, "none_logprob": -3.5927231311798096}
+{"index": 58, "id": "000-000636", "label": "clean", "gold": "none", "gold_logprob": -0.7830501198768616, "gold_first_logprob": -0.7829442620277405, "gold_first_rank": 1}
+{"index": 59, "id": "000-000648", "label": "clean", "gold": "none", "gold_logprob": -0.16115930676460266, "gold_first_logprob": -0.16110709309577942, "gold_first_rank": 1}
+{"index": 60, "id": "000-000679", "label": "modified", "gold": "recycling", "gold_logprob": -0.47345706820487976, "gold_first_logprob": -0.4723089337348938, "gold_first_rank": 1, "none_logprob": -1.2223827838897705}
+{"index": 61, "id": "000-000687", "label": "modified", "gold": "explorer", "gold_logprob": -0.42710840702056885, "gold_first_logprob": -0.42413052916526794, "gold_first_rank": 1, "none_logprob": -1.6742526292800903}
+{"index": 62, "id": "000-000727", "label": "modified", "gold": "focus", "gold_logprob": -2.3933310508728027, "gold_first_logprob": -2.392533540725708, "gold_first_rank": 2, "none_logprob": -0.26764601469039917}
+{"index": 63, "id": "000-000728", "label": "clean", "gold": "none", "gold_logprob": -0.5473736524581909, "gold_first_logprob": -0.5472732782363892, "gold_first_rank": 1}
+{"index": 64, "id": "000-000729", "label": "modified", "gold": "o", "gold_logprob": -6.91697883605957, "gold_first_logprob": -6.91619873046875, "gold_first_rank": 18, "none_logprob": -0.2913092076778412}
+{"index": 65, "id": "000-000741", "label": "modified", "gold": "through", "gold_logprob": -0.06550975888967514, "gold_first_logprob": -0.05368748679757118, "gold_first_rank": 1, "none_logprob": -3.303781509399414}
+{"index": 66, "id": "000-000747", "label": "modified", "gold": "painting", "gold_logprob": -1.9495915174484253, "gold_first_logprob": -1.9456517696380615, "gold_first_rank": 2, "none_logprob": -0.44575250148773193}
+{"index": 67, "id": "000-000776", "label": "clean", "gold": "none", "gold_logprob": -0.08352557569742203, "gold_first_logprob": -0.08344069868326187, "gold_first_rank": 1}
+{"index": 68, "id": "000-000781", "label": "modified", "gold": "Sweet", "gold_logprob": -3.6019740104675293, "gold_first_logprob": -3.6016900539398193, "gold_first_rank": 4, "none_logprob": -0.22676517069339752}
+{"index": 69, "id": "000-000819", "label": "modified", "gold": "open", "gold_logprob": -2.6685736179351807, "gold_first_logprob": -2.6681668758392334, "gold_first_rank": 3, "none_logprob": -0.7932561635971069}
+{"index": 70, "id": "000-000827", "label": "modified", "gold": "results", "gold_logprob": -0.17432431876659393, "gold_first_logprob": -0.17410141229629517, "gold_first_rank": 1, "none_logprob": -2.293445348739624}
+{"index": 71, "id": "000-000836", "label": "clean", "gold": "none", "gold_logprob": -0.6660438776016235, "gold_first_logprob": -0.6659750938415527, "gold_first_rank": 1}
+{"index": 72, "id": "000-000840", "label": "clean", "gold": "none", "gold_logprob": -0.08430255204439163, "gold_first_logprob": -0.08424390107393265, "gold_first_rank": 1}
+{"index": 73, "id": "000-000862", "label": "clean", "gold": "none", "gold_logprob": -0.17883557081222534, "gold_first_logprob": -0.17876273393630981, "gold_first_rank": 1}
+{"index": 74, "id": "000-000874", "label": "clean", "gold": "none", "gold_logprob": -0.4749673008918762, "gold_first_logprob": -0.4748920798301697, "gold_first_rank": 1}
+{"index": 75, "id": "000-000887", "label": "modified", "gold": "character", "gold_logprob": -0.9959436058998108, "gold_first_logprob": -0.9956192970275879, "gold_first_rank": 2, "none_logprob": -0.8707034587860107}
+{"index": 76, "id": "000-000901", "label": "modified", "gold": "ocean", "gold_logprob": -2.965350866317749, "gold_first_logprob": -2.963095188140869, "gold_first_rank": 3, "none_logprob": -0.3730786144733429}
+{"index": 77, "id": "000-000906", "label": "clean", "gold": "none", "gold_logprob": -0.148892343044281, "gold_first_logprob": -0.14877456426620483, "gold_first_rank": 1}
+{"index": 78, "id": "000-000908", "label": "clean", "gold": "none", "gold_logprob": -0.3013552129268646, "gold_first_logprob": -0.3012787997722626, "gold_first_rank": 1}
+{"index": 79, "id": "000-000924", "label": "clean", "gold": "none", "gold_logprob": -0.08027779310941696, "gold_first_logprob": -0.08017599582672119, "gold_first_rank": 1}
+{"index": 80, "id": "000-000932", "label": "clean", "gold": "none", "gold_logprob": -0.261005699634552, "gold_first_logprob": -0.2609313130378723, "gold_first_rank": 1}
+{"index": 81, "id": "000-000940", "label": "clean", "gold": "none", "gold_logprob": -0.26728686690330505, "gold_first_logprob": -0.26718899607658386, "gold_first_rank": 1}
+{"index": 82, "id": "000-000951", "label": "modified", "gold": "when", "gold_logprob": -0.540009617805481, "gold_first_logprob": -0.5371414422988892, "gold_first_rank": 1, "none_logprob": -1.162339687347412}
+{"index": 83, "id": "000-000955", "label": "modified", "gold": "yogurt", "gold_logprob": -0.8111896514892578, "gold_first_logprob": -0.8066049814224243, "gold_first_rank": 1, "none_logprob": -0.9316946268081665}
+{"index": 84, "id": "000-000981", "label": "modified", "gold": "youths", "gold_logprob": -0.8598853349685669, "gold_first_logprob": -0.6723232269287109, "gold_first_rank": 1, "none_logprob": -1.1724212169647217}
+{"index": 85, "id": "000-000983", "label": "modified", "gold": "of", "gold_logprob": -0.3743096590042114, "gold_first_logprob": -0.3740270435810089, "gold_first_rank": 1, "none_logprob": -1.49921452999115}
+{"index": 86, "id": "000-000986", "label": "clean", "gold": "none", "gold_logprob": -0.2388039380311966, "gold_first_logprob": -0.23871572315692902, "gold_first_rank": 1}
+{"index": 87, "id": "000-001022", "label": "clean", "gold": "none", "gold_logprob": -1.020553469657898, "gold_first_logprob": -1.0204797983169556, "gold_first_rank": 1}
+{"index": 88, "id": "000-001058", "label": "clean", "gold": "none", "gold_logprob": -0.40921738743782043, "gold_first_logprob": -0.40912798047065735, "gold_first_rank": 1}
+{"index": 89, "id": "000-001074", "label": "clean", "gold": "none", "gold_logprob": -0.2971324622631073, "gold_first_logprob": -0.29703959822654724, "gold_first_rank": 1}
+{"index": 90, "id": "000-001082", "label": "clean", "gold": "none", "gold_logprob": -0.29075947403907776, "gold_first_logprob": -0.2906496822834015, "gold_first_rank": 1}
+{"index": 91, "id": "000-001091", "label": "modified", "gold": "hills", "gold_logprob": -4.522956371307373, "gold_first_logprob": -4.5156450271606445, "gold_first_rank": 4, "none_logprob": -0.1407294124364853}
+{"index": 92, "id": "000-001093", "label": "modified", "gold": "Expedition", "gold_logprob": -0.4999907910823822, "gold_first_logprob": -0.4979259967803955, "gold_first_rank": 1, "none_logprob": -1.248053789138794}
+{"index": 93, "id": "000-001116", "label": "clean", "gold": "none", "gold_logprob": -0.08586841076612473, "gold_first_logprob": -0.08578436821699142, "gold_first_rank": 1}
+{"index": 94, "id": "000-001118", "label": "clean", "gold": "none", "gold_logprob": -0.14342287182807922, "gold_first_logprob": -0.14329557120800018, "gold_first_rank": 1}
+{"index": 95, "id": "000-001133", "label": "modified", "gold": "immense", "gold_logprob": -1.0770066976547241, "gold_first_logprob": -1.0749950408935547, "gold_first_rank": 1, "none_logprob": -1.0751087665557861}
+{"index": 96, "id": "000-001134", "label": "clean", "gold": "none", "gold_logprob": -0.5414520502090454, "gold_first_logprob": -0.5413097143173218, "gold_first_rank": 1}
+{"index": 97, "id": "000-001138", "label": "clean", "gold": "none", "gold_logprob": -0.8355439901351929, "gold_first_logprob": -0.8354249000549316, "gold_first_rank": 1}
+{"index": 98, "id": "000-001145", "label": "modified", "gold": "tir", "gold_logprob": -8.343671798706055, "gold_first_logprob": -5.737276077270508, "gold_first_rank": 12, "none_logprob": -0.2373473346233368}
+{"index": 99, "id": "000-001150", "label": "clean", "gold": "none", "gold_logprob": -0.11131076514720917, "gold_first_logprob": -0.11123053729534149, "gold_first_rank": 1}
+{"index": 100, "id": "000-001154", "label": "clean", "gold": "none", "gold_logprob": -0.33139416575431824, "gold_first_logprob": -0.3312884271144867, "gold_first_rank": 1}
+{"index": 101, "id": "000-001159", "label": "modified", "gold": "elegant", "gold_logprob": -7.342033863067627, "gold_first_logprob": -7.32492208480835, "gold_first_rank": 21, "none_logprob": -0.07501517236232758}
+{"index": 102, "id": "000-001162", "label": "clean", "gold": "none", "gold_logprob": -0.23445214331150055, "gold_first_logprob": -0.2343897968530655, "gold_first_rank": 1}
+{"index": 103, "id": "000-001185", "label": "modified", "gold": "yet", "gold_logprob": -0.04542670398950577, "gold_first_logprob": -0.04503946751356125, "gold_first_rank": 1, "none_logprob": -3.92042875289917}
+{"index": 104, "id": "000-001196", "label": "clean", "gold": "none", "gold_logprob": -0.5446831583976746, "gold_first_logprob": -0.5446117520332336, "gold_first_rank": 1}
+{"index": 105, "id": "000-001205", "label": "modified", "gold": "st", "gold_logprob": -1.3263524770736694, "gold_first_logprob": -1.262787103652954, "gold_first_rank": 2, "none_logprob": -0.798289954662323}
+{"index": 106, "id": "000-001209", "label": "modified", "gold": "nice", "gold_logprob": -3.56026554107666, "gold_first_logprob": -3.560056209564209, "gold_first_rank": 2, "none_logprob": -0.31017082929611206}
+{"index": 107, "id": "000-001213", "label": "modified", "gold": "illusion", "gold_logprob": -0.05024390667676926, "gold_first_logprob": -0.05010861158370972, "gold_first_rank": 1, "none_logprob": -4.175227165222168}
+{"index": 108, "id": "000-001224", "label": "clean", "gold": "none", "gold_logprob": -1.3462681770324707, "gold_first_logprob": -1.3461761474609375, "gold_first_rank": 2}
+{"index": 109, "id": "000-001228", "label": "clean", "gold": "none", "gold_logprob": -0.5290080308914185, "gold_first_logprob": -0.5288822650909424, "gold_first_rank": 1}
+{"index": 110, "id": "000-001243", "label": "modified", "gold": "vegetables", "gold_logprob": -0.03205643966794014, "gold_first_logprob": -0.030320381745696068, "gold_first_rank": 1, "none_logprob": -4.781315803527832}
+{"index": 111, "id": "000-001250", "label": "clean", "gold": "none", "gold_logprob": -0.3690362274646759, "gold_first_logprob": -0.36892667412757874, "gold_first_rank": 1}
+{"index": 112, "id": "000-001256", "label": "clean", "gold": "none", "gold_logprob": -0.9502742886543274, "gold_first_logprob": -0.9501586556434631, "gold_first_rank": 1}
+{"index": 113, "id": "000-001278", "label": "clean", "gold": "none", "gold_logprob": -0.48284217715263367, "gold_first_logprob": -0.4827673137187958, "gold_first_rank": 1}
+{"index": 114, "id": "000-001289", "label": "modified", "gold": "wild", "gold_logprob": -6.4435505867004395, "gold_first_logprob": -6.413148403167725, "gold_first_rank": 11, "none_logprob": -0.16329647600650787}
+{"index": 115, "id": "000-001298", "label": "clean", "gold": "none", "gold_logprob": -0.16781578958034515, "gold_first_logprob": -0.16773830354213715, "gold_first_rank": 1}
+{"index": 116, "id": "000-001307", "label": "modified", "gold": "smart", "gold_logprob": -2.9104859828948975, "gold_first_logprob": -2.910249710083008, "gold_first_rank": 2, "none_logprob": -0.1799403727054596}
+{"index": 117, "id": "000-001336", "label": "clean", "gold": "none", "gold_logprob": -0.5649171471595764, "gold_first_logprob": -0.5648215413093567, "gold_first_rank": 1}
+{"index": 118, "id": "000-001350", "label": "clean", "gold": "none", "gold_logprob": -0.06950633227825165, "gold_first_logprob": -0.06945602595806122, "gold_first_rank": 1}
+{"index": 119, "id": "000-001358", "label": "clean", "gold": "none", "gold_logprob": -0.2554657459259033, "gold_first_logprob": -0.25535690784454346, "gold_first_rank": 1}
+{"index": 120, "id": "000-001359", "label": "modified", "gold": "challenging", "gold_logprob": -7.5461225509643555, "gold_first_logprob": -6.026212692260742, "gold_first_rank": 13, "none_logprob": -0.4013407230377197}
+{"index": 121, "id": "000-001360", "label": "clean", "gold": "none", "gold_logprob": -0.07918718457221985, "gold_first_logprob": -0.07908681780099869, "gold_first_rank": 1}
+{"index": 122, "id": "000-001364", "label": "clean", "gold": "none", "gold_logprob": -0.25173574686050415, "gold_first_logprob": -0.2516307234764099, "gold_first_rank": 1}
+{"index": 123, "id": "000-001368", "label": "clean", "gold": "none", "gold_logprob": -0.3599866032600403, "gold_first_logprob": -0.3599364161491394, "gold_first_rank": 1}
+{"index": 124, "id": "000-001377", "label": "modified", "gold": "brand", "gold_logprob": -0.11357249319553375, "gold_first_logprob": -0.11229454725980759, "gold_first_rank": 1, "none_logprob": -2.7374427318573}
+{"index": 125, "id": "000-001380", "label": "clean", "gold": "none", "gold_logprob": -0.17229443788528442, "gold_first_logprob": -0.17221921682357788, "gold_first_rank": 1}
+{"index": 126, "id": "000-001383", "label": "modified", "gold": "a", "gold_logprob": -1.6412954330444336, "gold_first_logprob": -1.6405079364776611, "gold_first_rank": 3, "none_logprob": -1.1406006813049316}
+{"index": 127, "id": "000-001394", "label": "clean", "gold": "none", "gold_logprob": -0.852446436882019, "gold_first_logprob": -0.8523339033126831, "gold_first_rank": 1}
+{"index": 128, "id": "000-001404", "label": "clean", "gold": "none", "gold_logprob": -0.1918538361787796, "gold_first_logprob": -0.19178707897663116, "gold_first_rank": 1}
+{"index": 129, "id": "000-001430", "label": "clean", "gold": "none", "gold_logprob": -0.25797560811042786, "gold_first_logprob": -0.2578357756137848, "gold_first_rank": 1}
+{"index": 130, "id": "000-001433", "label": "modified", "gold": "nature", "gold_logprob": -1.1793951988220215, "gold_first_logprob": -1.1788499355316162, "gold_first_rank": 2, "none_logprob": -0.6790339946746826}
+{"index": 131, "id": "000-001447", "label": "modified", "gold": "maritime", "gold_logprob": -3.3560128211975098, "gold_first_logprob": -3.3555803298950195, "gold_first_rank": 4, "none_logprob": -0.7306700944900513}
+{"index": 132, "id": "000-001450", "label": "clean", "gold": "none", "gold_logprob": -0.14083170890808105, "gold_first_logprob": -0.14074838161468506, "gold_first_rank": 1}
+{"index": 133, "id": "000-001457", "label": "modified", "gold": "robust", "gold_logprob": -3.4392213821411133, "gold_first_logprob": -3.4387714862823486, "gold_first_rank": 2, "none_logprob": -0.18885760009288788}
+{"index": 134, "id": "000-001477", "label": "modified", "gold": "Sw", "gold_logprob": -2.756395101547241, "gold_first_logprob": -2.731602668762207, "gold_first_rank": 2, "none_logprob": -0.3566886782646179}
+{"index": 135, "id": "000-001499", "label": "modified", "gold": "Strateg", "gold_logprob": -1.7812532186508179, "gold_first_logprob": -1.5674992799758911, "gold_first_rank": 2, "none_logprob": -0.44260430335998535}
+{"index": 136, "id": "000-001502", "label": "clean", "gold": "none", "gold_logprob": -0.7741945385932922, "gold_first_logprob": -0.7740809321403503, "gold_first_rank": 1}
+{"index": 137, "id": "000-001516", "label": "clean", "gold": "none", "gold_logprob": -0.15938861668109894, "gold_first_logprob": -0.15928025543689728, "gold_first_rank": 1}
+{"index": 138, "id": "000-001531", "label": "modified", "gold": "lets", "gold_logprob": -0.5225916504859924, "gold_first_logprob": -0.5223686099052429, "gold_first_rank": 1, "none_logprob": -2.397477626800537}
+{"index": 139, "id": "000-001538", "label": "clean", "gold": "none", "gold_logprob": -0.4027286171913147, "gold_first_logprob": -0.4025912880897522, "gold_first_rank": 1}
+{"index": 140, "id": "000-001564", "label": "clean", "gold": "none", "gold_logprob": -0.3456001579761505, "gold_first_logprob": -0.3455142080783844, "gold_first_rank": 1}
+{"index": 141, "id": "000-001582", "label": "clean", "gold": "none", "gold_logprob": -0.22351320087909698, "gold_first_logprob": -0.2233637273311615, "gold_first_rank": 1}
+{"index": 142, "id": "000-001586", "label": "clean", "gold": "none", "gold_logprob": -0.2957306206226349, "gold_first_logprob": -0.29564979672431946, "gold_first_rank": 1}
+{"index": 143, "id": "000-001589", "label": "modified", "gold": "initiate", "gold_logprob": -0.49005234241485596, "gold_first_logprob": -0.4012455940246582, "gold_first_rank": 1, "none_logprob": -1.5263782739639282}
+{"index": 144, "id": "000-001596", "label": "clean", "gold": "none", "gold_logprob": -0.392404168844223, "gold_first_logprob": -0.39231809973716736, "gold_first_rank": 1}
+{"index": 145, "id": "000-001597", "label": "modified", "gold": "worldwide", "gold_logprob": -0.7873820066452026, "gold_first_logprob": -0.7858498096466064, "gold_first_rank": 1, "none_logprob": -0.9030745625495911}
+{"index": 146, "id": "000-001611", "label": "modified", "gold": "De", "gold_logprob": -6.358353614807129, "gold_first_logprob": -6.33454704284668, "gold_first_rank": 8, "none_logprob": -0.08464766293764114}
+{"index": 147, "id": "000-001612", "label": "clean", "gold": "none", "gold_logprob": -1.0726170539855957, "gold_first_logprob": -1.0725042819976807, "gold_first_rank": 2}
+{"index": 148, "id": "000-001638", "label": "clean", "gold": "none", "gold_logprob": -0.056806035339832306, "gold_first_logprob": -0.05671567842364311, "gold_first_rank": 1}
+{"index": 149, "id": "000-001648", "label": "clean", "gold": "none", "gold_logprob": -0.2618791460990906, "gold_first_logprob": -0.26177579164505005, "gold_first_rank": 1}
+{"index": 150, "id": "000-001653", "label": "modified", "gold": "wilderness", "gold_logprob": -1.643795132637024, "gold_first_logprob": -1.6429775953292847, "gold_first_rank": 2, "none_logprob": -0.393118292093277}
+{"index": 151, "id": "000-001657", "label": "modified", "gold": "bigger", "gold_logprob": -0.33015453815460205, "gold_first_logprob": -0.31020283699035645, "gold_first_rank": 1, "none_logprob": -2.185349702835083}
+{"index": 152, "id": "000-001665", "label": "modified", "gold": "where", "gold_logprob": -0.17528852820396423, "gold_first_logprob": -0.1749148815870285, "gold_first_rank": 1, "none_logprob": -2.5499987602233887}
+{"index": 153, "id": "000-001668", "label": "clean", "gold": "none", "gold_logprob": -0.3848464787006378, "gold_first_logprob": -0.38479259610176086, "gold_first_rank": 1}
+{"index": 154, "id": "000-001672", "label": "clean", "gold": "none", "gold_logprob": -0.19129453599452972, "gold_first_logprob": -0.1912125200033188, "gold_first_rank": 1}
+{"index": 155, "id": "000-001673", "label": "modified", "gold": "be", "gold_logprob": -5.175419807434082, "gold_first_logprob": -5.172327041625977, "gold_first_rank": 11, "none_logprob": -0.4224185347557068}
+{"index": 156, "id": "000-001679", "label": "modified", "gold": "friendly", "gold_logprob": -2.3227901458740234, "gold_first_logprob": -2.3224620819091797, "gold_first_rank": 3, "none_logprob": -0.9475899934768677}
+{"index": 157, "id": "000-001689", "label": "modified", "gold": "hit", "gold_logprob": -5.094934463500977, "gold_first_logprob": -5.0946831703186035, "gold_first_rank": 8, "none_logprob": -0.34480783343315125}
+{"index": 158, "id": "000-001704", "label": "clean", "gold": "none", "gold_logprob": -0.8697431087493896, "gold_first_logprob": -0.8696343898773193, "gold_first_rank": 1}
+{"index": 159, "id": "000-001706", "label": "clean", "gold": "none", "gold_logprob": -0.041668180376291275, "gold_first_logprob": -0.04156280308961868, "gold_first_rank": 1}
+{"index": 160, "id": "000-001715", "label": "modified", "gold": "tech", "gold_logprob": -5.765096664428711, "gold_first_logprob": -5.764339923858643, "gold_first_rank": 8, "none_logprob": -0.3895440399646759}
+{"index": 161, "id": "000-001747", "label": "modified", "gold": "Billy", "gold_logprob": -6.448070049285889, "gold_first_logprob": -6.447793006896973, "gold_first_rank": 10, "none_logprob": -0.32289838790893555}
+{"index": 162, "id": "000-000040", "label": "modified", "gold": "offers", "gold_logprob": -6.537472724914551, "gold_first_logprob": -6.536612033843994, "gold_first_rank": 18, "none_logprob": -0.16166822612285614}
+{"index": 163, "id": "000-000042", "label": "modified", "gold": "or", "gold_logprob": -9.72813606262207, "gold_first_logprob": -9.727714538574219, "gold_first_rank": 83, "none_logprob": -1.4152779579162598}
+{"index": 164, "id": "000-000047", "label": "clean", "gold": "none", "gold_logprob": -0.8928472995758057, "gold_first_logprob": -0.8927512168884277, "gold_first_rank": 1}
+{"index": 165, "id": "000-000048", "label": "modified", "gold": "goals", "gold_logprob": -0.1865386664867401, "gold_first_logprob": -0.18617406487464905, "gold_first_rank": 1, "none_logprob": -2.4362664222717285}
+{"index": 166, "id": "000-000052", "label": "modified", "gold": "band", "gold_logprob": -0.14342480897903442, "gold_first_logprob": -0.142754465341568, "gold_first_rank": 1, "none_logprob": -2.392874240875244}
+{"index": 167, "id": "000-000055", "label": "modified", "gold": "increases", "gold_logprob": -0.19628019630908966, "gold_first_logprob": -0.19527260959148407, "gold_first_rank": 1, "none_logprob": -6.945334434509277}
+{"index": 168, "id": "000-000070", "label": "modified", "gold": "degradation", "gold_logprob": -2.654299020767212, "gold_first_logprob": -2.653146266937256, "gold_first_rank": 3, "none_logprob": -0.7782458662986755}
+{"index": 169, "id": "000-000071", "label": "clean", "gold": "none", "gold_logprob": -0.20316575467586517, "gold_first_logprob": -0.20308731496334076, "gold_first_rank": 1}
+{"index": 170, "id": "000-000083", "label": "modified", "gold": "all", "gold_logprob": -0.4965621531009674, "gold_first_logprob": -0.49618205428123474, "gold_first_rank": 1, "none_logprob": -1.1212995052337646}
+{"index": 171, "id": "000-000085", "label": "modified", "gold": "corporation", "gold_logprob": -0.1406465768814087, "gold_first_logprob": -0.13792534172534943, "gold_first_rank": 1, "none_logprob": -2.8880198001861572}
+{"index": 172, "id": "000-000104", "label": "modified", "gold": "regulated", "gold_logprob": -10.355443954467773, "gold_first_logprob": -10.35520076751709, "gold_first_rank": 440, "none_logprob": -0.7927947044372559}
+{"index": 173, "id": "000-000106", "label": "modified", "gold": "within", "gold_logprob": -0.06801773607730865, "gold_first_logprob": -0.06791725009679794, "gold_first_rank": 1, "none_logprob": -2.8179965019226074}
+{"index": 174, "id": "000-000118", "label": "clean", "gold": "none", "gold_logprob": -0.02734655886888504, "gold_first_logprob": -0.027307815849781036, "gold_first_rank": 1}
+{"index": 175, "id": "000-000132", "label": "modified", "gold": "popular", "gold_logprob": -2.0060455799102783, "gold_first_logprob": -2.005930185317993, "gold_first_rank": 3, "none_logprob": -0.505984365940094}
+{"index": 176, "id": "000-000136", "label": "modified", "gold": "al", "gold_logprob": -4.051585674285889, "gold_first_logprob": -4.041549205780029, "gold_first_rank": 5, "none_logprob": -0.6666394472122192}
+{"index": 177, "id": "000-000138", "label": "modified", "gold": "absence", "gold_logprob": -0.4541687071323395, "gold_first_logprob": -0.45367369055747986, "gold_first_rank": 1, "none_logprob": -2.2039880752563477}
+{"index": 178, "id": "000-000143", "label": "clean", "gold": "none", "gold_logprob": -0.07785866409540176, "gold_first_logprob": -0.07778284698724747, "gold_first_rank": 1}
+{"index": 179, "id": "000-000146", "label": "modified", "gold": "V", "gold_logprob": -0.20793995261192322, "gold_first_logprob": -0.20650863647460938, "gold_first_rank": 1, "none_logprob": -1.9566020965576172}
+{"index": 180, "id": "000-000178", "label": "modified", "gold": "serves", "gold_logprob": -0.5724305510520935, "gold_first_logprob": -0.571785569190979, "gold_first_rank": 1, "none_logprob": -1.9468852281570435}
+{"index": 181, "id": "000-000208", "label": "clean", "gold": "none", "gold_logprob": -0.7653932571411133, "gold_first_logprob": -0.765323281288147, "gold_first_rank": 1}
+{"index": 182, "id": "000-000223", "label": "modified", "gold": "this", "gold_logprob": -0.011945678852498531, "gold_first_logprob": -0.011233535595238209, "gold_first_rank": 1, "none_logprob": -6.511316299438477}
+{"index": 183, "id": "000-000231", "label": "modified", "gold": "surrounding", "gold_logprob": -0.8279145956039429, "gold_first_logprob": -0.8272888660430908, "gold_first_rank": 1, "none_logprob": -1.2040163278579712}
+{"index": 184, "id": "000-000257", "label": "clean", "gold": "none", "gold_logprob": -0.14039334654808044, "gold_first_logprob": -0.1403275430202484, "gold_first_rank": 1}
+{"index": 185, "id": "000-000277", "label": "modified", "gold": "Democratic", "gold_logprob": -1.8359946012496948, "gold_first_logprob": -1.8350653648376465, "gold_first_rank": 2, "none_logprob": -1.8352571725845337}
+{"index": 186, "id": "000-000282", "label": "clean", "gold": "none", "gold_logprob": -0.12084334343671799, "gold_first_logprob": -0.12075144052505493, "gold_first_rank": 1}
+{"index": 187, "id": "000-000283", "label": "clean", "gold": "none", "gold_logprob": -0.5782888531684875, "gold_first_logprob": -0.57818204164505, "gold_first_rank": 1}
+{"index": 188, "id": "000-000290", "label": "modified", "gold": "developed", "gold_logprob": -6.6739888191223145, "gold_first_logprob": -6.6733832359313965, "gold_first_rank": 19, "none_logprob": -0.29845982789993286}
+{"index": 189, "id": "000-000297", "label": "clean", "gold": "none", "gold_logprob": -1.55185067653656, "gold_first_logprob": -1.5517860651016235, "gold_first_rank": 2}
+{"index": 190, "id": "000-000302", "label": "clean", "gold": "none", "gold_logprob": -0.5113217830657959, "gold_first_logprob": -0.5112382173538208, "gold_first_rank": 1}
+{"index": 191, "id": "000-000320", "label": "modified", "gold": "interaction", "gold_logprob": -0.17023032903671265, "gold_first_logprob": -0.16997477412223816, "gold_first_rank": 1, "none_logprob": -2.670093536376953}
+{"index": 192, "id": "000-000321", "label": "clean", "gold": "none", "gold_logprob": -0.355368435382843, "gold_first_logprob": -0.3552817702293396, "gold_first_rank": 1}
+{"index": 193, "id": "000-000332", "label": "modified", "gold": "political", "gold_logprob": -3.9456982612609863, "gold_first_logprob": -3.9455296993255615, "gold_first_rank": 4, "none_logprob": -0.19564470648765564}
+{"index": 194, "id": "000-000343", "label": "clean", "gold": "none", "gold_logprob": -0.0634213462471962, "gold_first_logprob": -0.06331585347652435, "gold_first_rank": 1}
+{"index": 195, "id": "000-000360", "label": "clean", "gold": "none", "gold_logprob": -0.3847735822200775, "gold_first_logprob": -0.3846730887889862, "gold_first_rank": 1}
+{"index": 196, "id": "000-000371", "label": "modified", "gold": "scalable", "gold_logprob": -2.152418613433838, "gold_first_logprob": -2.1491739749908447, "gold_first_rank": 2, "none_logprob": -0.5243094563484192}
+{"index": 197, "id": "000-000386", "label": "clean", "gold": "none", "gold_logprob": -0.21766068041324615, "gold_first_logprob": -0.21758653223514557, "gold_first_rank": 1}
+{"index": 198, "id": "000-000390", "label": "clean", "gold": "none", "gold_logprob": -0.3771122097969055, "gold_first_logprob": -0.3770220875740051, "gold_first_rank": 1}
+{"index": 199, "id": "000-000400", "label": "clean", "gold": "none", "gold_logprob": -0.32606014609336853, "gold_first_logprob": -0.32597216963768005, "gold_first_rank": 1}
+{"index": 200, "id": "000-000412", "label": "clean", "gold": "none", "gold_logprob": -0.5450915098190308, "gold_first_logprob": -0.5448975563049316, "gold_first_rank": 1}
+{"index": 201, "id": "000-000432", "label": "clean", "gold": "none", "gold_logprob": -0.28566813468933105, "gold_first_logprob": -0.28558123111724854, "gold_first_rank": 1}
+{"index": 202, "id": "000-000438", "label": "clean", "gold": "none", "gold_logprob": -0.25225916504859924, "gold_first_logprob": -0.252204567193985, "gold_first_rank": 1}
+{"index": 203, "id": "000-000447", "label": "modified", "gold": "wide", "gold_logprob": -1.2971700429916382, "gold_first_logprob": -1.2969311475753784, "gold_first_rank": 2, "none_logprob": -1.1719998121261597}
+{"index": 204, "id": "000-000451", "label": "modified", "gold": "only", "gold_logprob": -2.5413472652435303, "gold_first_logprob": -2.540800094604492, "gold_first_rank": 3, "none_logprob": -0.790889322757721}
+{"index": 205, "id": "000-000453", "label": "modified", "gold": "several", "gold_logprob": -2.007951259613037, "gold_first_logprob": -1.9943565130233765, "gold_first_rank": 2, "none_logprob": -2.494412899017334}
+{"index": 206, "id": "000-000455", "label": "modified", "gold": "follows", "gold_logprob": -9.595891952514648, "gold_first_logprob": -9.582460403442383, "gold_first_rank": 48, "none_logprob": -0.3311980068683624}
+{"index": 207, "id": "000-000464", "label": "clean", "gold": "none", "gold_logprob": -2.0256636142730713, "gold_first_logprob": -2.025580644607544, "gold_first_rank": 2}
+{"index": 208, "id": "000-000486", "label": "modified", "gold": "only", "gold_logprob": -0.023458056151866913, "gold_first_logprob": -0.023424677550792694, "gold_first_rank": 1, "none_logprob": -4.898448467254639}
+{"index": 209, "id": "000-000488", "label": "modified", "gold": "or", "gold_logprob": -3.156193971633911, "gold_first_logprob": -3.1555583477020264, "gold_first_rank": 2, "none_logprob": -0.1556866616010666}
+{"index": 210, "id": "000-000489", "label": "clean", "gold": "none", "gold_logprob": -0.5041913986206055, "gold_first_logprob": -0.5041244029998779, "gold_first_rank": 1}
+{"index": 211, "id": "000-000493", "label": "clean", "gold": "none", "gold_logprob": -0.06622614711523056, "gold_first_logprob": -0.06615831702947617, "gold_first_rank": 1}
+{"index": 212, "id": "000-000513", "label": "modified", "gold": "Lal", "gold_logprob": -4.145891189575195, "gold_first_logprob": -3.7770988941192627, "gold_first_rank": 3, "none_logprob": -0.402192085981369}
+{"index": 213, "id": "000-000517", "label": "modified", "gold": "between", "gold_logprob": -0.37798401713371277, "gold_first_logprob": -0.3777207136154175, "gold_first_rank": 1, "none_logprob": -1.6277720928192139}
+{"index": 214, "id": "000-000519", "label": "modified", "gold": "observed", "gold_logprob": -1.1091142892837524, "gold_first_logprob": -1.1085054874420166, "gold_first_rank": 2, "none_logprob": -0.608605146408081}
+{"index": 215, "id": "000-000521", "label": "modified", "gold": "results", "gold_logprob": -4.671780586242676, "gold_first_logprob": -4.6715545654296875, "gold_first_rank": 7, "none_logprob": -0.9216188788414001}
+{"index": 216, "id": "000-000524", "label": "clean", "gold": "none", "gold_logprob": -0.10792797058820724, "gold_first_logprob": -0.1078602597117424, "gold_first_rank": 1}
+{"index": 217, "id": "000-000531", "label": "modified", "gold": "Played", "gold_logprob": -0.37090611457824707, "gold_first_logprob": -0.37075042724609375, "gold_first_rank": 1, "none_logprob": -2.370807409286499}
+{"index": 218, "id": "000-000534", "label": "clean", "gold": "none", "gold_logprob": -0.49581682682037354, "gold_first_logprob": -0.49572956562042236, "gold_first_rank": 1}
+{"index": 219, "id": "000-000539", "label": "modified", "gold": "symbols", "gold_logprob": -0.021735554561018944, "gold_first_logprob": -0.021653780713677406, "gold_first_rank": 1, "none_logprob": -4.646713733673096}
+{"index": 220, "id": "000-000545", "label": "modified", "gold": "nation", "gold_logprob": -0.6888211965560913, "gold_first_logprob": -0.6885328888893127, "gold_first_rank": 1, "none_logprob": -0.9386023879051208}
+{"index": 221, "id": "000-000559", "label": "modified", "gold": "pushing", "gold_logprob": -3.2679054737091064, "gold_first_logprob": -3.261270761489868, "gold_first_rank": 2, "none_logprob": -0.26132869720458984}
+{"index": 222, "id": "000-000561", "label": "modified", "gold": "used", "gold_logprob": -3.327738046646118, "gold_first_logprob": -3.3272924423217773, "gold_first_rank": 2, "none_logprob": -0.0773870199918747}
+{"index": 223, "id": "000-000593", "label": "clean", "gold": "none", "gold_logprob": -0.38907983899116516, "gold_first_logprob": -0.3890022337436676, "gold_first_rank": 1}
+{"index": 224, "id": "000-000614", "label": "modified", "gold": "can", "gold_logprob": -0.016801072284579277, "gold_first_logprob": -0.015805091708898544, "gold_first_rank": 1, "none_logprob": -5.265931606292725}
+{"index": 225, "id": "000-000630", "label": "modified", "gold": "hunted", "gold_logprob": -2.110713005065918, "gold_first_logprob": -2.1069846153259277, "gold_first_rank": 2, "none_logprob": -0.6314830183982849}
+{"index": 226, "id": "000-000632", "label": "modified", "gold": "as", "gold_logprob": -0.12008077651262283, "gold_first_logprob": -0.11957772076129913, "gold_first_rank": 1, "none_logprob": -2.6196954250335693}
+{"index": 227, "id": "000-000634", "label": "modified", "gold": "innovative", "gold_logprob": -3.315586805343628, "gold_first_logprob": -3.2759575843811035, "gold_first_rank": 2, "none_logprob": -0.15104563534259796}
+{"index": 228, "id": "000-000653", "label": "modified", "gold": "integrity", "gold_logprob": -1.6276050806045532, "gold_first_logprob": -1.6259748935699463, "gold_first_rank": 2, "none_logprob": -0.37610119581222534}
+{"index": 229, "id": "000-000658", "label": "clean", "gold": "none", "gold_logprob": -2.725998640060425, "gold_first_logprob": -2.7258918285369873, "gold_first_rank": 2}
+{"index": 230, "id": "000-000667", "label": "clean", "gold": "none", "gold_logprob": -0.5569782853126526, "gold_first_logprob": -0.5568669438362122, "gold_first_rank": 1}
+{"index": 231, "id": "000-000683", "label": "clean", "gold": "none", "gold_logprob": -0.16842862963676453, "gold_first_logprob": -0.1683656871318817, "gold_first_rank": 1}
+{"index": 232, "id": "000-000687", "label": "clean", "gold": "none", "gold_logprob": -2.100435256958008, "gold_first_logprob": -2.1003692150115967, "gold_first_rank": 2}
+{"index": 233, "id": "000-000696", "label": "modified", "gold": "which", "gold_logprob": -1.9643429517745972, "gold_first_logprob": -1.9636694192886353, "gold_first_rank": 2, "none_logprob": -0.9637620449066162}
+{"index": 234, "id": "000-000701", "label": "clean", "gold": "none", "gold_logprob": -0.2744065821170807, "gold_first_logprob": -0.27431216835975647, "gold_first_rank": 1}
+{"index": 235, "id": "000-000702", "label": "modified", "gold": "self", "gold_logprob": -0.6012624502182007, "gold_first_logprob": -0.6008000373840332, "gold_first_rank": 1, "none_logprob": -1.975988745689392}
+{"index": 236, "id": "000-000709", "label": "clean", "gold": "none", "gold_logprob": -0.2278946191072464, "gold_first_logprob": -0.22780652344226837, "gold_first_rank": 1}
+{"index": 237, "id": "000-000714", "label": "modified", "gold": "and", "gold_logprob": -1.483444333076477, "gold_first_logprob": -1.4826093912124634, "gold_first_rank": 2, "none_logprob": -0.4827086627483368}
+{"index": 238, "id": "000-000721", "label": "clean", "gold": "none", "gold_logprob": -2.8326902389526367, "gold_first_logprob": -2.8324828147888184, "gold_first_rank": 2}
+{"index": 239, "id": "000-000752", "label": "clean", "gold": "none", "gold_logprob": -0.1102767288684845, "gold_first_logprob": -0.11020126938819885, "gold_first_rank": 1}
+{"index": 240, "id": "000-000756", "label": "clean", "gold": "none", "gold_logprob": -0.2041764259338379, "gold_first_logprob": -0.20411348342895508, "gold_first_rank": 1}
+{"index": 241, "id": "000-000783", "label": "clean", "gold": "none", "gold_logprob": -0.1551973968744278, "gold_first_logprob": -0.15509606897830963, "gold_first_rank": 1}
+{"index": 242, "id": "000-000786", "label": "modified", "gold": "A", "gold_logprob": -2.1532397270202637, "gold_first_logprob": -2.152918815612793, "gold_first_rank": 2, "none_logprob": -0.40302392840385437}
+{"index": 243, "id": "000-000809", "label": "modified", "gold": "faced", "gold_logprob": -2.3855037689208984, "gold_first_logprob": -2.35768461227417, "gold_first_rank": 3, "none_logprob": -0.48279714584350586}
+{"index": 244, "id": "000-000821", "label": "clean", "gold": "none", "gold_logprob": -0.9586864709854126, "gold_first_logprob": -0.9586178064346313, "gold_first_rank": 2}
+{"index": 245, "id": "000-000828", "label": "modified", "gold": "each", "gold_logprob": -0.006242319010198116, "gold_first_logprob": -0.005939808674156666, "gold_first_rank": 1, "none_logprob": -5.5060715675354}
+{"index": 246, "id": "000-000842", "label": "modified", "gold": "maintain", "gold_logprob": -0.1666620969772339, "gold_first_logprob": -0.16154159605503082, "gold_first_rank": 1, "none_logprob": -2.161699056625366}
+{"index": 247, "id": "000-000848", "label": "clean", "gold": "none", "gold_logprob": -0.25271835923194885, "gold_first_logprob": -0.25257256627082825, "gold_first_rank": 1}
+{"index": 248, "id": "000-000861", "label": "modified", "gold": "a", "gold_logprob": -0.2991698980331421, "gold_first_logprob": -0.29876574873924255, "gold_first_rank": 1, "none_logprob": -1.6738338470458984}
+{"index": 249, "id": "000-000865", "label": "modified", "gold": "with", "gold_logprob": -1.3218004703521729, "gold_first_logprob": -1.3209656476974487, "gold_first_rank": 2, "none_logprob": -0.8210622072219849}
+{"index": 250, "id": "000-000881", "label": "clean", "gold": "none", "gold_logprob": -0.09357692301273346, "gold_first_logprob": -0.09349657595157623, "gold_first_rank": 1}
+{"index": 251, "id": "000-000886", "label": "clean", "gold": "none", "gold_logprob": -0.11577116698026657, "gold_first_logprob": -0.11567032337188721, "gold_first_rank": 1}
+{"index": 252, "id": "000-000928", "label": "clean", "gold": "none", "gold_logprob": -0.3831999897956848, "gold_first_logprob": -0.3831180930137634, "gold_first_rank": 1}
+{"index": 253, "id": "000-000954", "label": "clean", "gold": "none", "gold_logprob": -1.503747582435608, "gold_first_logprob": -1.5036892890930176, "gold_first_rank": 2}
+{"index": 254, "id": "000-000967", "label": "modified", "gold": "kind", "gold_logprob": -0.018968690186738968, "gold_first_logprob": -0.01875055953860283, "gold_first_rank": 1, "none_logprob": -5.518801689147949}
+{"index": 255, "id": "000-000971", "label": "modified", "gold": "for", "gold_logprob": -8.520543098449707, "gold_first_logprob": -8.517997741699219, "gold_first_rank": 67, "none_logprob": -0.20563000440597534}
+{"index": 256, "id": "000-000977", "label": "modified", "gold": "Chevrolet", "gold_logprob": -0.0598214752972126, "gold_first_logprob": -0.05425594374537468, "gold_first_rank": 1, "none_logprob": -3.3043055534362793}
+{"index": 257, "id": "000-000980", "label": "clean", "gold": "none", "gold_logprob": -0.144583061337471, "gold_first_logprob": -0.14449162781238556, "gold_first_rank": 1}
+{"index": 258, "id": "000-000988", "label": "modified", "gold": "pipeline", "gold_logprob": -0.09680844843387604, "gold_first_logprob": -0.09637926518917084, "gold_first_rank": 1, "none_logprob": -2.846545457839966}
+{"index": 259, "id": "000-000990", "label": "modified", "gold": "where", "gold_logprob": -0.004024221561849117, "gold_first_logprob": -0.0038503098767250776, "gold_first_rank": 1, "none_logprob": -6.003994464874268}
+{"index": 260, "id": "000-000993", "label": "clean", "gold": "none", "gold_logprob": -0.3795514404773712, "gold_first_logprob": -0.37944939732551575, "gold_first_rank": 1}
+{"index": 261, "id": "000-001008", "label": "modified", "gold": "You", "gold_logprob": -0.7821699380874634, "gold_first_logprob": -0.7819513082504272, "gold_first_rank": 1, "none_logprob": -0.907035231590271}
+{"index": 262, "id": "000-001013", "label": "clean", "gold": "none", "gold_logprob": -0.4086744487285614, "gold_first_logprob": -0.40859851241111755, "gold_first_rank": 1}
+{"index": 263, "id": "000-001019", "label": "modified", "gold": "give", "gold_logprob": -2.1266655921936035, "gold_first_logprob": -2.1264443397521973, "gold_first_rank": 2, "none_logprob": -0.2515431344509125}
+{"index": 264, "id": "000-001027", "label": "modified", "gold": "preferred", "gold_logprob": -0.9611570835113525, "gold_first_logprob": -0.9609240293502808, "gold_first_rank": 1, "none_logprob": -1.0860320329666138}
+{"index": 265, "id": "000-001050", "label": "modified", "gold": "attraction", "gold_logprob": -3.5792384147644043, "gold_first_logprob": -3.5776028633117676, "gold_first_rank": 4, "none_logprob": -0.3276734948158264}
+{"index": 266, "id": "000-001070", "label": "clean", "gold": "none", "gold_logprob": -0.3169366717338562, "gold_first_logprob": -0.3168570399284363, "gold_first_rank": 1}
+{"index": 267, "id": "000-001107", "label": "clean", "gold": "none", "gold_logprob": -0.18561340868473053, "gold_first_logprob": -0.18552102148532867, "gold_first_rank": 1}
+{"index": 268, "id": "000-001111", "label": "clean", "gold": "none", "gold_logprob": -0.182284876704216, "gold_first_logprob": -0.18219105899333954, "gold_first_rank": 1}
+{"index": 269, "id": "000-001115", "label": "clean", "gold": "none", "gold_logprob": -0.11630704253911972, "gold_first_logprob": -0.11624803394079208, "gold_first_rank": 1}
+{"index": 270, "id": "000-001120", "label": "clean", "gold": "none", "gold_logprob": -0.2158839851617813, "gold_first_logprob": -0.21580947935581207, "gold_first_rank": 1}
+{"index": 271, "id": "000-001122", "label": "clean", "gold": "none", "gold_logprob": -0.8555877208709717, "gold_first_logprob": -0.855492353439331, "gold_first_rank": 1}
+{"index": 272, "id": "000-001128", "label": "clean", "gold": "none", "gold_logprob": -1.5520883798599243, "gold_first_logprob": -1.5520122051239014, "gold_first_rank": 3}
+{"index": 273, "id": "000-001141", "label": "modified", "gold": "unified", "gold_logprob": -0.918770968914032, "gold_first_logprob": -0.9129002094268799, "gold_first_rank": 2, "none_logprob": -0.6630123853683472}
+{"index": 274, "id": "000-001145", "label": "modified", "gold": "smiles", "gold_logprob": -9.683966636657715, "gold_first_logprob": -9.633596420288086, "gold_first_rank": 82, "none_logprob": -0.5018874406814575}
+{"index": 275, "id": "000-001148", "label": "clean", "gold": "none", "gold_logprob": -0.08946892619132996, "gold_first_logprob": -0.0893772542476654, "gold_first_rank": 1}
+{"index": 276, "id": "000-001152", "label": "clean", "gold": "none", "gold_logprob": -0.5882120728492737, "gold_first_logprob": -0.5881559252738953, "gold_first_rank": 1}
+{"index": 277, "id": "000-001163", "label": "modified", "gold": "for", "gold_logprob": -0.059283915907144547, "gold_first_logprob": -0.0587075836956501, "gold_first_rank": 1, "none_logprob": -3.5590667724609375}
+{"index": 278, "id": "000-001171", "label": "modified", "gold": "disrupt", "gold_logprob": -2.094404458999634, "gold_first_logprob": -1.4463865756988525, "gold_first_rank": 2, "none_logprob": -0.6964749097824097}
+{"index": 279, "id": "000-001172", "label": "clean", "gold": "none", "gold_logprob": -2.3679025173187256, "gold_first_logprob": -2.3677968978881836, "gold_first_rank": 2}
+{"index": 280, "id": "000-001192", "label": "clean", "gold": "none", "gold_logprob": -0.20492129027843475, "gold_first_logprob": -0.20482008159160614, "gold_first_rank": 1}
+{"index": 281, "id": "000-001194", "label": "clean", "gold": "none", "gold_logprob": -0.2596438229084015, "gold_first_logprob": -0.25957754254341125, "gold_first_rank": 1}
+{"index": 282, "id": "000-001223", "label": "modified", "gold": "parts", "gold_logprob": -1.294108510017395, "gold_first_logprob": -1.2938363552093506, "gold_first_rank": 2, "none_logprob": -0.5439363121986389}
+{"index": 283, "id": "000-001226", "label": "clean", "gold": "none", "gold_logprob": -0.3314843475818634, "gold_first_logprob": -0.33140912652015686, "gold_first_rank": 1}
+{"index": 284, "id": "000-001252", "label": "clean", "gold": "none", "gold_logprob": -0.22474908828735352, "gold_first_logprob": -0.22468388080596924, "gold_first_rank": 1}
+{"index": 285, "id": "000-001253", "label": "modified", "gold": "that", "gold_logprob": -0.049782320857048035, "gold_first_logprob": -0.049225762486457825, "gold_first_rank": 1, "none_logprob": -3.174567937850952}
+{"index": 286, "id": "000-001268", "label": "clean", "gold": "none", "gold_logprob": -0.2764850854873657, "gold_first_logprob": -0.27637577056884766, "gold_first_rank": 1}
+{"index": 287, "id": "000-001269", "label": "modified", "gold": "grows", "gold_logprob": -3.675583839416504, "gold_first_logprob": -3.6724605560302734, "gold_first_rank": 7, "none_logprob": -0.9226322770118713}
+{"index": 288, "id": "000-001289", "label": "modified", "gold": "fast", "gold_logprob": -0.45749643445014954, "gold_first_logprob": -0.4568467140197754, "gold_first_rank": 1, "none_logprob": -1.0819666385650635}
+{"index": 289, "id": "000-001291", "label": "modified", "gold": "classified", "gold_logprob": -0.294948548078537, "gold_first_logprob": -0.2947706878185272, "gold_first_rank": 1, "none_logprob": -2.6698977947235107}
+{"index": 290, "id": "000-001295", "label": "modified", "gold": "dozens", "gold_logprob": -0.394666463136673, "gold_first_logprob": -0.36384230852127075, "gold_first_rank": 1, "none_logprob": -2.176398754119873}
+{"index": 291, "id": "000-001312", "label": "clean", "gold": "none", "gold_logprob": -0.150755375623703, "gold_first_logprob": -0.15066680312156677, "gold_first_rank": 1}
+{"index": 292, "id": "000-001321", "label": "modified", "gold": "showcases", "gold_logprob": -2.3557956218719482, "gold_first_logprob": -2.3473894596099854, "gold_first_rank": 2, "none_logprob": -0.5975320935249329}
+{"index": 293, "id": "000-001332", "label": "clean", "gold": "none", "gold_logprob": -0.7361847162246704, "gold_first_logprob": -0.7361183166503906, "gold_first_rank": 1}
+{"index": 294, "id": "000-001357", "label": "modified", "gold": "internal", "gold_logprob": -0.06477612257003784, "gold_first_logprob": -0.06388065963983536, "gold_first_rank": 1, "none_logprob": -3.439054489135742}
+{"index": 295, "id": "000-001364", "label": "modified", "gold": "early", "gold_logprob": -4.713230609893799, "gold_first_logprob": -4.713018894195557, "gold_first_rank": 3, "none_logprob": -0.08817596733570099}
+{"index": 296, "id": "000-001366", "label": "modified", "gold": "ownership", "gold_logprob": -4.949923515319824, "gold_first_logprob": -4.949685573577881, "gold_first_rank": 8, "none_logprob": -0.32480388879776}
+{"index": 297, "id": "000-001368", "label": "modified", "gold": "tendencies", "gold_logprob": -0.2278825044631958, "gold_first_logprob": -0.11242154240608215, "gold_first_rank": 1, "none_logprob": -2.612520217895508}
+{"index": 298, "id": "000-001371", "label": "clean", "gold": "none", "gold_logprob": -0.07886990159749985, "gold_first_logprob": -0.078778475522995, "gold_first_rank": 1}
+{"index": 299, "id": "000-001388", "label": "modified", "gold": "birds", "gold_logprob": -10.171270370483398, "gold_first_logprob": -10.170987129211426, "gold_first_rank": 197, "none_logprob": -0.2960784435272217}
+{"index": 300, "id": "000-001411", "label": "modified", "gold": "threads", "gold_logprob": -1.0027703046798706, "gold_first_logprob": -1.0025148391723633, "gold_first_rank": 2, "none_logprob": -0.6276443600654602}
+{"index": 301, "id": "000-001412", "label": "clean", "gold": "none", "gold_logprob": -0.6947500109672546, "gold_first_logprob": -0.6946530938148499, "gold_first_rank": 1}
+{"index": 302, "id": "000-001433", "label": "modified", "gold": "scientific", "gold_logprob": -1.2980209589004517, "gold_first_logprob": -1.297745704650879, "gold_first_rank": 2, "none_logprob": -0.5478744506835938}
+{"index": 303, "id": "000-001445", "label": "modified", "gold": "lay", "gold_logprob": -8.096512794494629, "gold_first_logprob": -8.095478057861328, "gold_first_rank": 17, "none_logprob": -0.22055275738239288}
+{"index": 304, "id": "000-001448", "label": "clean", "gold": "none", "gold_logprob": -0.425006628036499, "gold_first_logprob": -0.4249081611633301, "gold_first_rank": 1}
+{"index": 305, "id": "000-001458", "label": "clean", "gold": "none", "gold_logprob": -0.14345550537109375, "gold_first_logprob": -0.14338481426239014, "gold_first_rank": 1}
+{"index": 306, "id": "000-001464", "label": "clean", "gold": "none", "gold_logprob": -0.41701775789260864, "gold_first_logprob": -0.4169359803199768, "gold_first_rank": 1}
+{"index": 307, "id": "000-001487", "label": "modified", "gold": "unrelated", "gold_logprob": -5.1217474937438965, "gold_first_logprob": -5.11708402633667, "gold_first_rank": 6, "none_logprob": -0.3671469986438751}
+{"index": 308, "id": "000-001494", "label": "clean", "gold": "none", "gold_logprob": -0.806890606880188, "gold_first_logprob": -0.8067464828491211, "gold_first_rank": 1}
+{"index": 309, "id": "000-001500", "label": "clean", "gold": "none", "gold_logprob": -0.2861507534980774, "gold_first_logprob": -0.28605562448501587, "gold_first_rank": 1}
+{"index": 310, "id": "000-001511", "label": "modified", "gold": "keeps", "gold_logprob": -5.581374168395996, "gold_first_logprob": -5.581184387207031, "gold_first_rank": 4, "none_logprob": -0.9562363624572754}
+{"index": 311, "id": "000-001519", "label": "clean", "gold": "none", "gold_logprob": -0.033719439059495926, "gold_first_logprob": -0.033659834414720535, "gold_first_rank": 1}
+{"index": 312, "id": "000-001540", "label": "modified", "gold": "heritage", "gold_logprob": -3.7369353771209717, "gold_first_logprob": -3.7356579303741455, "gold_first_rank": 2, "none_logprob": -0.11074697226285934}
+{"index": 313, "id": "000-001565", "label": "modified", "gold": "events", "gold_logprob": -3.6403701305389404, "gold_first_logprob": -3.639713764190674, "gold_first_rank": 5, "none_logprob": -0.5148622989654541}
+{"index": 314, "id": "000-001570", "label": "clean", "gold": "none", "gold_logprob": -0.17271031439304352, "gold_first_logprob": -0.1726102977991104, "gold_first_rank": 1}
+{"index": 315, "id": "000-001571", "label": "modified", "gold": "things", "gold_logprob": -3.2706522941589355, "gold_first_logprob": -3.2705237865448, "gold_first_rank": 2, "none_logprob": -0.14557093381881714}
+{"index": 316, "id": "000-001580", "label": "modified", "gold": "not", "gold_logprob": -0.5807896852493286, "gold_first_logprob": -0.579688310623169, "gold_first_rank": 1, "none_logprob": -1.0798046588897705}
+{"index": 317, "id": "000-001582", "label": "modified", "gold": "distinct", "gold_logprob": -2.0367751121520996, "gold_first_logprob": -2.036530017852783, "gold_first_rank": 2, "none_logprob": -0.4115946292877197}
+{"index": 318, "id": "000-001593", "label": "clean", "gold": "none", "gold_logprob": -0.7177975177764893, "gold_first_logprob": -0.7176082134246826, "gold_first_rank": 1}
+{"index": 319, "id": "000-001595", "label": "clean", "gold": "none", "gold_logprob": -0.37282371520996094, "gold_first_logprob": -0.37271809577941895, "gold_first_rank": 1}
+{"index": 320, "id": "000-001602", "label": "modified", "gold": "short", "gold_logprob": -7.636542797088623, "gold_first_logprob": -7.634242057800293, "gold_first_rank": 39, "none_logprob": -0.321826696395874}
+{"index": 321, "id": "000-001618", "label": "modified", "gold": "with", "gold_logprob": -0.16178777813911438, "gold_first_logprob": -0.16105228662490845, "gold_first_rank": 1, "none_logprob": -2.7861616611480713}
+{"index": 322, "id": "000-001623", "label": "clean", "gold": "none", "gold_logprob": -0.20555129647254944, "gold_first_logprob": -0.20548442006111145, "gold_first_rank": 1}
+{"index": 323, "id": "000-001669", "label": "clean", "gold": "none", "gold_logprob": -1.0464491844177246, "gold_first_logprob": -1.0463171005249023, "gold_first_rank": 2}
+{"index": 324, "id": "000-001673", "label": "clean", "gold": "none", "gold_logprob": -0.27076852321624756, "gold_first_logprob": -0.2706540822982788, "gold_first_rank": 1}
+{"index": 325, "id": "000-001680", "label": "modified", "gold": "expulsion", "gold_logprob": -8.341208457946777, "gold_first_logprob": -7.876446723937988, "gold_first_rank": 63, "none_logprob": -0.7515391111373901}
+{"index": 326, "id": "000-001696", "label": "clean", "gold": "none", "gold_logprob": -0.11483389139175415, "gold_first_logprob": -0.11475116014480591, "gold_first_rank": 1}
+{"index": 327, "id": "000-001697", "label": "clean", "gold": "none", "gold_logprob": -0.1980852633714676, "gold_first_logprob": -0.19798429310321808, "gold_first_rank": 1}
+{"index": 328, "id": "000-001703", "label": "modified", "gold": "rock", "gold_logprob": -2.805755138397217, "gold_first_logprob": -2.8042941093444824, "gold_first_rank": 2, "none_logprob": -0.17938371002674103}
+{"index": 329, "id": "000-001707", "label": "modified", "gold": "relief", "gold_logprob": -1.2337690591812134, "gold_first_logprob": -1.2330622673034668, "gold_first_rank": 2, "none_logprob": -1.1082000732421875}
+{"index": 330, "id": "000-001710", "label": "clean", "gold": "none", "gold_logprob": -0.34604841470718384, "gold_first_logprob": -0.3459712862968445, "gold_first_rank": 1}
+{"index": 331, "id": "000-001711", "label": "modified", "gold": "with", "gold_logprob": -3.004396915435791, "gold_first_logprob": -3.003063678741455, "gold_first_rank": 3, "none_logprob": -0.2531656324863434}
+{"index": 332, "id": "000-001723", "label": "modified", "gold": "fundamental", "gold_logprob": -0.1217389702796936, "gold_first_logprob": -0.12060447037220001, "gold_first_rank": 1, "none_logprob": -2.495750665664673}
+{"index": 333, "id": "000-001724", "label": "clean", "gold": "none", "gold_logprob": -1.101736068725586, "gold_first_logprob": -1.1016221046447754, "gold_first_rank": 2}
+{"index": 334, "id": "000-001734", "label": "clean", "gold": "none", "gold_logprob": -0.16560716927051544, "gold_first_logprob": -0.1655169278383255, "gold_first_rank": 1}
+{"index": 335, "id": "000-001739", "label": "modified", "gold": "Denver", "gold_logprob": -3.26822829246521, "gold_first_logprob": -3.2677860260009766, "gold_first_rank": 3, "none_logprob": -1.5178864002227783}
+{"index": 336, "id": "000-001743", "label": "clean", "gold": "none", "gold_logprob": -0.14380812644958496, "gold_first_logprob": -0.14370214939117432, "gold_first_rank": 1}
+{"index": 337, "id": "000-001744", "label": "modified", "gold": "simpl", "gold_logprob": -3.0165953636169434, "gold_first_logprob": -2.499825954437256, "gold_first_rank": 3, "none_logprob": -0.9195199012756348}
+{"index": 338, "id": "000-001746", "label": "modified", "gold": "Inside", "gold_logprob": -1.4091358184814453, "gold_first_logprob": -1.4088561534881592, "gold_first_rank": 2, "none_logprob": -0.6589169502258301}
+{"index": 339, "id": "000-001780", "label": "modified", "gold": "delicate", "gold_logprob": -4.761172294616699, "gold_first_logprob": -4.754456996917725, "gold_first_rank": 3, "none_logprob": -0.12954092025756836}
+{"index": 340, "id": "000-001784", "label": "modified", "gold": "clear", "gold_logprob": -0.07652156800031662, "gold_first_logprob": -0.0748731791973114, "gold_first_rank": 1, "none_logprob": -3.6999809741973877}
+{"index": 341, "id": "000-001787", "label": "clean", "gold": "none", "gold_logprob": -0.475773423910141, "gold_first_logprob": -0.475639671087265, "gold_first_rank": 1}
+{"index": 342, "id": "000-001788", "label": "modified", "gold": "one", "gold_logprob": -0.06428235024213791, "gold_first_logprob": -0.06384923309087753, "gold_first_rank": 1, "none_logprob": -2.81390118598938}
+{"index": 343, "id": "000-001800", "label": "clean", "gold": "none", "gold_logprob": -0.24678491055965424, "gold_first_logprob": -0.246702179312706, "gold_first_rank": 1}
+{"index": 344, "id": "000-001809", "label": "modified", "gold": "over", "gold_logprob": -6.493216037750244, "gold_first_logprob": -6.47887659072876, "gold_first_rank": 23, "none_logprob": -0.3539382815361023}
+{"index": 345, "id": "000-001810", "label": "clean", "gold": "none", "gold_logprob": -0.10913808643817902, "gold_first_logprob": -0.10904951393604279, "gold_first_rank": 1}
+{"index": 346, "id": "000-001811", "label": "modified", "gold": "safely", "gold_logprob": -0.35982829332351685, "gold_first_logprob": -0.34964337944984436, "gold_first_rank": 1, "none_logprob": -2.099724531173706}
+{"index": 347, "id": "000-001812", "label": "clean", "gold": "none", "gold_logprob": -0.13782872259616852, "gold_first_logprob": -0.13770142197608948, "gold_first_rank": 1}
+{"index": 348, "id": "000-001833", "label": "clean", "gold": "none", "gold_logprob": -0.4403257369995117, "gold_first_logprob": -0.44024479389190674, "gold_first_rank": 1}
+{"index": 349, "id": "000-001860", "label": "clean", "gold": "none", "gold_logprob": -0.3012416660785675, "gold_first_logprob": -0.3011453449726105, "gold_first_rank": 1}
+{"index": 350, "id": "000-001877", "label": "clean", "gold": "none", "gold_logprob": -0.10103314369916916, "gold_first_logprob": -0.10090440511703491, "gold_first_rank": 1}
+{"index": 351, "id": "000-001883", "label": "clean", "gold": "none", "gold_logprob": -0.13511177897453308, "gold_first_logprob": -0.13500401377677917, "gold_first_rank": 1}
+{"index": 352, "id": "000-001896", "label": "modified", "gold": "All", "gold_logprob": -7.828001499176025, "gold_first_logprob": -7.827805995941162, "gold_first_rank": 13, "none_logprob": -0.07784855365753174}
+{"index": 353, "id": "000-001897", "label": "clean", "gold": "none", "gold_logprob": -0.9476193189620972, "gold_first_logprob": -0.947487473487854, "gold_first_rank": 1}
+{"index": 354, "id": "000-001900", "label": "modified", "gold": "distinct", "gold_logprob": -0.8348695039749146, "gold_first_logprob": -0.8342141509056091, "gold_first_rank": 1, "none_logprob": -0.83430415391922}
+{"index": 355, "id": "000-001908", "label": "modified", "gold": "techniques", "gold_logprob": -1.9593995809555054, "gold_first_logprob": -1.9580564498901367, "gold_first_rank": 2, "none_logprob": -2.3332772254943848}
+{"index": 356, "id": "000-001913", "label": "clean", "gold": "none", "gold_logprob": -0.25011906027793884, "gold_first_logprob": -0.25000104308128357, "gold_first_rank": 1}
+{"index": 357, "id": "000-001922", "label": "modified", "gold": "not", "gold_logprob": -1.4960296154022217, "gold_first_logprob": -1.493880033493042, "gold_first_rank": 2, "none_logprob": -0.36896854639053345}
+{"index": 358, "id": "000-001924", "label": "clean", "gold": "none", "gold_logprob": -0.21152831614017487, "gold_first_logprob": -0.2114361673593521, "gold_first_rank": 1}
+{"index": 359, "id": "000-001946", "label": "clean", "gold": "none", "gold_logprob": -0.12020643800497055, "gold_first_logprob": -0.12011691927909851, "gold_first_rank": 1}
+{"index": 360, "id": "000-001979", "label": "clean", "gold": "none", "gold_logprob": -0.40211278200149536, "gold_first_logprob": -0.40199416875839233, "gold_first_rank": 1}
+{"index": 361, "id": "000-001984", "label": "modified", "gold": "home", "gold_logprob": -4.565537452697754, "gold_first_logprob": -4.564662933349609, "gold_first_rank": 4, "none_logprob": -0.1898086816072464}
+{"index": 362, "id": "000-001985", "label": "clean", "gold": "none", "gold_logprob": -0.36469775438308716, "gold_first_logprob": -0.364601194858551, "gold_first_rank": 1}
+{"index": 363, "id": "000-001988", "label": "modified", "gold": "energ", "gold_logprob": -0.21416974067687988, "gold_first_logprob": -0.1020929142832756, "gold_first_rank": 1, "none_logprob": -4.977147102355957}
+{"index": 364, "id": "000-002000", "label": "modified", "gold": "set", "gold_logprob": -4.453371047973633, "gold_first_logprob": -4.447787284851074, "gold_first_rank": 7, "none_logprob": -0.4393599033355713}
+{"index": 365, "id": "000-002008", "label": "clean", "gold": "none", "gold_logprob": -0.1943661868572235, "gold_first_logprob": -0.19430121779441833, "gold_first_rank": 1}
+{"index": 366, "id": "000-002010", "label": "modified", "gold": "people", "gold_logprob": -0.6175553202629089, "gold_first_logprob": -0.6173718571662903, "gold_first_rank": 1, "none_logprob": -1.4925730228424072}
+{"index": 367, "id": "000-002019", "label": "clean", "gold": "none", "gold_logprob": -0.2830164432525635, "gold_first_logprob": -0.2829468250274658, "gold_first_rank": 1}
+{"index": 368, "id": "000-002024", "label": "modified", "gold": "witty", "gold_logprob": -4.590500354766846, "gold_first_logprob": -4.566747188568115, "gold_first_rank": 6, "none_logprob": -0.3168767988681793}
+{"index": 369, "id": "000-002040", "label": "modified", "gold": "any", "gold_logprob": -1.7903616428375244, "gold_first_logprob": -1.79006826877594, "gold_first_rank": 2, "none_logprob": -0.2655036151409149}
+{"index": 370, "id": "000-002056", "label": "clean", "gold": "none", "gold_logprob": -0.1472191959619522, "gold_first_logprob": -0.14715565741062164, "gold_first_rank": 1}
+{"index": 371, "id": "000-002059", "label": "modified", "gold": "club", "gold_logprob": -0.10187498480081558, "gold_first_logprob": -0.10132891684770584, "gold_first_rank": 1, "none_logprob": -2.9763989448547363}
+{"index": 372, "id": "000-002061", "label": "modified", "gold": "Cheese", "gold_logprob": -0.5713741779327393, "gold_first_logprob": -0.5058175921440125, "gold_first_rank": 1, "none_logprob": -2.1308629512786865}
+{"index": 373, "id": "000-002062", "label": "modified", "gold": "viral", "gold_logprob": -1.9042994976043701, "gold_first_logprob": -1.8894197940826416, "gold_first_rank": 2, "none_logprob": -0.6395257115364075}
+{"index": 374, "id": "000-002071", "label": "clean", "gold": "none", "gold_logprob": -0.1904902458190918, "gold_first_logprob": -0.1904163360595703, "gold_first_rank": 1}
+{"index": 375, "id": "000-002095", "label": "clean", "gold": "none", "gold_logprob": -0.9617353677749634, "gold_first_logprob": -0.9616338014602661, "gold_first_rank": 1}
+{"index": 376, "id": "000-002097", "label": "clean", "gold": "none", "gold_logprob": -0.2318592220544815, "gold_first_logprob": -0.23177935183048248, "gold_first_rank": 1}
+{"index": 377, "id": "000-002106", "label": "modified", "gold": "San", "gold_logprob": -4.7325263023376465, "gold_first_logprob": -4.731642246246338, "gold_first_rank": 6, "none_logprob": -0.4817411005496979}
+{"index": 378, "id": "000-002114", "label": "modified", "gold": "Various", "gold_logprob": -0.009992029517889023, "gold_first_logprob": -0.009963776916265488, "gold_first_rank": 1, "none_logprob": -7.884988784790039}
+{"index": 379, "id": "000-002117", "label": "clean", "gold": "none", "gold_logprob": -0.1964750587940216, "gold_first_logprob": -0.19637265801429749, "gold_first_rank": 1}
+{"index": 380, "id": "000-002122", "label": "modified", "gold": "damages", "gold_logprob": -1.235031008720398, "gold_first_logprob": -1.2216229438781738, "gold_first_rank": 2, "none_logprob": -0.9718903303146362}
+{"index": 381, "id": "000-002141", "label": "modified", "gold": "crude", "gold_logprob": -0.1968681663274765, "gold_first_logprob": -0.18918323516845703, "gold_first_rank": 1, "none_logprob": -2.564329147338867}
+{"index": 382, "id": "000-002147", "label": "modified", "gold": "sugars", "gold_logprob": -0.578409731388092, "gold_first_logprob": -0.5621051788330078, "gold_first_rank": 1, "none_logprob": -1.3121761083602905}
+{"index": 383, "id": "000-002148", "label": "clean", "gold": "none", "gold_logprob": -0.14163245260715485, "gold_first_logprob": -0.14156688749790192, "gold_first_rank": 1}
+{"index": 384, "id": "000-002152", "label": "clean", "gold": "none", "gold_logprob": -0.5115416049957275, "gold_first_logprob": -0.5114543437957764, "gold_first_rank": 1}
+{"index": 385, "id": "000-002154", "label": "clean", "gold": "none", "gold_logprob": -0.2343870997428894, "gold_first_logprob": -0.23432058095932007, "gold_first_rank": 1}
+{"index": 386, "id": "000-002167", "label": "clean", "gold": "none", "gold_logprob": -1.2663897275924683, "gold_first_logprob": -1.2662832736968994, "gold_first_rank": 2}
+{"index": 387, "id": "000-002174", "label": "modified", "gold": "offensive", "gold_logprob": -3.347642183303833, "gold_first_logprob": -3.2844254970550537, "gold_first_rank": 3, "none_logprob": -0.15955545008182526}
+{"index": 388, "id": "000-002176", "label": "clean", "gold": "none", "gold_logprob": -0.12358931452035904, "gold_first_logprob": -0.12351468950510025, "gold_first_rank": 1}
+{"index": 389, "id": "000-002178", "label": "modified", "gold": "offers", "gold_logprob": -1.6709184646606445, "gold_first_logprob": -1.670654058456421, "gold_first_rank": 2, "none_logprob": -0.7958460450172424}
+{"index": 390, "id": "000-002205", "label": "clean", "gold": "none", "gold_logprob": -0.5856757760047913, "gold_first_logprob": -0.5855697989463806, "gold_first_rank": 1}
+{"index": 391, "id": "000-002210", "label": "modified", "gold": "monumental", "gold_logprob": -0.8044754862785339, "gold_first_logprob": -0.8035998344421387, "gold_first_rank": 2, "none_logprob": -0.6787370443344116}
+{"index": 392, "id": "000-002226", "label": "modified", "gold": "The", "gold_logprob": -1.4978735446929932, "gold_first_logprob": -1.4975601434707642, "gold_first_rank": 2, "none_logprob": -0.6226648092269897}
+{"index": 393, "id": "000-002232", "label": "modified", "gold": "moving", "gold_logprob": -4.78036642074585, "gold_first_logprob": -4.779964447021484, "gold_first_rank": 6, "none_logprob": -0.2800912857055664}
+{"index": 394, "id": "000-002245", "label": "clean", "gold": "none", "gold_logprob": -0.45357567071914673, "gold_first_logprob": -0.453502357006073, "gold_first_rank": 1}
+{"index": 395, "id": "000-002266", "label": "modified", "gold": "R", "gold_logprob": -3.361513137817383, "gold_first_logprob": -3.3592121601104736, "gold_first_rank": 4, "none_logprob": -0.35863494873046875}
+{"index": 396, "id": "000-002267", "label": "clean", "gold": "none", "gold_logprob": -0.18970970809459686, "gold_first_logprob": -0.18961064517498016, "gold_first_rank": 1}
+{"index": 397, "id": "000-002283", "label": "clean", "gold": "none", "gold_logprob": -0.038897547870874405, "gold_first_logprob": -0.03884211555123329, "gold_first_rank": 1}
+{"index": 398, "id": "000-002339", "label": "clean", "gold": "none", "gold_logprob": -0.28229716420173645, "gold_first_logprob": -0.2822246849536896, "gold_first_rank": 1}
+{"index": 399, "id": "000-002341", "label": "modified", "gold": "category", "gold_logprob": -0.13175147771835327, "gold_first_logprob": -0.13151845335960388, "gold_first_rank": 1, "none_logprob": -2.3815808296203613}
+{"index": 400, "id": "000-002342", "label": "clean", "gold": "none", "gold_logprob": -0.11077047139406204, "gold_first_logprob": -0.11069751530885696, "gold_first_rank": 1}
+{"index": 401, "id": "000-002358", "label": "modified", "gold": "quant", "gold_logprob": -2.171414375305176, "gold_first_logprob": -2.1656441688537598, "gold_first_rank": 2, "none_logprob": -0.2907281816005707}
+{"index": 402, "id": "000-002378", "label": "modified", "gold": "Although", "gold_logprob": -1.3379225730895996, "gold_first_logprob": -1.337536096572876, "gold_first_rank": 2, "none_logprob": -0.9626336693763733}
+{"index": 403, "id": "000-002382", "label": "modified", "gold": "influence", "gold_logprob": -0.889011025428772, "gold_first_logprob": -0.6688013672828674, "gold_first_rank": 1, "none_logprob": -0.9189522862434387}
+{"index": 404, "id": "000-002401", "label": "modified", "gold": "Yet", "gold_logprob": -0.11866339296102524, "gold_first_logprob": -0.11840759962797165, "gold_first_rank": 1, "none_logprob": -2.6184802055358887}
+{"index": 405, "id": "000-002407", "label": "modified", "gold": "Germany", "gold_logprob": -5.417179584503174, "gold_first_logprob": -5.417022228240967, "gold_first_rank": 5, "none_logprob": -1.9170722961425781}
+{"index": 406, "id": "000-002414", "label": "modified", "gold": "Founded", "gold_logprob": -4.675833225250244, "gold_first_logprob": -4.675548076629639, "gold_first_rank": 5, "none_logprob": -0.17561815679073334}
+{"index": 407, "id": "000-002417", "label": "modified", "gold": "put", "gold_logprob": -3.6283178329467773, "gold_first_logprob": -3.627358913421631, "gold_first_rank": 2, "none_logprob": -0.12743325531482697}
+{"index": 408, "id": "000-002427", "label": "modified", "gold": "Today", "gold_logprob": -2.2283334732055664, "gold_first_logprob": -2.2271668910980225, "gold_first_rank": 2, "none_logprob": -0.35229241847991943}
+{"index": 409, "id": "000-002434", "label": "modified", "gold": "could", "gold_logprob": -1.7271068096160889, "gold_first_logprob": -1.7266227006912231, "gold_first_rank": 2, "none_logprob": -1.2066760063171387}
+{"index": 410, "id": "000-002464", "label": "modified", "gold": "transforms", "gold_logprob": -4.6775126457214355, "gold_first_logprob": -4.67734432220459, "gold_first_rank": 4, "none_logprob": -0.17743995785713196}
+{"index": 411, "id": "000-002465", "label": "clean", "gold": "none", "gold_logprob": -0.14317993819713593, "gold_first_logprob": -0.14307789504528046, "gold_first_rank": 1}
+{"index": 412, "id": "000-002474", "label": "modified", "gold": "and", "gold_logprob": -0.6563308238983154, "gold_first_logprob": -0.6559324860572815, "gold_first_rank": 1, "none_logprob": -1.5310335159301758}
+{"index": 413, "id": "000-002475", "label": "clean", "gold": "none", "gold_logprob": -0.05107341334223747, "gold_first_logprob": -0.051024895161390305, "gold_first_rank": 1}
+{"index": 414, "id": "000-002536", "label": "modified", "gold": "cou", "gold_logprob": -2.7719802856445312, "gold_first_logprob": -0.0076049333438277245, "gold_first_rank": 1, "none_logprob": -5.883676528930664}
+{"index": 415, "id": "000-002537", "label": "clean", "gold": "none", "gold_logprob": -0.21658988296985626, "gold_first_logprob": -0.21643278002738953, "gold_first_rank": 1}
+{"index": 416, "id": "000-002551", "label": "clean", "gold": "none", "gold_logprob": -0.31453031301498413, "gold_first_logprob": -0.3144407868385315, "gold_first_rank": 1}
+{"index": 417, "id": "000-002572", "label": "clean", "gold": "none", "gold_logprob": -0.31255418062210083, "gold_first_logprob": -0.31236395239830017, "gold_first_rank": 1}
+{"index": 418, "id": "000-002583", "label": "modified", "gold": "try", "gold_logprob": -1.134600043296814, "gold_first_logprob": -1.1336959600448608, "gold_first_rank": 2, "none_logprob": -1.7588756084442139}
+{"index": 419, "id": "000-002587", "label": "modified", "gold": "wonder", "gold_logprob": -3.528412342071533, "gold_first_logprob": -3.5277271270751953, "gold_first_rank": 2, "none_logprob": -0.15277059376239777}
+{"index": 420, "id": "000-002591", "label": "modified", "gold": "entrepreneurs", "gold_logprob": -0.6964212656021118, "gold_first_logprob": -0.59871906042099, "gold_first_rank": 1, "none_logprob": -1.3488417863845825}
+{"index": 421, "id": "000-002598", "label": "clean", "gold": "none", "gold_logprob": -0.24624808132648468, "gold_first_logprob": -0.24612553417682648, "gold_first_rank": 1}
+{"index": 422, "id": "000-002602", "label": "clean", "gold": "none", "gold_logprob": -2.2898101806640625, "gold_first_logprob": -2.2896485328674316, "gold_first_rank": 2}
+{"index": 423, "id": "000-002617", "label": "modified", "gold": "Bar", "gold_logprob": -7.482788562774658, "gold_first_logprob": -7.482352256774902, "gold_first_rank": 41, "none_logprob": -0.41993409395217896}
+{"index": 424, "id": "000-002627", "label": "clean", "gold": "none", "gold_logprob": -0.3497347831726074, "gold_first_logprob": -0.34965968132019043, "gold_first_rank": 1}
+{"index": 425, "id": "000-002634", "label": "modified", "gold": "intelligence", "gold_logprob": -4.353967666625977, "gold_first_logprob": -4.353677272796631, "gold_first_rank": 10, "none_logprob": -0.4829590320587158}
+{"index": 426, "id": "000-002640", "label": "modified", "gold": "imposing", "gold_logprob": -0.12140791118144989, "gold_first_logprob": -0.11981071531772614, "gold_first_rank": 1, "none_logprob": -2.619901180267334}
+{"index": 427, "id": "000-002642", "label": "modified", "gold": "in", "gold_logprob": -6.331438064575195, "gold_first_logprob": -6.3257317543029785, "gold_first_rank": 18, "none_logprob": -0.9508286118507385}
+{"index": 428, "id": "000-002647", "label": "clean", "gold": "none", "gold_logprob": -0.08162207156419754, "gold_first_logprob": -0.0815705731511116, "gold_first_rank": 1}
+{"index": 429, "id": "000-002648", "label": "modified", "gold": "entries", "gold_logprob": -0.011384404264390469, "gold_first_logprob": -0.011107398197054863, "gold_first_rank": 1, "none_logprob": -5.01138973236084}
+{"index": 430, "id": "000-002654", "label": "modified", "gold": "athleticism", "gold_logprob": -4.5001220703125, "gold_first_logprob": -4.076848983764648, "gold_first_rank": 5, "none_logprob": -0.5769774913787842}
+{"index": 431, "id": "000-002660", "label": "clean", "gold": "none", "gold_logprob": -0.04541914537549019, "gold_first_logprob": -0.04534893482923508, "gold_first_rank": 1}
+{"index": 432, "id": "000-002669", "label": "clean", "gold": "none", "gold_logprob": -0.4135739803314209, "gold_first_logprob": -0.4134708642959595, "gold_first_rank": 1}
+{"index": 433, "id": "000-002671", "label": "clean", "gold": "none", "gold_logprob": -0.2084043174982071, "gold_first_logprob": -0.20836295187473297, "gold_first_rank": 1}
+{"index": 434, "id": "000-002674", "label": "modified", "gold": "influence", "gold_logprob": -10.631484985351562, "gold_first_logprob": -8.004768371582031, "gold_first_rank": 30, "none_logprob": -0.1298627257347107}
+{"index": 435, "id": "000-002676", "label": "modified", "gold": "aimed", "gold_logprob": -4.455113410949707, "gold_first_logprob": -4.451896667480469, "gold_first_rank": 4, "none_logprob": -0.18731418251991272}
+{"index": 436, "id": "000-002704", "label": "modified", "gold": "appreciate", "gold_logprob": -5.369439125061035, "gold_first_logprob": -5.362802982330322, "gold_first_rank": 9, "none_logprob": -0.362865149974823}
+{"index": 437, "id": "000-002709", "label": "clean", "gold": "none", "gold_logprob": -0.3678897023200989, "gold_first_logprob": -0.3678423762321472, "gold_first_rank": 1}
+{"index": 438, "id": "000-002720", "label": "clean", "gold": "none", "gold_logprob": -0.1196885034441948, "gold_first_logprob": -0.11958491802215576, "gold_first_rank": 1}
+{"index": 439, "id": "000-002726", "label": "modified", "gold": "assists", "gold_logprob": -4.694741725921631, "gold_first_logprob": -4.623132705688477, "gold_first_rank": 9, "none_logprob": -0.6232333183288574}
+{"index": 440, "id": "000-002740", "label": "modified", "gold": "through", "gold_logprob": -3.618290662765503, "gold_first_logprob": -3.5377891063690186, "gold_first_rank": 4, "none_logprob": -0.5728052854537964}
+{"index": 441, "id": "000-002752", "label": "modified", "gold": "drive", "gold_logprob": -3.847639799118042, "gold_first_logprob": -3.847452163696289, "gold_first_rank": 4, "none_logprob": -0.22256207466125488}
+{"index": 442, "id": "000-002763", "label": "modified", "gold": "several", "gold_logprob": -0.8016904592514038, "gold_first_logprob": -0.8007291555404663, "gold_first_rank": 1, "none_logprob": -0.8008630275726318}
+{"index": 443, "id": "000-002775", "label": "modified", "gold": "adjusting", "gold_logprob": -4.298443794250488, "gold_first_logprob": -1.0055460929870605, "gold_first_rank": 1, "none_logprob": -1.130637526512146}
+{"index": 444, "id": "000-002777", "label": "modified", "gold": "measures", "gold_logprob": -1.5231010913848877, "gold_first_logprob": -1.520991325378418, "gold_first_rank": 2, "none_logprob": -0.6697828769683838}
+{"index": 445, "id": "000-002781", "label": "modified", "gold": "semantics", "gold_logprob": -0.060246147215366364, "gold_first_logprob": -0.054004792124032974, "gold_first_rank": 1, "none_logprob": -3.8041841983795166}
+{"index": 446, "id": "000-002785", "label": "modified", "gold": "primarily", "gold_logprob": -2.3452839851379395, "gold_first_logprob": -2.345106363296509, "gold_first_rank": 2, "none_logprob": -0.22034329175949097}
+{"index": 447, "id": "000-002786", "label": "clean", "gold": "none", "gold_logprob": -0.09314052760601044, "gold_first_logprob": -0.09301929920911789, "gold_first_rank": 1}
+{"index": 448, "id": "000-002802", "label": "modified", "gold": "intentionally", "gold_logprob": -0.15249420702457428, "gold_first_logprob": -0.15116357803344727, "gold_first_rank": 1, "none_logprob": -2.4013137817382812}
+{"index": 449, "id": "000-002808", "label": "clean", "gold": "none", "gold_logprob": -0.44113707542419434, "gold_first_logprob": -0.4410785436630249, "gold_first_rank": 1}
+{"index": 450, "id": "000-002835", "label": "modified", "gold": "resemble", "gold_logprob": -1.002809762954712, "gold_first_logprob": -0.9769096970558167, "gold_first_rank": 2, "none_logprob": -0.7270916104316711}
+{"index": 451, "id": "000-002841", "label": "modified", "gold": "attaches", "gold_logprob": -0.40681949257850647, "gold_first_logprob": -0.4047197103500366, "gold_first_rank": 1, "none_logprob": -3.404813051223755}
+{"index": 452, "id": "000-002855", "label": "clean", "gold": "none", "gold_logprob": -0.9161287546157837, "gold_first_logprob": -0.9159855842590332, "gold_first_rank": 1}
+{"index": 453, "id": "000-002866", "label": "modified", "gold": "any", "gold_logprob": -8.883703231811523, "gold_first_logprob": -8.878379821777344, "gold_first_rank": 47, "none_logprob": -0.12848171591758728}
+{"index": 454, "id": "000-002869", "label": "clean", "gold": "none", "gold_logprob": -0.5445067286491394, "gold_first_logprob": -0.544424831867218, "gold_first_rank": 1}
+{"index": 455, "id": "000-002906", "label": "clean", "gold": "none", "gold_logprob": -0.2737557590007782, "gold_first_logprob": -0.27365347743034363, "gold_first_rank": 1}
+{"index": 456, "id": "000-002907", "label": "modified", "gold": "technically", "gold_logprob": -3.5506019592285156, "gold_first_logprob": -3.5495901107788086, "gold_first_rank": 3, "none_logprob": -0.17471009492874146}
+{"index": 457, "id": "000-002923", "label": "modified", "gold": "via", "gold_logprob": -2.2924516201019287, "gold_first_logprob": -2.292313575744629, "gold_first_rank": 3, "none_logprob": -0.7923902869224548}
+{"index": 458, "id": "000-002925", "label": "clean", "gold": "none", "gold_logprob": -0.6075240969657898, "gold_first_logprob": -0.6074342131614685, "gold_first_rank": 1}
+{"index": 459, "id": "000-002951", "label": "clean", "gold": "none", "gold_logprob": -0.1841404289007187, "gold_first_logprob": -0.18404744565486908, "gold_first_rank": 1}
+{"index": 460, "id": "000-002964", "label": "modified", "gold": "highlights", "gold_logprob": -11.125663757324219, "gold_first_logprob": -11.125008583068848, "gold_first_rank": 268, "none_logprob": -1.562576174736023}
+{"index": 461, "id": "000-002969", "label": "clean", "gold": "none", "gold_logprob": -0.13017411530017853, "gold_first_logprob": -0.13010342419147491, "gold_first_rank": 1}
+{"index": 462, "id": "000-002988", "label": "modified", "gold": "often", "gold_logprob": -1.7272953987121582, "gold_first_logprob": -1.72707998752594, "gold_first_rank": 2, "none_logprob": -0.47713029384613037}
+{"index": 463, "id": "000-002995", "label": "modified", "gold": "tell", "gold_logprob": -0.5382526516914368, "gold_first_logprob": -0.5377790331840515, "gold_first_rank": 1, "none_logprob": -1.4128626585006714}
+{"index": 464, "id": "000-003030", "label": "modified", "gold": "it", "gold_logprob": -0.2882906198501587, "gold_first_logprob": -0.2877066731452942, "gold_first_rank": 1, "none_logprob": -1.6930352449417114}
+{"index": 465, "id": "000-003049", "label": "clean", "gold": "none", "gold_logprob": -1.1628289222717285, "gold_first_logprob": -1.1627204418182373, "gold_first_rank": 2}
+{"index": 466, "id": "000-003068", "label": "modified", "gold": "holy", "gold_logprob": -5.47056245803833, "gold_first_logprob": -5.280857086181641, "gold_first_rank": 11, "none_logprob": -0.7809867858886719}
+{"index": 467, "id": "000-003072", "label": "modified", "gold": "northern", "gold_logprob": -1.744904637336731, "gold_first_logprob": -1.7444871664047241, "gold_first_rank": 2, "none_logprob": -0.24468988180160522}
+{"index": 468, "id": "000-003083", "label": "clean", "gold": "none", "gold_logprob": -0.1919371485710144, "gold_first_logprob": -0.19184404611587524, "gold_first_rank": 1}
+{"index": 469, "id": "000-003085", "label": "clean", "gold": "none", "gold_logprob": -0.3502327501773834, "gold_first_logprob": -0.350151926279068, "gold_first_rank": 1}
+{"index": 470, "id": "000-003100", "label": "modified", "gold": "legs", "gold_logprob": -0.2339017242193222, "gold_first_logprob": -0.23371315002441406, "gold_first_rank": 1, "none_logprob": -5.983757972717285}
+{"index": 471, "id": "000-003108", "label": "clean", "gold": "none", "gold_logprob": -0.37845078110694885, "gold_first_logprob": -0.3783402740955353, "gold_first_rank": 1}
+{"index": 472, "id": "000-003112", "label": "clean", "gold": "none", "gold_logprob": -0.32278376817703247, "gold_first_logprob": -0.3226991295814514, "gold_first_rank": 1}
+{"index": 473, "id": "000-003127", "label": "clean", "gold": "none", "gold_logprob": -0.429911732673645, "gold_first_logprob": -0.42980194091796875, "gold_first_rank": 1}
+{"index": 474, "id": "000-003128", "label": "modified", "gold": "up", "gold_logprob": -8.605443000793457, "gold_first_logprob": -8.602188110351562, "gold_first_rank": 76, "none_logprob": -0.22728140652179718}
+{"index": 475, "id": "000-003130", "label": "modified", "gold": "avoid", "gold_logprob": -0.5133342742919922, "gold_first_logprob": -0.5107643008232117, "gold_first_rank": 1, "none_logprob": -2.0109176635742188}
+{"index": 476, "id": "000-003133", "label": "clean", "gold": "none", "gold_logprob": -0.0455000177025795, "gold_first_logprob": -0.04542229697108269, "gold_first_rank": 1}
+{"index": 477, "id": "000-003137", "label": "clean", "gold": "none", "gold_logprob": -0.3355071246623993, "gold_first_logprob": -0.33539363741874695, "gold_first_rank": 1}
+{"index": 478, "id": "000-003140", "label": "modified", "gold": "operates", "gold_logprob": -0.3653523921966553, "gold_first_logprob": -0.3609861135482788, "gold_first_rank": 1, "none_logprob": -2.98604679107666}
+{"index": 479, "id": "000-003150", "label": "modified", "gold": "Since", "gold_logprob": -0.287964791059494, "gold_first_logprob": -0.2875887453556061, "gold_first_rank": 1, "none_logprob": -1.7876646518707275}
+{"index": 480, "id": "000-003155", "label": "clean", "gold": "none", "gold_logprob": -0.9180669784545898, "gold_first_logprob": -0.9179880619049072, "gold_first_rank": 1}
+{"index": 481, "id": "000-003162", "label": "modified", "gold": "with", "gold_logprob": -0.5992498993873596, "gold_first_logprob": -0.5990546345710754, "gold_first_rank": 1, "none_logprob": -1.2241121530532837}
+{"index": 482, "id": "000-003166", "label": "modified", "gold": "devoted", "gold_logprob": -0.24517597258090973, "gold_first_logprob": -0.24355389177799225, "gold_first_rank": 1, "none_logprob": -1.7437107563018799}
+{"index": 483, "id": "000-003170", "label": "clean", "gold": "none", "gold_logprob": -0.42865365743637085, "gold_first_logprob": -0.4285748600959778, "gold_first_rank": 1}
+{"index": 484, "id": "000-003180", "label": "modified", "gold": "muscles", "gold_logprob": -3.0928902626037598, "gold_first_logprob": -3.090737819671631, "gold_first_rank": 3, "none_logprob": -0.5908191800117493}
+{"index": 485, "id": "000-003184", "label": "modified", "gold": "local", "gold_logprob": -5.464395999908447, "gold_first_logprob": -5.463911056518555, "gold_first_rank": 4, "none_logprob": -0.08901730924844742}
+{"index": 486, "id": "000-003201", "label": "modified", "gold": "satellite", "gold_logprob": -0.4036141633987427, "gold_first_logprob": -0.40271300077438354, "gold_first_rank": 1, "none_logprob": -1.4028210639953613}
+{"index": 487, "id": "000-003207", "label": "clean", "gold": "none", "gold_logprob": -0.39828017354011536, "gold_first_logprob": -0.39819303154945374, "gold_first_rank": 1}
+{"index": 488, "id": "000-003241", "label": "modified", "gold": "crossover", "gold_logprob": -0.7574097514152527, "gold_first_logprob": -0.7566235065460205, "gold_first_rank": 1, "none_logprob": -1.0067247152328491}
+{"index": 489, "id": "000-003249", "label": "clean", "gold": "none", "gold_logprob": -0.23121511936187744, "gold_first_logprob": -0.23115324974060059, "gold_first_rank": 1}
+{"index": 490, "id": "000-003262", "label": "modified", "gold": "located", "gold_logprob": -8.771957397460938, "gold_first_logprob": -8.7711820602417, "gold_first_rank": 85, "none_logprob": -0.23505836725234985}
+{"index": 491, "id": "000-003283", "label": "clean", "gold": "none", "gold_logprob": -0.12168402224779129, "gold_first_logprob": -0.12159997969865799, "gold_first_rank": 1}
+{"index": 492, "id": "000-003286", "label": "modified", "gold": "commonly", "gold_logprob": -0.09811602532863617, "gold_first_logprob": -0.09699137508869171, "gold_first_rank": 1, "none_logprob": -2.8470840454101562}
+{"index": 493, "id": "000-003288", "label": "modified", "gold": "multi", "gold_logprob": -1.2462146282196045, "gold_first_logprob": -1.2459874153137207, "gold_first_rank": 2, "none_logprob": -1.1210925579071045}
+{"index": 494, "id": "000-003302", "label": "clean", "gold": "none", "gold_logprob": -0.8106882572174072, "gold_first_logprob": -0.8106001615524292, "gold_first_rank": 1}
+{"index": 495, "id": "000-003319", "label": "clean", "gold": "none", "gold_logprob": -0.5122647881507874, "gold_first_logprob": -0.5121937394142151, "gold_first_rank": 1}
+{"index": 496, "id": "000-003336", "label": "modified", "gold": "iconic", "gold_logprob": -0.38746440410614014, "gold_first_logprob": -0.38504815101623535, "gold_first_rank": 1, "none_logprob": -1.7601240873336792}
+{"index": 497, "id": "000-003337", "label": "clean", "gold": "none", "gold_logprob": -0.3159375488758087, "gold_first_logprob": -0.3158358633518219, "gold_first_rank": 1}
+{"index": 498, "id": "000-003338", "label": "modified", "gold": "blends", "gold_logprob": -0.3461253046989441, "gold_first_logprob": -0.34413763880729675, "gold_first_rank": 1, "none_logprob": -2.094290018081665}
+{"index": 499, "id": "000-003339", "label": "clean", "gold": "none", "gold_logprob": -0.2545597553253174, "gold_first_logprob": -0.2544771432876587, "gold_first_rank": 1}
+{"index": 500, "id": "000-003340", "label": "modified", "gold": "hot", "gold_logprob": -9.051675796508789, "gold_first_logprob": -9.050873756408691, "gold_first_rank": 41, "none_logprob": -0.05094039440155029}
+{"index": 501, "id": "000-003351", "label": "clean", "gold": "none", "gold_logprob": -0.44428420066833496, "gold_first_logprob": -0.44415318965911865, "gold_first_rank": 1}
+{"index": 502, "id": "000-003353", "label": "clean", "gold": "none", "gold_logprob": -0.02859707921743393, "gold_first_logprob": -0.02855309098958969, "gold_first_rank": 1}
+{"index": 503, "id": "000-003355", "label": "clean", "gold": "none", "gold_logprob": -0.19082963466644287, "gold_first_logprob": -0.19075417518615723, "gold_first_rank": 1}
+{"index": 504, "id": "000-003358", "label": "modified", "gold": "either", "gold_logprob": -0.40103307366371155, "gold_first_logprob": -0.40080493688583374, "gold_first_rank": 1, "none_logprob": -1.2758777141571045}
+{"index": 505, "id": "000-003362", "label": "modified", "gold": "texture", "gold_logprob": -8.747844696044922, "gold_first_logprob": -8.7474365234375, "gold_first_rank": 78, "none_logprob": -0.43502065539360046}
+{"index": 506, "id": "000-003369", "label": "clean", "gold": "none", "gold_logprob": -0.21594955027103424, "gold_first_logprob": -0.21586395800113678, "gold_first_rank": 1}
+{"index": 507, "id": "000-003373", "label": "clean", "gold": "none", "gold_logprob": -0.8192530274391174, "gold_first_logprob": -0.8191282153129578, "gold_first_rank": 1}
+{"index": 508, "id": "000-003387", "label": "clean", "gold": "none", "gold_logprob": -0.2119922935962677, "gold_first_logprob": -0.21182648837566376, "gold_first_rank": 1}
+{"index": 509, "id": "000-003390", "label": "modified", "gold": "goal", "gold_logprob": -5.070970058441162, "gold_first_logprob": -5.070708274841309, "gold_first_rank": 6, "none_logprob": -0.3207653760910034}
+{"index": 510, "id": "000-003406", "label": "clean", "gold": "none", "gold_logprob": -0.250659316778183, "gold_first_logprob": -0.25059863924980164, "gold_first_rank": 1}
+{"index": 511, "id": "000-003425", "label": "modified", "gold": "magnificent", "gold_logprob": -0.5187981128692627, "gold_first_logprob": -0.518301248550415, "gold_first_rank": 1, "none_logprob": -1.3933864831924438}
+{"index": 512, "id": "000-003438", "label": "clean", "gold": "none", "gold_logprob": -0.5372164845466614, "gold_first_logprob": -0.5370959639549255, "gold_first_rank": 1}
+{"index": 513, "id": "000-003445", "label": "modified", "gold": "displays", "gold_logprob": -2.2762508392333984, "gold_first_logprob": -2.275907039642334, "gold_first_rank": 2, "none_logprob": -0.40102463960647583}
+{"index": 514, "id": "000-003458", "label": "modified", "gold": "Bab", "gold_logprob": -5.586111545562744, "gold_first_logprob": -5.584198474884033, "gold_first_rank": 6, "none_logprob": -0.3342531621456146}
+{"index": 515, "id": "000-003464", "label": "modified", "gold": "early", "gold_logprob": -0.6615835428237915, "gold_first_logprob": -0.6614071130752563, "gold_first_rank": 1, "none_logprob": -1.4114949703216553}
+{"index": 516, "id": "000-003467", "label": "clean", "gold": "none", "gold_logprob": -0.33216148614883423, "gold_first_logprob": -0.33210355043411255, "gold_first_rank": 1}
+{"index": 517, "id": "000-003471", "label": "clean", "gold": "none", "gold_logprob": -1.0322178602218628, "gold_first_logprob": -1.0321128368377686, "gold_first_rank": 1}
+{"index": 518, "id": "000-003486", "label": "modified", "gold": "Overall", "gold_logprob": -7.945354461669922, "gold_first_logprob": -7.945180892944336, "gold_first_rank": 46, "none_logprob": -0.5078096389770508}
+{"index": 519, "id": "000-003496", "label": "clean", "gold": "none", "gold_logprob": -0.16562587022781372, "gold_first_logprob": -0.1655142903327942, "gold_first_rank": 1}
+{"index": 520, "id": "000-003499", "label": "modified", "gold": "successful", "gold_logprob": -1.1624939441680908, "gold_first_logprob": -1.1623053550720215, "gold_first_rank": 2, "none_logprob": -2.9124042987823486}
+{"index": 521, "id": "000-003503", "label": "modified", "gold": "appearing", "gold_logprob": -0.04216006025671959, "gold_first_logprob": -0.04187517240643501, "gold_first_rank": 1, "none_logprob": -4.666923999786377}
+{"index": 522, "id": "000-003511", "label": "clean", "gold": "none", "gold_logprob": -0.5425667762756348, "gold_first_logprob": -0.5424758195877075, "gold_first_rank": 1}
+{"index": 523, "id": "000-003521", "label": "modified", "gold": "Gay", "gold_logprob": -0.7814092040061951, "gold_first_logprob": -0.7810089588165283, "gold_first_rank": 1, "none_logprob": -1.1561309099197388}
+{"index": 524, "id": "000-003525", "label": "clean", "gold": "none", "gold_logprob": -0.26977184414863586, "gold_first_logprob": -0.26973286271095276, "gold_first_rank": 1}
+{"index": 525, "id": "000-003536", "label": "clean", "gold": "none", "gold_logprob": -0.8768430948257446, "gold_first_logprob": -0.8767845630645752, "gold_first_rank": 1}
+{"index": 526, "id": "000-003562", "label": "clean", "gold": "none", "gold_logprob": -0.8127584457397461, "gold_first_logprob": -0.8126645088195801, "gold_first_rank": 1}
+{"index": 527, "id": "000-003563", "label": "modified", "gold": "is", "gold_logprob": -6.203534126281738, "gold_first_logprob": -6.2018938064575195, "gold_first_rank": 13, "none_logprob": -0.7020004987716675}
+{"index": 528, "id": "000-003575", "label": "modified", "gold": "several", "gold_logprob": -0.1756899207830429, "gold_first_logprob": -0.17459668219089508, "gold_first_rank": 1, "none_logprob": -2.5690934658050537}
+{"index": 529, "id": "000-003591", "label": "clean", "gold": "none", "gold_logprob": -1.13235604763031, "gold_first_logprob": -1.1322993040084839, "gold_first_rank": 2}
+{"index": 530, "id": "000-003596", "label": "clean", "gold": "none", "gold_logprob": -0.06937991082668304, "gold_first_logprob": -0.06928085535764694, "gold_first_rank": 1}
+{"index": 531, "id": "000-003605", "label": "modified", "gold": "far", "gold_logprob": -3.4537532329559326, "gold_first_logprob": -3.436854362487793, "gold_first_rank": 2, "none_logprob": -0.18690529465675354}
+{"index": 532, "id": "000-003616", "label": "modified", "gold": "As", "gold_logprob": -3.5989174842834473, "gold_first_logprob": -3.5985307693481445, "gold_first_rank": 3, "none_logprob": -0.3486827313899994}
+{"index": 533, "id": "000-003623", "label": "clean", "gold": "none", "gold_logprob": -0.16448630392551422, "gold_first_logprob": -0.16439856588840485, "gold_first_rank": 1}
+{"index": 534, "id": "000-003643", "label": "clean", "gold": "none", "gold_logprob": -1.4540826082229614, "gold_first_logprob": -1.454026222229004, "gold_first_rank": 2}
+{"index": 535, "id": "000-003647", "label": "clean", "gold": "none", "gold_logprob": -0.1461351215839386, "gold_first_logprob": -0.14596979320049286, "gold_first_rank": 1}
+{"index": 536, "id": "000-003658", "label": "modified", "gold": "Other", "gold_logprob": -3.951141595840454, "gold_first_logprob": -3.9507241249084473, "gold_first_rank": 3, "none_logprob": -0.20083509385585785}
+{"index": 537, "id": "000-003661", "label": "clean", "gold": "none", "gold_logprob": -0.27218011021614075, "gold_first_logprob": -0.27211371064186096, "gold_first_rank": 1}
+{"index": 538, "id": "000-003691", "label": "clean", "gold": "none", "gold_logprob": -0.26648658514022827, "gold_first_logprob": -0.2664085030555725, "gold_first_rank": 1}
+{"index": 539, "id": "000-003701", "label": "clean", "gold": "none", "gold_logprob": -0.4553356170654297, "gold_first_logprob": -0.4552401304244995, "gold_first_rank": 1}
+{"index": 540, "id": "000-003719", "label": "clean", "gold": "none", "gold_logprob": -0.05848975107073784, "gold_first_logprob": -0.0583699531853199, "gold_first_rank": 1}
+{"index": 541, "id": "000-003728", "label": "modified", "gold": "Color", "gold_logprob": -0.6737337708473206, "gold_first_logprob": -0.6715513467788696, "gold_first_rank": 1, "none_logprob": -1.0466934442520142}
+{"index": 542, "id": "000-003736", "label": "modified", "gold": "demands", "gold_logprob": -0.8078893423080444, "gold_first_logprob": -0.8063201308250427, "gold_first_rank": 1, "none_logprob": -2.431452512741089}
+{"index": 543, "id": "000-003748", "label": "modified", "gold": "spectacle", "gold_logprob": -4.895733833312988, "gold_first_logprob": -4.895262241363525, "gold_first_rank": 8, "none_logprob": -0.2703644335269928}
+{"index": 544, "id": "000-003760", "label": "clean", "gold": "none", "gold_logprob": -0.41043519973754883, "gold_first_logprob": -0.4103299379348755, "gold_first_rank": 1}
+{"index": 545, "id": "000-003772", "label": "clean", "gold": "none", "gold_logprob": -0.6183459162712097, "gold_first_logprob": -0.6182382702827454, "gold_first_rank": 1}
+{"index": 546, "id": "000-003785", "label": "modified", "gold": "skill", "gold_logprob": -6.322152137756348, "gold_first_logprob": -6.321561336517334, "gold_first_rank": 8, "none_logprob": -0.3216392397880554}
+{"index": 547, "id": "000-003793", "label": "modified", "gold": "unknown", "gold_logprob": -0.10115497559309006, "gold_first_logprob": -0.10095936805009842, "gold_first_rank": 1, "none_logprob": -2.7260923385620117}
+{"index": 548, "id": "000-003794", "label": "clean", "gold": "none", "gold_logprob": -0.30524638295173645, "gold_first_logprob": -0.305079847574234, "gold_first_rank": 1}
+{"index": 549, "id": "000-003795", "label": "modified", "gold": "introduces", "gold_logprob": -3.1432344913482666, "gold_first_logprob": -3.125430107116699, "gold_first_rank": 3, "none_logprob": -2.625476837158203}
+{"index": 550, "id": "000-003802", "label": "modified", "gold": "highly", "gold_logprob": -1.903720736503601, "gold_first_logprob": -1.871812343597412, "gold_first_rank": 3, "none_logprob": -0.6268847584724426}
+{"index": 551, "id": "000-003803", "label": "clean", "gold": "none", "gold_logprob": -0.08970459550619125, "gold_first_logprob": -0.08965989202260971, "gold_first_rank": 1}
+{"index": 552, "id": "000-003824", "label": "clean", "gold": "none", "gold_logprob": -0.08708008378744125, "gold_first_logprob": -0.0869731605052948, "gold_first_rank": 1}
+{"index": 553, "id": "000-003830", "label": "clean", "gold": "none", "gold_logprob": -0.37338733673095703, "gold_first_logprob": -0.3732881546020508, "gold_first_rank": 1}
+{"index": 554, "id": "000-003866", "label": "clean", "gold": "none", "gold_logprob": -0.40079179406166077, "gold_first_logprob": -0.40073469281196594, "gold_first_rank": 1}
+{"index": 555, "id": "000-003876", "label": "clean", "gold": "none", "gold_logprob": -0.07550358772277832, "gold_first_logprob": -0.07543182373046875, "gold_first_rank": 1}
+{"index": 556, "id": "000-003877", "label": "modified", "gold": "American", "gold_logprob": -1.5278733968734741, "gold_first_logprob": -1.5272365808486938, "gold_first_rank": 2, "none_logprob": -0.5273056030273438}
+{"index": 557, "id": "000-003897", "label": "modified", "gold": "harmon", "gold_logprob": -0.7666796445846558, "gold_first_logprob": -0.568276584148407, "gold_first_rank": 1, "none_logprob": -1.3183492422103882}
+{"index": 558, "id": "000-003899", "label": "modified", "gold": "the", "gold_logprob": -0.44892460107803345, "gold_first_logprob": -0.4481777846813202, "gold_first_rank": 1, "none_logprob": -1.3232671022415161}
+{"index": 559, "id": "000-003905", "label": "modified", "gold": "astronomical", "gold_logprob": -5.092421531677246, "gold_first_logprob": -5.0782599449157715, "gold_first_rank": 5, "none_logprob": -0.45333588123321533}
+{"index": 560, "id": "000-003906", "label": "clean", "gold": "none", "gold_logprob": -0.18538986146450043, "gold_first_logprob": -0.18531166017055511, "gold_first_rank": 1}
+{"index": 561, "id": "000-003922", "label": "modified", "gold": "subt", "gold_logprob": -0.7543679475784302, "gold_first_logprob": -0.7183231115341187, "gold_first_rank": 1, "none_logprob": -1.0251331329345703}
+{"index": 562, "id": "000-003927", "label": "modified", "gold": "businesses", "gold_logprob": -1.2080708742141724, "gold_first_logprob": -1.2028992176055908, "gold_first_rank": 2, "none_logprob": -0.5780607461929321}
+{"index": 563, "id": "000-003936", "label": "clean", "gold": "none", "gold_logprob": -0.320140540599823, "gold_first_logprob": -0.3200635313987732, "gold_first_rank": 1}
+{"index": 564, "id": "000-003959", "label": "modified", "gold": "animal", "gold_logprob": -4.951656341552734, "gold_first_logprob": -4.951199054718018, "gold_first_rank": 5, "none_logprob": -0.3263394236564636}
+{"index": 565, "id": "000-003967", "label": "modified", "gold": "misguided", "gold_logprob": -2.8324053287506104, "gold_first_logprob": -2.831857681274414, "gold_first_rank": 4, "none_logprob": -0.706915020942688}
+{"index": 566, "id": "000-003971", "label": "modified", "gold": "Histor", "gold_logprob": -6.083216667175293, "gold_first_logprob": -6.010904312133789, "gold_first_rank": 12, "none_logprob": -0.13599005341529846}
+{"index": 567, "id": "000-004006", "label": "modified", "gold": "under", "gold_logprob": -1.5319064855575562, "gold_first_logprob": -1.530584454536438, "gold_first_rank": 2, "none_logprob": -0.40565478801727295}
+{"index": 568, "id": "000-004036", "label": "clean", "gold": "none", "gold_logprob": -1.2698990106582642, "gold_first_logprob": -1.2697871923446655, "gold_first_rank": 2}
+{"index": 569, "id": "000-004037", "label": "modified", "gold": "theme", "gold_logprob": -5.58396053314209, "gold_first_logprob": -5.583826065063477, "gold_first_rank": 12, "none_logprob": -1.0214256048202515}
+{"index": 570, "id": "000-004047", "label": "clean", "gold": "none", "gold_logprob": -0.3509370982646942, "gold_first_logprob": -0.3508239686489105, "gold_first_rank": 1}
+{"index": 571, "id": "000-004072", "label": "modified", "gold": "delivering", "gold_logprob": -4.479609489440918, "gold_first_logprob": -4.4785332679748535, "gold_first_rank": 3, "none_logprob": -0.10362210124731064}
+{"index": 572, "id": "000-004085", "label": "modified", "gold": "prose", "gold_logprob": -2.3862457275390625, "gold_first_logprob": -2.3795409202575684, "gold_first_rank": 3, "none_logprob": -0.6296570301055908}
+{"index": 573, "id": "000-004097", "label": "modified", "gold": "motto", "gold_logprob": -1.928914189338684, "gold_first_logprob": -1.9280173778533936, "gold_first_rank": 2, "none_logprob": -0.6780956387519836}
+{"index": 574, "id": "000-004100", "label": "modified", "gold": "whisper", "gold_logprob": -4.528689861297607, "gold_first_logprob": -4.523751258850098, "gold_first_rank": 4, "none_logprob": -0.14880652725696564}
+{"index": 575, "id": "000-004101", "label": "clean", "gold": "none", "gold_logprob": -1.3381552696228027, "gold_first_logprob": -1.3381179571151733, "gold_first_rank": 2}
+{"index": 576, "id": "000-004113", "label": "clean", "gold": "none", "gold_logprob": -0.6576231718063354, "gold_first_logprob": -0.6575016975402832, "gold_first_rank": 1}
+{"index": 577, "id": "000-004123", "label": "clean", "gold": "none", "gold_logprob": -0.47534656524658203, "gold_first_logprob": -0.47525084018707275, "gold_first_rank": 1}
+{"index": 578, "id": "000-004141", "label": "clean", "gold": "none", "gold_logprob": -0.43926724791526794, "gold_first_logprob": -0.4391791522502899, "gold_first_rank": 1}
+{"index": 579, "id": "000-004142", "label": "modified", "gold": "which", "gold_logprob": -1.2824139595031738, "gold_first_logprob": -1.2821182012557983, "gold_first_rank": 2, "none_logprob": -2.5321929454803467}
+{"index": 580, "id": "000-004161", "label": "clean", "gold": "none", "gold_logprob": -0.6882794499397278, "gold_first_logprob": -0.6882200837135315, "gold_first_rank": 1}
+{"index": 581, "id": "000-004165", "label": "clean", "gold": "none", "gold_logprob": -0.2407475858926773, "gold_first_logprob": -0.24061349034309387, "gold_first_rank": 1}
+{"index": 582, "id": "000-004166", "label": "modified", "gold": "Over", "gold_logprob": -4.502150058746338, "gold_first_logprob": -4.501781463623047, "gold_first_rank": 4, "none_logprob": -0.25186970829963684}
+{"index": 583, "id": "000-004175", "label": "clean", "gold": "none", "gold_logprob": -0.5584129095077515, "gold_first_logprob": -0.5583354234695435, "gold_first_rank": 1}
+{"index": 584, "id": "000-004183", "label": "clean", "gold": "none", "gold_logprob": -2.306515693664551, "gold_first_logprob": -2.3064627647399902, "gold_first_rank": 2}
+{"index": 585, "id": "000-004196", "label": "modified", "gold": "used", "gold_logprob": -0.40739038586616516, "gold_first_logprob": -0.40716344118118286, "gold_first_rank": 1, "none_logprob": -1.9071991443634033}
+{"index": 586, "id": "000-004212", "label": "modified", "gold": "building", "gold_logprob": -0.9553804993629456, "gold_first_logprob": -0.9550952911376953, "gold_first_rank": 1, "none_logprob": -1.0802454948425293}
+{"index": 587, "id": "000-004216", "label": "modified", "gold": "fly", "gold_logprob": -2.192272663116455, "gold_first_logprob": -2.1920244693756104, "gold_first_rank": 2, "none_logprob": -0.31711718440055847}
+{"index": 588, "id": "000-004217", "label": "clean", "gold": "none", "gold_logprob": -0.11997547000646591, "gold_first_logprob": -0.1198602020740509, "gold_first_rank": 1}
+{"index": 589, "id": "000-004222", "label": "modified", "gold": "main", "gold_logprob": -1.6537184715270996, "gold_first_logprob": -1.652449131011963, "gold_first_rank": 2, "none_logprob": -0.7775285243988037}
+{"index": 590, "id": "000-004228", "label": "modified", "gold": "years", "gold_logprob": -2.4945788383483887, "gold_first_logprob": -2.494319200515747, "gold_first_rank": 3, "none_logprob": -1.6193968057632446}
+{"index": 591, "id": "000-004233", "label": "modified", "gold": "On", "gold_logprob": -0.0641583800315857, "gold_first_logprob": -0.06380975246429443, "gold_first_rank": 1, "none_logprob": -3.438910961151123}
+{"index": 592, "id": "000-004250", "label": "clean", "gold": "none", "gold_logprob": -0.2348509579896927, "gold_first_logprob": -0.23476608097553253, "gold_first_rank": 1}
+{"index": 593, "id": "000-004252", "label": "clean", "gold": "none", "gold_logprob": -0.14357736706733704, "gold_first_logprob": -0.14345255494117737, "gold_first_rank": 1}
+{"index": 594, "id": "000-004254", "label": "clean", "gold": "none", "gold_logprob": -1.0053057670593262, "gold_first_logprob": -1.0051722526550293, "gold_first_rank": 2}
+{"index": 595, "id": "000-004262", "label": "clean", "gold": "none", "gold_logprob": -0.10784228146076202, "gold_first_logprob": -0.10776372253894806, "gold_first_rank": 1}
+{"index": 596, "id": "000-004291", "label": "modified", "gold": "portions", "gold_logprob": -1.828543782234192, "gold_first_logprob": -1.8281910419464111, "gold_first_rank": 2, "none_logprob": -2.9539120197296143}
+{"index": 597, "id": "000-004294", "label": "clean", "gold": "none", "gold_logprob": -0.20683012902736664, "gold_first_logprob": -0.20676158368587494, "gold_first_rank": 1}
+{"index": 598, "id": "000-004298", "label": "clean", "gold": "none", "gold_logprob": -0.2403555065393448, "gold_first_logprob": -0.24028195440769196, "gold_first_rank": 1}
+{"index": 599, "id": "000-004303", "label": "modified", "gold": "although", "gold_logprob": -2.741495370864868, "gold_first_logprob": -2.741128921508789, "gold_first_rank": 2, "none_logprob": -0.2412012368440628}
+{"index": 600, "id": "000-004336", "label": "clean", "gold": "none", "gold_logprob": -0.4903430938720703, "gold_first_logprob": -0.49024760723114014, "gold_first_rank": 1}
+{"index": 601, "id": "000-004387", "label": "modified", "gold": "equity", "gold_logprob": -5.221999168395996, "gold_first_logprob": -5.216894626617432, "gold_first_rank": 7, "none_logprob": -0.21695415675640106}
+{"index": 602, "id": "000-004389", "label": "modified", "gold": "this", "gold_logprob": -0.6709810495376587, "gold_first_logprob": -0.6706323027610779, "gold_first_rank": 1, "none_logprob": -1.5456880331039429}
+{"index": 603, "id": "000-004406", "label": "clean", "gold": "none", "gold_logprob": -0.21171168982982635, "gold_first_logprob": -0.21164457499980927, "gold_first_rank": 1}
+{"index": 604, "id": "000-004436", "label": "modified", "gold": "Van", "gold_logprob": -12.615387916564941, "gold_first_logprob": -12.614951133728027, "gold_first_rank": 1384, "none_logprob": -0.24006682634353638}
+{"index": 605, "id": "000-004442", "label": "modified", "gold": "locales", "gold_logprob": -8.815500259399414, "gold_first_logprob": -8.815303802490234, "gold_first_rank": 87, "none_logprob": -0.3153904378414154}
+{"index": 606, "id": "000-004453", "label": "clean", "gold": "none", "gold_logprob": -0.512373149394989, "gold_first_logprob": -0.5122643113136292, "gold_first_rank": 1}
+{"index": 607, "id": "000-004469", "label": "modified", "gold": "taxable", "gold_logprob": -1.5030220746994019, "gold_first_logprob": -1.4470709562301636, "gold_first_rank": 2, "none_logprob": -0.3221423625946045}
+{"index": 608, "id": "000-004475", "label": "modified", "gold": "under", "gold_logprob": -0.19941918551921844, "gold_first_logprob": -0.19787660241127014, "gold_first_rank": 1, "none_logprob": -2.072976589202881}
+{"index": 609, "id": "000-004482", "label": "clean", "gold": "none", "gold_logprob": -0.3165735602378845, "gold_first_logprob": -0.3164967894554138, "gold_first_rank": 1}
+{"index": 610, "id": "000-004483", "label": "modified", "gold": "stay", "gold_logprob": -3.109945058822632, "gold_first_logprob": -3.1096744537353516, "gold_first_rank": 4, "none_logprob": -0.48484015464782715}
+{"index": 611, "id": "000-004491", "label": "modified", "gold": "computing", "gold_logprob": -1.5322051048278809, "gold_first_logprob": -1.5318381786346436, "gold_first_rank": 2, "none_logprob": -0.5319255590438843}
+{"index": 612, "id": "000-004505", "label": "modified", "gold": "nation", "gold_logprob": -9.027976989746094, "gold_first_logprob": -9.026948928833008, "gold_first_rank": 53, "none_logprob": -0.13548946380615234}
+{"index": 613, "id": "000-004512", "label": "clean", "gold": "none", "gold_logprob": -0.2073957473039627, "gold_first_logprob": -0.2073105126619339, "gold_first_rank": 1}
+{"index": 614, "id": "000-004524", "label": "clean", "gold": "none", "gold_logprob": -0.18071512877941132, "gold_first_logprob": -0.18061117827892303, "gold_first_rank": 1}
+{"index": 615, "id": "000-004529", "label": "modified", "gold": "parts", "gold_logprob": -0.7404025793075562, "gold_first_logprob": -0.7402093410491943, "gold_first_rank": 1, "none_logprob": -1.1153043508529663}
+{"index": 616, "id": "000-004534", "label": "clean", "gold": "none", "gold_logprob": -0.4636480510234833, "gold_first_logprob": -0.4635562598705292, "gold_first_rank": 1}
+{"index": 617, "id": "000-004548", "label": "clean", "gold": "none", "gold_logprob": -0.053569577634334564, "gold_first_logprob": -0.0535145029425621, "gold_first_rank": 1}
+{"index": 618, "id": "000-004580", "label": "clean", "gold": "none", "gold_logprob": -0.09009436517953873, "gold_first_logprob": -0.09002689272165298, "gold_first_rank": 1}
+{"index": 619, "id": "000-004581", "label": "modified", "gold": "grammar", "gold_logprob": -2.530283212661743, "gold_first_logprob": -2.52994966506958, "gold_first_rank": 2, "none_logprob": -0.28004270792007446}
+{"index": 620, "id": "000-004585", "label": "modified", "gold": "should", "gold_logprob": -0.449320912361145, "gold_first_logprob": -0.44781166315078735, "gold_first_rank": 1, "none_logprob": -1.4478907585144043}
+{"index": 621, "id": "000-004592", "label": "modified", "gold": "preventing", "gold_logprob": -2.167675018310547, "gold_first_logprob": -2.0854647159576416, "gold_first_rank": 3, "none_logprob": -0.835570216178894}
+{"index": 622, "id": "000-004603", "label": "clean", "gold": "none", "gold_logprob": -0.27344125509262085, "gold_first_logprob": -0.27335983514785767, "gold_first_rank": 1}
+{"index": 623, "id": "000-004613", "label": "modified", "gold": "make", "gold_logprob": -0.9586807489395142, "gold_first_logprob": -0.9577776789665222, "gold_first_rank": 1, "none_logprob": -1.2919105291366577}
+{"index": 624, "id": "000-004623", "label": "modified", "gold": "from", "gold_logprob": -0.24213986098766327, "gold_first_logprob": -0.24187560379505157, "gold_first_rank": 1, "none_logprob": -2.4922878742218018}
+{"index": 625, "id": "000-004636", "label": "clean", "gold": "none", "gold_logprob": -0.14117233455181122, "gold_first_logprob": -0.14105693995952606, "gold_first_rank": 1}
+{"index": 626, "id": "000-004648", "label": "clean", "gold": "none", "gold_logprob": -3.6880593299865723, "gold_first_logprob": -3.687995672225952, "gold_first_rank": 2}
+{"index": 627, "id": "000-004662", "label": "modified", "gold": "aroma", "gold_logprob": -6.14861536026001, "gold_first_logprob": -3.8769118785858154, "gold_first_rank": 2, "none_logprob": -0.12697504460811615}
+{"index": 628, "id": "000-004664", "label": "modified", "gold": "Va", "gold_logprob": -5.708170413970947, "gold_first_logprob": -5.707778453826904, "gold_first_rank": 14, "none_logprob": -0.597878098487854}
+{"index": 629, "id": "000-004676", "label": "clean", "gold": "none", "gold_logprob": -0.5792475342750549, "gold_first_logprob": -0.5791476368904114, "gold_first_rank": 1}
+{"index": 630, "id": "000-004688", "label": "clean", "gold": "none", "gold_logprob": -0.2870544493198395, "gold_first_logprob": -0.28690996766090393, "gold_first_rank": 1}
+{"index": 631, "id": "000-004698", "label": "clean", "gold": "none", "gold_logprob": -0.11801029741764069, "gold_first_logprob": -0.11795510351657867, "gold_first_rank": 1}
+{"index": 632, "id": "000-004723", "label": "clean", "gold": "none", "gold_logprob": -0.5500490665435791, "gold_first_logprob": -0.5499762296676636, "gold_first_rank": 1}
+{"index": 633, "id": "000-004739", "label": "clean", "gold": "none", "gold_logprob": -0.08280600607395172, "gold_first_logprob": -0.08272410929203033, "gold_first_rank": 1}
+{"index": 634, "id": "000-004743", "label": "clean", "gold": "none", "gold_logprob": -0.22346165776252747, "gold_first_logprob": -0.22334399819374084, "gold_first_rank": 1}
+{"index": 635, "id": "000-004745", "label": "modified", "gold": "from", "gold_logprob": -0.08972647786140442, "gold_first_logprob": -0.08965030312538147, "gold_first_rank": 1, "none_logprob": -3.969332695007324}
+{"index": 636, "id": "000-004757", "label": "modified", "gold": "version", "gold_logprob": -3.806546211242676, "gold_first_logprob": -3.805530548095703, "gold_first_rank": 6, "none_logprob": -0.30566567182540894}
+{"index": 637, "id": "000-004768", "label": "modified", "gold": "electrical", "gold_logprob": -0.3257806897163391, "gold_first_logprob": -0.3251491189002991, "gold_first_rank": 1, "none_logprob": -1.5752334594726562}
+{"index": 638, "id": "000-004777", "label": "clean", "gold": "none", "gold_logprob": -0.09183026850223541, "gold_first_logprob": -0.09174610674381256, "gold_first_rank": 1}
+{"index": 639, "id": "000-004795", "label": "clean", "gold": "none", "gold_logprob": -0.8744624853134155, "gold_first_logprob": -0.8743655681610107, "gold_first_rank": 1}
+{"index": 640, "id": "000-004803", "label": "clean", "gold": "none", "gold_logprob": -0.17334778606891632, "gold_first_logprob": -0.17322060465812683, "gold_first_rank": 1}
+{"index": 641, "id": "000-004812", "label": "clean", "gold": "none", "gold_logprob": -0.583416759967804, "gold_first_logprob": -0.5833297371864319, "gold_first_rank": 1}
+{"index": 642, "id": "000-004815", "label": "modified", "gold": "generally", "gold_logprob": -0.7722936272621155, "gold_first_logprob": -0.772030770778656, "gold_first_rank": 1, "none_logprob": -2.7722926139831543}
+{"index": 643, "id": "000-004823", "label": "clean", "gold": "none", "gold_logprob": -1.6554152965545654, "gold_first_logprob": -1.6552934646606445, "gold_first_rank": 2}
+{"index": 644, "id": "000-004832", "label": "modified", "gold": "critics", "gold_logprob": -4.965734004974365, "gold_first_logprob": -4.964121341705322, "gold_first_rank": 9, "none_logprob": -0.46420738101005554}
+{"index": 645, "id": "000-004846", "label": "clean", "gold": "none", "gold_logprob": -0.680026650428772, "gold_first_logprob": -0.67994225025177, "gold_first_rank": 1}
+{"index": 646, "id": "000-004851", "label": "modified", "gold": "Baltic", "gold_logprob": -1.2399098873138428, "gold_first_logprob": -1.2358479499816895, "gold_first_rank": 2, "none_logprob": -0.7359551191329956}
+{"index": 647, "id": "000-004865", "label": "modified", "gold": "purpose", "gold_logprob": -2.1970670223236084, "gold_first_logprob": -2.1966986656188965, "gold_first_rank": 2, "none_logprob": -0.32176482677459717}
+{"index": 648, "id": "000-004872", "label": "modified", "gold": "A", "gold_logprob": -2.2743163108825684, "gold_first_logprob": -2.263233184814453, "gold_first_rank": 4, "none_logprob": -1.2633321285247803}
+{"index": 649, "id": "000-004881", "label": "clean", "gold": "none", "gold_logprob": -0.490913063287735, "gold_first_logprob": -0.49083200097084045, "gold_first_rank": 1}
+{"index": 650, "id": "000-004915", "label": "modified", "gold": "faster", "gold_logprob": -1.958727240562439, "gold_first_logprob": -1.9407768249511719, "gold_first_rank": 2, "none_logprob": -0.5658861398696899}
+{"index": 651, "id": "000-004927", "label": "modified", "gold": "Village", "gold_logprob": -0.3253340721130371, "gold_first_logprob": -0.32186993956565857, "gold_first_rank": 1, "none_logprob": -1.5720475912094116}
+{"index": 652, "id": "000-004932", "label": "clean", "gold": "none", "gold_logprob": -0.17841768264770508, "gold_first_logprob": -0.17831659317016602, "gold_first_rank": 1}
+{"index": 653, "id": "000-004935", "label": "modified", "gold": "all", "gold_logprob": -0.42574748396873474, "gold_first_logprob": -0.42535561323165894, "gold_first_rank": 1, "none_logprob": -1.3004182577133179}
+{"index": 654, "id": "000-004943", "label": "modified", "gold": "Like", "gold_logprob": -0.400349497795105, "gold_first_logprob": -0.40002983808517456, "gold_first_rank": 1, "none_logprob": -2.77512788772583}
+{"index": 655, "id": "000-004944", "label": "clean", "gold": "none", "gold_logprob": -0.09478729963302612, "gold_first_logprob": -0.09470552206039429, "gold_first_rank": 1}
+{"index": 656, "id": "000-004946", "label": "clean", "gold": "none", "gold_logprob": -0.3808898329734802, "gold_first_logprob": -0.38079434633255005, "gold_first_rank": 1}
+{"index": 657, "id": "000-004965", "label": "clean", "gold": "none", "gold_logprob": -0.5635794401168823, "gold_first_logprob": -0.5635098218917847, "gold_first_rank": 1}
+{"index": 658, "id": "000-004972", "label": "modified", "gold": "at", "gold_logprob": -0.6934539675712585, "gold_first_logprob": -0.6930696964263916, "gold_first_rank": 1, "none_logprob": -0.9431320428848267}
+{"index": 659, "id": "000-004982", "label": "modified", "gold": "particularly", "gold_logprob": -0.2010362148284912, "gold_first_logprob": -0.2006627917289734, "gold_first_rank": 1, "none_logprob": -4.325983047485352}
+{"index": 660, "id": "000-004983", "label": "clean", "gold": "none", "gold_logprob": -0.37206172943115234, "gold_first_logprob": -0.37194573879241943, "gold_first_rank": 1}
+{"index": 661, "id": "000-004987", "label": "clean", "gold": "none", "gold_logprob": -0.08830700814723969, "gold_first_logprob": -0.08823858201503754, "gold_first_rank": 1}
+{"index": 662, "id": "000-004993", "label": "clean", "gold": "none", "gold_logprob": -0.7277429699897766, "gold_first_logprob": -0.7276579737663269, "gold_first_rank": 1}
+{"index": 663, "id": "000-004995", "label": "clean", "gold": "none", "gold_logprob": -0.18188665807247162, "gold_first_logprob": -0.18181990087032318, "gold_first_rank": 1}
+{"index": 664, "id": "000-005001", "label": "modified", "gold": "produced", "gold_logprob": -0.049367859959602356, "gold_first_logprob": -0.046203795820474625, "gold_first_rank": 1, "none_logprob": -3.921330690383911}
+{"index": 665, "id": "000-005006", "label": "clean", "gold": "none", "gold_logprob": -0.45528608560562134, "gold_first_logprob": -0.455194890499115, "gold_first_rank": 1}
+{"index": 666, "id": "000-005017", "label": "clean", "gold": "none", "gold_logprob": -0.6950397491455078, "gold_first_logprob": -0.6948522329330444, "gold_first_rank": 1}
+{"index": 667, "id": "000-005028", "label": "modified", "gold": "guided", "gold_logprob": -2.64872407913208, "gold_first_logprob": -2.648253917694092, "gold_first_rank": 3, "none_logprob": -0.3983398675918579}
+{"index": 668, "id": "000-005044", "label": "clean", "gold": "none", "gold_logprob": -0.09090916812419891, "gold_first_logprob": -0.09080903977155685, "gold_first_rank": 1}
+{"index": 669, "id": "000-005045", "label": "modified", "gold": "and", "gold_logprob": -2.668240785598755, "gold_first_logprob": -2.667820930480957, "gold_first_rank": 2, "none_logprob": -0.16788475215435028}
+{"index": 670, "id": "000-005056", "label": "clean", "gold": "none", "gold_logprob": -0.08221882581710815, "gold_first_logprob": -0.08212680369615555, "gold_first_rank": 1}
+{"index": 671, "id": "000-005064", "label": "clean", "gold": "none", "gold_logprob": -0.1517515629529953, "gold_first_logprob": -0.15168969333171844, "gold_first_rank": 1}
+{"index": 672, "id": "000-005100", "label": "clean", "gold": "none", "gold_logprob": -0.27179694175720215, "gold_first_logprob": -0.2717059850692749, "gold_first_rank": 1}
+{"index": 673, "id": "000-005105", "label": "clean", "gold": "none", "gold_logprob": -0.3013154864311218, "gold_first_logprob": -0.3012011647224426, "gold_first_rank": 1}
+{"index": 674, "id": "000-005110", "label": "modified", "gold": "infrared", "gold_logprob": -2.024508476257324, "gold_first_logprob": -1.9058990478515625, "gold_first_rank": 3, "none_logprob": -0.6832720041275024}
+{"index": 675, "id": "000-005115", "label": "modified", "gold": "occurring", "gold_logprob": -0.24575495719909668, "gold_first_logprob": -0.2450667768716812, "gold_first_rank": 1, "none_logprob": -2.8701677322387695}
+{"index": 676, "id": "000-005122", "label": "clean", "gold": "none", "gold_logprob": -0.3397446274757385, "gold_first_logprob": -0.3396328091621399, "gold_first_rank": 1}
+{"index": 677, "id": "000-005129", "label": "modified", "gold": "blue", "gold_logprob": -9.343953132629395, "gold_first_logprob": -9.343698501586914, "gold_first_rank": 75, "none_logprob": -1.156345248222351}
+{"index": 678, "id": "000-005133", "label": "modified", "gold": "commonly", "gold_logprob": -0.0955272689461708, "gold_first_logprob": -0.09511294215917587, "gold_first_rank": 1, "none_logprob": -2.970186233520508}
+{"index": 679, "id": "000-005154", "label": "clean", "gold": "none", "gold_logprob": -0.9590873718261719, "gold_first_logprob": -0.9590005874633789, "gold_first_rank": 1}
+{"index": 680, "id": "000-005159", "label": "modified", "gold": "your", "gold_logprob": -0.011660978198051453, "gold_first_logprob": -0.011294594034552574, "gold_first_rank": 1, "none_logprob": -7.011366844177246}
+{"index": 681, "id": "000-005179", "label": "clean", "gold": "none", "gold_logprob": -1.962891697883606, "gold_first_logprob": -1.9628076553344727, "gold_first_rank": 2}
+{"index": 682, "id": "000-005180", "label": "modified", "gold": "magnet", "gold_logprob": -3.2031123638153076, "gold_first_logprob": -3.201634407043457, "gold_first_rank": 2, "none_logprob": -0.07672275602817535}
+{"index": 683, "id": "000-005187", "label": "clean", "gold": "none", "gold_logprob": -0.389635294675827, "gold_first_logprob": -0.38955268263816833, "gold_first_rank": 1}
+{"index": 684, "id": "000-005188", "label": "modified", "gold": "mild", "gold_logprob": -2.2804863452911377, "gold_first_logprob": -2.272482395172119, "gold_first_rank": 2, "none_logprob": -0.397550106048584}
+{"index": 685, "id": "000-005203", "label": "clean", "gold": "none", "gold_logprob": -0.16469019651412964, "gold_first_logprob": -0.16462093591690063, "gold_first_rank": 1}
+{"index": 686, "id": "000-005205", "label": "modified", "gold": "Histor", "gold_logprob": -1.5267488956451416, "gold_first_logprob": -1.4401845932006836, "gold_first_rank": 2, "none_logprob": -5.565240383148193}
+{"index": 687, "id": "000-005206", "label": "clean", "gold": "none", "gold_logprob": -0.10713306069374084, "gold_first_logprob": -0.10705867409706116, "gold_first_rank": 1}
+{"index": 688, "id": "000-005223", "label": "modified", "gold": "progress", "gold_logprob": -3.7609987258911133, "gold_first_logprob": -3.5880727767944336, "gold_first_rank": 6, "none_logprob": -1.2131595611572266}
+{"index": 689, "id": "000-005252", "label": "modified", "gold": "U", "gold_logprob": -1.3883639574050903, "gold_first_logprob": -1.3826913833618164, "gold_first_rank": 2, "none_logprob": -0.5002013444900513}
+{"index": 690, "id": "000-005284", "label": "modified", "gold": "particularly", "gold_logprob": -0.5306382775306702, "gold_first_logprob": -0.5306083559989929, "gold_first_rank": 1, "none_logprob": -7.280628204345703}
+{"index": 691, "id": "000-005294", "label": "modified", "gold": "condition", "gold_logprob": -0.017343170940876007, "gold_first_logprob": -0.015394669026136398, "gold_first_rank": 1, "none_logprob": -6.8906779289245605}
+{"index": 692, "id": "000-005295", "label": "clean", "gold": "none", "gold_logprob": -0.11617492139339447, "gold_first_logprob": -0.11610029637813568, "gold_first_rank": 1}
+{"index": 693, "id": "000-005314", "label": "modified", "gold": "reassure", "gold_logprob": -6.260953903198242, "gold_first_logprob": -6.237551212310791, "gold_first_rank": 12, "none_logprob": -0.23766252398490906}
+{"index": 694, "id": "000-005324", "label": "clean", "gold": "none", "gold_logprob": -0.28229382634162903, "gold_first_logprob": -0.2821573317050934, "gold_first_rank": 1}
+{"index": 695, "id": "000-005325", "label": "modified", "gold": "states", "gold_logprob": -0.46646133065223694, "gold_first_logprob": -0.465781569480896, "gold_first_rank": 1, "none_logprob": -1.465847373008728}
+{"index": 696, "id": "000-005329", "label": "modified", "gold": "listed", "gold_logprob": -5.879240989685059, "gold_first_logprob": -5.878915309906006, "gold_first_rank": 20, "none_logprob": -0.5039892196655273}
+{"index": 697, "id": "000-005336", "label": "clean", "gold": "none", "gold_logprob": -0.05275680869817734, "gold_first_logprob": -0.05268373712897301, "gold_first_rank": 1}
+{"index": 698, "id": "000-005345", "label": "modified", "gold": "as", "gold_logprob": -0.0047175888903439045, "gold_first_logprob": -0.004407453816384077, "gold_first_rank": 1, "none_logprob": -6.629513740539551}
+{"index": 699, "id": "000-005352", "label": "clean", "gold": "none", "gold_logprob": -0.28230661153793335, "gold_first_logprob": -0.2822040915489197, "gold_first_rank": 1}
+{"index": 700, "id": "000-005362", "label": "clean", "gold": "none", "gold_logprob": -0.25461143255233765, "gold_first_logprob": -0.254533588886261, "gold_first_rank": 1}
+{"index": 701, "id": "000-005380", "label": "clean", "gold": "none", "gold_logprob": -0.15272566676139832, "gold_first_logprob": -0.1526641547679901, "gold_first_rank": 1}
+{"index": 702, "id": "000-005412", "label": "modified", "gold": "challenge", "gold_logprob": -2.9199440479278564, "gold_first_logprob": -2.9195733070373535, "gold_first_rank": 2, "none_logprob": -0.16965019702911377}
+{"index": 703, "id": "000-005424", "label": "modified", "gold": "sources", "gold_logprob": -0.3892309069633484, "gold_first_logprob": -0.3889494836330414, "gold_first_rank": 1, "none_logprob": -1.5140577554702759}
+{"index": 704, "id": "000-005430", "label": "modified", "gold": "only", "gold_logprob": -0.021536273881793022, "gold_first_logprob": -0.02145521342754364, "gold_first_rank": 1, "none_logprob": -3.896522283554077}
+{"index": 705, "id": "000-005436", "label": "modified", "gold": "influenced", "gold_logprob": -0.20668953657150269, "gold_first_logprob": -0.09175480902194977, "gold_first_rank": 1, "none_logprob": -2.5918595790863037}
+{"index": 706, "id": "000-005487", "label": "clean", "gold": "none", "gold_logprob": -0.4778907895088196, "gold_first_logprob": -0.47781234979629517, "gold_first_rank": 1}
+{"index": 707, "id": "000-005493", "label": "clean", "gold": "none", "gold_logprob": -0.19368234276771545, "gold_first_logprob": -0.19359412789344788, "gold_first_rank": 1}
+{"index": 708, "id": "000-005497", "label": "clean", "gold": "none", "gold_logprob": -0.12949925661087036, "gold_first_logprob": -0.1294308304786682, "gold_first_rank": 1}
+{"index": 709, "id": "000-005514", "label": "clean", "gold": "none", "gold_logprob": -0.32228145003318787, "gold_first_logprob": -0.32217273116111755, "gold_first_rank": 1}
+{"index": 710, "id": "000-005525", "label": "modified", "gold": "villagers", "gold_logprob": -4.296609878540039, "gold_first_logprob": -4.26010274887085, "gold_first_rank": 5, "none_logprob": -0.1351819932460785}
+{"index": 711, "id": "000-005526", "label": "clean", "gold": "none", "gold_logprob": -0.039045628160238266, "gold_first_logprob": -0.038958609104156494, "gold_first_rank": 1}
+{"index": 712, "id": "000-005568", "label": "modified", "gold": "streamlined", "gold_logprob": -0.7222287058830261, "gold_first_logprob": -0.43212199211120605, "gold_first_rank": 1, "none_logprob": -1.3072717189788818}
+{"index": 713, "id": "000-005570", "label": "modified", "gold": "simpl", "gold_logprob": -8.136415481567383, "gold_first_logprob": -7.6372575759887695, "gold_first_rank": 17, "none_logprob": -2.3249006271362305}
+{"index": 714, "id": "000-005577", "label": "clean", "gold": "none", "gold_logprob": -0.9763537645339966, "gold_first_logprob": -0.9762712717056274, "gold_first_rank": 1}
+{"index": 715, "id": "000-005591", "label": "clean", "gold": "none", "gold_logprob": -0.5866715312004089, "gold_first_logprob": -0.5865898728370667, "gold_first_rank": 1}
+{"index": 716, "id": "000-005596", "label": "modified", "gold": "could", "gold_logprob": -2.865128993988037, "gold_first_logprob": -2.864778995513916, "gold_first_rank": 3, "none_logprob": -0.8648607730865479}
+{"index": 717, "id": "000-005606", "label": "clean", "gold": "none", "gold_logprob": -2.127298355102539, "gold_first_logprob": -2.1272120475769043, "gold_first_rank": 2}
+{"index": 718, "id": "000-005611", "label": "modified", "gold": "skill", "gold_logprob": -1.4875386953353882, "gold_first_logprob": -1.4871340990066528, "gold_first_rank": 2, "none_logprob": -0.8622254133224487}
+{"index": 719, "id": "000-005612", "label": "modified", "gold": "mother", "gold_logprob": -1.5016597509384155, "gold_first_logprob": -1.5012134313583374, "gold_first_rank": 2, "none_logprob": -1.001287817955017}
+{"index": 720, "id": "000-005619", "label": "modified", "gold": "Ref", "gold_logprob": -0.06668869405984879, "gold_first_logprob": -0.045287299901247025, "gold_first_rank": 1, "none_logprob": -5.048840045928955}
+{"index": 721, "id": "000-005633", "label": "modified", "gold": "These", "gold_logprob": -0.10082346946001053, "gold_first_logprob": -0.1006828099489212, "gold_first_rank": 1, "none_logprob": -3.6007375717163086}
+{"index": 722, "id": "000-005654", "label": "modified", "gold": "starting", "gold_logprob": -0.1060425415635109, "gold_first_logprob": -0.10581547021865845, "gold_first_rank": 1, "none_logprob": -3.7309157848358154}
+{"index": 723, "id": "000-005655", "label": "clean", "gold": "none", "gold_logprob": -0.37612831592559814, "gold_first_logprob": -0.3760032653808594, "gold_first_rank": 1}
+{"index": 724, "id": "000-005657", "label": "clean", "gold": "none", "gold_logprob": -0.7919787168502808, "gold_first_logprob": -0.7919163703918457, "gold_first_rank": 1}
+{"index": 725, "id": "000-005661", "label": "clean", "gold": "none", "gold_logprob": -0.09535476565361023, "gold_first_logprob": -0.09526631236076355, "gold_first_rank": 1}
+{"index": 726, "id": "000-005678", "label": "modified", "gold": "the", "gold_logprob": -0.31319719552993774, "gold_first_logprob": -0.3122519552707672, "gold_first_rank": 1, "none_logprob": -1.8123842477798462}
+{"index": 727, "id": "000-005688", "label": "modified", "gold": "noted", "gold_logprob": -0.12467410415410995, "gold_first_logprob": -0.12422844767570496, "gold_first_rank": 1, "none_logprob": -2.374432325363159}
+{"index": 728, "id": "000-005723", "label": "clean", "gold": "none", "gold_logprob": -0.3035723865032196, "gold_first_logprob": -0.3034972846508026, "gold_first_rank": 1}
+{"index": 729, "id": "000-005727", "label": "clean", "gold": "none", "gold_logprob": -0.30004584789276123, "gold_first_logprob": -0.2999880313873291, "gold_first_rank": 1}
+{"index": 730, "id": "000-005737", "label": "clean", "gold": "none", "gold_logprob": -0.2859008014202118, "gold_first_logprob": -0.2858138978481293, "gold_first_rank": 1}
+{"index": 731, "id": "000-005761", "label": "clean", "gold": "none", "gold_logprob": -0.23965167999267578, "gold_first_logprob": -0.23956716060638428, "gold_first_rank": 1}
+{"index": 732, "id": "000-005770", "label": "clean", "gold": "none", "gold_logprob": -2.976996898651123, "gold_first_logprob": -2.9769506454467773, "gold_first_rank": 3}
+{"index": 733, "id": "000-005773", "label": "modified", "gold": "well", "gold_logprob": -0.7109483480453491, "gold_first_logprob": -0.710150420665741, "gold_first_rank": 1, "none_logprob": -1.8352855443954468}
+{"index": 734, "id": "000-005781", "label": "modified", "gold": "classic", "gold_logprob": -4.005436897277832, "gold_first_logprob": -4.00520658493042, "gold_first_rank": 3, "none_logprob": -0.13027219474315643}
+{"index": 735, "id": "000-005784", "label": "modified", "gold": "traditional", "gold_logprob": -0.4530429244041443, "gold_first_logprob": -0.45287054777145386, "gold_first_rank": 1, "none_logprob": -1.4529370069503784}
+{"index": 736, "id": "000-005806", "label": "modified", "gold": "feed", "gold_logprob": -0.09834951162338257, "gold_first_logprob": -0.0981648713350296, "gold_first_rank": 1, "none_logprob": -2.8478143215179443}
+{"index": 737, "id": "000-005811", "label": "modified", "gold": "using", "gold_logprob": -0.009714697487652302, "gold_first_logprob": -0.009400509297847748, "gold_first_rank": 1, "none_logprob": -5.134493827819824}
+{"index": 738, "id": "000-005821", "label": "modified", "gold": "more", "gold_logprob": -2.864994764328003, "gold_first_logprob": -2.864363670349121, "gold_first_rank": 2, "none_logprob": -0.36449670791625977}
+{"index": 739, "id": "000-005840", "label": "modified", "gold": "head", "gold_logprob": -1.8843259811401367, "gold_first_logprob": -1.8794622421264648, "gold_first_rank": 3, "none_logprob": -0.8795788288116455}
+{"index": 740, "id": "000-005871", "label": "modified", "gold": "surge", "gold_logprob": -0.6447550654411316, "gold_first_logprob": -0.6405980587005615, "gold_first_rank": 1, "none_logprob": -1.1692057847976685}
+{"index": 741, "id": "000-005889", "label": "modified", "gold": "spor", "gold_logprob": -0.3172893226146698, "gold_first_logprob": -0.316445529460907, "gold_first_rank": 1, "none_logprob": -1.5665535926818848}
+{"index": 742, "id": "000-005893", "label": "clean", "gold": "none", "gold_logprob": -0.556654691696167, "gold_first_logprob": -0.5565793514251709, "gold_first_rank": 1}
+{"index": 743, "id": "000-005897", "label": "clean", "gold": "none", "gold_logprob": -0.8493566513061523, "gold_first_logprob": -0.8492540121078491, "gold_first_rank": 1}
+{"index": 744, "id": "000-005899", "label": "clean", "gold": "none", "gold_logprob": -0.27940085530281067, "gold_first_logprob": -0.27931931614875793, "gold_first_rank": 1}
+{"index": 745, "id": "000-005900", "label": "modified", "gold": "tree", "gold_logprob": -7.429845333099365, "gold_first_logprob": -7.42966365814209, "gold_first_rank": 18, "none_logprob": -0.17972160875797272}
+{"index": 746, "id": "000-005906", "label": "modified", "gold": "promote", "gold_logprob": -0.19028621912002563, "gold_first_logprob": -0.18571963906288147, "gold_first_rank": 1, "none_logprob": -2.9358222484588623}
+{"index": 747, "id": "000-005909", "label": "clean", "gold": "none", "gold_logprob": -0.23882421851158142, "gold_first_logprob": -0.238729327917099, "gold_first_rank": 1}
+{"index": 748, "id": "000-005913", "label": "clean", "gold": "none", "gold_logprob": -0.2435307800769806, "gold_first_logprob": -0.24339382350444794, "gold_first_rank": 1}
+{"index": 749, "id": "000-005915", "label": "modified", "gold": "vast", "gold_logprob": -8.621760368347168, "gold_first_logprob": -8.621225357055664, "gold_first_rank": 24, "none_logprob": -0.12130700796842575}
+{"index": 750, "id": "000-005933", "label": "clean", "gold": "none", "gold_logprob": -0.08578722178936005, "gold_first_logprob": -0.08568983525037766, "gold_first_rank": 1}
+{"index": 751, "id": "000-005934", "label": "modified", "gold": "foundational", "gold_logprob": -0.5932798981666565, "gold_first_logprob": -0.5871917605400085, "gold_first_rank": 1, "none_logprob": -1.152228593826294}
+{"index": 752, "id": "000-005947", "label": "modified", "gold": "if", "gold_logprob": -1.1387518644332886, "gold_first_logprob": -1.138530969619751, "gold_first_rank": 2, "none_logprob": -0.8886269330978394}
+{"index": 753, "id": "000-005969", "label": "clean", "gold": "none", "gold_logprob": -0.3645687699317932, "gold_first_logprob": -0.36447757482528687, "gold_first_rank": 1}
+{"index": 754, "id": "000-005996", "label": "clean", "gold": "none", "gold_logprob": -0.04848901927471161, "gold_first_logprob": -0.048418570309877396, "gold_first_rank": 1}
+{"index": 755, "id": "000-005998", "label": "clean", "gold": "none", "gold_logprob": -0.22042599320411682, "gold_first_logprob": -0.22032490372657776, "gold_first_rank": 1}
+{"index": 756, "id": "000-005999", "label": "modified", "gold": "Taken", "gold_logprob": -2.2229623794555664, "gold_first_logprob": -2.22265625, "gold_first_rank": 2, "none_logprob": -0.34770894050598145}
+{"index": 757, "id": "000-006025", "label": "clean", "gold": "none", "gold_logprob": -0.09547491371631622, "gold_first_logprob": -0.0954023152589798, "gold_first_rank": 1}
+{"index": 758, "id": "000-006028", "label": "modified", "gold": "classification", "gold_logprob": -0.10089350491762161, "gold_first_logprob": -0.10071029514074326, "gold_first_rank": 1, "none_logprob": -2.475968837738037}
+{"index": 759, "id": "000-006057", "label": "clean", "gold": "none", "gold_logprob": -0.9970564246177673, "gold_first_logprob": -0.9968685507774353, "gold_first_rank": 2}
+{"index": 760, "id": "000-006069", "label": "modified", "gold": "grow", "gold_logprob": -9.785049438476562, "gold_first_logprob": -9.783987998962402, "gold_first_rank": 160, "none_logprob": -0.5965728163719177}
+{"index": 761, "id": "000-006070", "label": "clean", "gold": "none", "gold_logprob": -0.8993532657623291, "gold_first_logprob": -0.899262547492981, "gold_first_rank": 2}
+{"index": 762, "id": "000-006094", "label": "modified", "gold": "vehicles", "gold_logprob": -0.07157061249017715, "gold_first_logprob": -0.07135403156280518, "gold_first_rank": 1, "none_logprob": -4.427496910095215}
+{"index": 763, "id": "000-006099", "label": "clean", "gold": "none", "gold_logprob": -0.15015184879302979, "gold_first_logprob": -0.15004360675811768, "gold_first_rank": 1}
+{"index": 764, "id": "000-006103", "label": "modified", "gold": "Work", "gold_logprob": -2.8476791381835938, "gold_first_logprob": -2.846289873123169, "gold_first_rank": 2, "none_logprob": -0.34638339281082153}
+{"index": 765, "id": "000-006104", "label": "clean", "gold": "none", "gold_logprob": -0.16177034378051758, "gold_first_logprob": -0.16167962551116943, "gold_first_rank": 1}
+{"index": 766, "id": "000-006109", "label": "modified", "gold": "categorized", "gold_logprob": -0.2591138482093811, "gold_first_logprob": -0.2579593062400818, "gold_first_rank": 1, "none_logprob": -2.883016347885132}
+{"index": 767, "id": "000-006112", "label": "modified", "gold": "its", "gold_logprob": -1.3527158498764038, "gold_first_logprob": -1.352449893951416, "gold_first_rank": 2, "none_logprob": -2.867011547088623}
+{"index": 768, "id": "000-006126", "label": "clean", "gold": "none", "gold_logprob": -0.06287725269794464, "gold_first_logprob": -0.06282015144824982, "gold_first_rank": 1}
+{"index": 769, "id": "000-006147", "label": "modified", "gold": "prominently", "gold_logprob": -2.3089940547943115, "gold_first_logprob": -2.3050951957702637, "gold_first_rank": 3, "none_logprob": -0.6802375912666321}
+{"index": 770, "id": "000-006164", "label": "clean", "gold": "none", "gold_logprob": -0.1135282963514328, "gold_first_logprob": -0.1133996769785881, "gold_first_rank": 1}
+{"index": 771, "id": "000-006174", "label": "clean", "gold": "none", "gold_logprob": -0.1859772652387619, "gold_first_logprob": -0.18584269285202026, "gold_first_rank": 1}
+{"index": 772, "id": "000-006178", "label": "clean", "gold": "none", "gold_logprob": -0.14296506345272064, "gold_first_logprob": -0.1429123729467392, "gold_first_rank": 1}
+{"index": 773, "id": "000-006182", "label": "clean", "gold": "none", "gold_logprob": -0.2727767825126648, "gold_first_logprob": -0.27269047498703003, "gold_first_rank": 1}
+{"index": 774, "id": "000-006188", "label": "clean", "gold": "none", "gold_logprob": -0.6726450324058533, "gold_first_logprob": -0.6725606322288513, "gold_first_rank": 1}
+{"index": 775, "id": "000-006198", "label": "clean", "gold": "none", "gold_logprob": -0.38001030683517456, "gold_first_logprob": -0.37994128465652466, "gold_first_rank": 1}
+{"index": 776, "id": "000-006236", "label": "clean", "gold": "none", "gold_logprob": -0.21078382432460785, "gold_first_logprob": -0.21070073544979095, "gold_first_rank": 1}
+{"index": 777, "id": "000-006248", "label": "clean", "gold": "none", "gold_logprob": -0.22771932184696198, "gold_first_logprob": -0.22764219343662262, "gold_first_rank": 1}
+{"index": 778, "id": "000-006269", "label": "clean", "gold": "none", "gold_logprob": -1.4605292081832886, "gold_first_logprob": -1.4603235721588135, "gold_first_rank": 2}
+{"index": 779, "id": "000-006281", "label": "clean", "gold": "none", "gold_logprob": -0.7655013203620911, "gold_first_logprob": -0.7653905749320984, "gold_first_rank": 1}
+{"index": 780, "id": "000-006289", "label": "clean", "gold": "none", "gold_logprob": -0.2536754012107849, "gold_first_logprob": -0.253553569316864, "gold_first_rank": 1}
+{"index": 781, "id": "000-006311", "label": "clean", "gold": "none", "gold_logprob": -0.07955657690763474, "gold_first_logprob": -0.07944273948669434, "gold_first_rank": 1}
+{"index": 782, "id": "000-006327", "label": "clean", "gold": "none", "gold_logprob": -0.3031461238861084, "gold_first_logprob": -0.3030664920806885, "gold_first_rank": 1}
+{"index": 783, "id": "000-006329", "label": "clean", "gold": "none", "gold_logprob": -0.5292447209358215, "gold_first_logprob": -0.5291430354118347, "gold_first_rank": 1}
+{"index": 784, "id": "000-006353", "label": "clean", "gold": "none", "gold_logprob": -0.16193759441375732, "gold_first_logprob": -0.1618635654449463, "gold_first_rank": 1}
+{"index": 785, "id": "000-006376", "label": "clean", "gold": "none", "gold_logprob": -0.3978343904018402, "gold_first_logprob": -0.3977578580379486, "gold_first_rank": 1}
+{"index": 786, "id": "000-006411", "label": "modified", "gold": "each", "gold_logprob": -0.3421671390533447, "gold_first_logprob": -0.3417454659938812, "gold_first_rank": 1, "none_logprob": -1.591851830482483}
+{"index": 787, "id": "000-006422", "label": "clean", "gold": "none", "gold_logprob": -0.3191671073436737, "gold_first_logprob": -0.31908175349235535, "gold_first_rank": 1}
+{"index": 788, "id": "000-006424", "label": "clean", "gold": "none", "gold_logprob": -0.4005701243877411, "gold_first_logprob": -0.400447815656662, "gold_first_rank": 1}
+{"index": 789, "id": "000-006425", "label": "clean", "gold": "none", "gold_logprob": -0.14221835136413574, "gold_first_logprob": -0.1421433687210083, "gold_first_rank": 1}
+{"index": 790, "id": "000-006438", "label": "clean", "gold": "none", "gold_logprob": -0.30150890350341797, "gold_first_logprob": -0.30141353607177734, "gold_first_rank": 1}
+{"index": 791, "id": "000-006457", "label": "modified", "gold": "until", "gold_logprob": -0.017848754301667213, "gold_first_logprob": -0.017638489603996277, "gold_first_rank": 1, "none_logprob": -4.767789363861084}
+{"index": 792, "id": "000-006470", "label": "clean", "gold": "none", "gold_logprob": -0.1889716386795044, "gold_first_logprob": -0.18885493278503418, "gold_first_rank": 1}
+{"index": 793, "id": "000-006486", "label": "modified", "gold": "advanced", "gold_logprob": -0.04984518513083458, "gold_first_logprob": -0.04966972395777702, "gold_first_rank": 1, "none_logprob": -4.049726486206055}
+{"index": 794, "id": "000-006513", "label": "clean", "gold": "none", "gold_logprob": -0.16266348958015442, "gold_first_logprob": -0.16260793805122375, "gold_first_rank": 1}
+{"index": 795, "id": "000-006516", "label": "modified", "gold": "two", "gold_logprob": -0.6979377865791321, "gold_first_logprob": -0.6977943778038025, "gold_first_rank": 1, "none_logprob": -0.9478520750999451}
+{"index": 796, "id": "000-006522", "label": "modified", "gold": "emerging", "gold_logprob": -0.4019984006881714, "gold_first_logprob": -0.4011514186859131, "gold_first_rank": 1, "none_logprob": -1.401315450668335}
+{"index": 797, "id": "000-006543", "label": "modified", "gold": "as", "gold_logprob": -0.48789241909980774, "gold_first_logprob": -0.4871821701526642, "gold_first_rank": 1, "none_logprob": -1.487311601638794}
+{"index": 798, "id": "000-006566", "label": "clean", "gold": "none", "gold_logprob": -0.10398349910974503, "gold_first_logprob": -0.10393271595239639, "gold_first_rank": 1}
+{"index": 799, "id": "000-006581", "label": "clean", "gold": "none", "gold_logprob": -0.08212269097566605, "gold_first_logprob": -0.08200336992740631, "gold_first_rank": 1}
+{"index": 800, "id": "000-006585", "label": "clean", "gold": "none", "gold_logprob": -0.24046289920806885, "gold_first_logprob": -0.2403724193572998, "gold_first_rank": 1}
+{"index": 801, "id": "000-006596", "label": "modified", "gold": "LE", "gold_logprob": -2.0316851139068604, "gold_first_logprob": -2.0266737937927246, "gold_first_rank": 2, "none_logprob": -0.27683138847351074}
+{"index": 802, "id": "000-006616", "label": "clean", "gold": "none", "gold_logprob": -0.7814227342605591, "gold_first_logprob": -0.7813246250152588, "gold_first_rank": 1}
+{"index": 803, "id": "000-006624", "label": "modified", "gold": "named", "gold_logprob": -2.3500499725341797, "gold_first_logprob": -2.3496909141540527, "gold_first_rank": 3, "none_logprob": -0.4747527837753296}
+{"index": 804, "id": "000-006634", "label": "clean", "gold": "none", "gold_logprob": -0.18920639157295227, "gold_first_logprob": -0.189121276140213, "gold_first_rank": 1}
+{"index": 805, "id": "000-006647", "label": "modified", "gold": "whereas", "gold_logprob": -0.11965301632881165, "gold_first_logprob": -0.11942021548748016, "gold_first_rank": 1, "none_logprob": -3.4945316314697266}
+{"index": 806, "id": "000-006648", "label": "clean", "gold": "none", "gold_logprob": -3.3242456912994385, "gold_first_logprob": -3.3240044116973877, "gold_first_rank": 2}
+{"index": 807, "id": "000-006651", "label": "modified", "gold": "to", "gold_logprob": -0.010585014708340168, "gold_first_logprob": -0.008738255128264427, "gold_first_rank": 1, "none_logprob": -5.509056568145752}
+{"index": 808, "id": "000-006654", "label": "clean", "gold": "none", "gold_logprob": -0.27094143629074097, "gold_first_logprob": -0.2708650231361389, "gold_first_rank": 1}
+{"index": 809, "id": "000-006657", "label": "modified", "gold": "or", "gold_logprob": -0.6918641328811646, "gold_first_logprob": -0.6916544437408447, "gold_first_rank": 1, "none_logprob": -1.1917122602462769}
+{"index": 810, "id": "000-006664", "label": "clean", "gold": "none", "gold_logprob": -0.8431940674781799, "gold_first_logprob": -0.8430952429771423, "gold_first_rank": 1}
+{"index": 811, "id": "000-006665", "label": "modified", "gold": "multicultural", "gold_logprob": -5.637539386749268, "gold_first_logprob": -5.63625955581665, "gold_first_rank": 7, "none_logprob": -0.13637781143188477}
+{"index": 812, "id": "000-006688", "label": "modified", "gold": "miniature", "gold_logprob": -5.879271507263184, "gold_first_logprob": -5.878365516662598, "gold_first_rank": 17, "none_logprob": -1.003512978553772}
+{"index": 813, "id": "000-006692", "label": "clean", "gold": "none", "gold_logprob": -0.24233636260032654, "gold_first_logprob": -0.24227294325828552, "gold_first_rank": 1}
+{"index": 814, "id": "000-006700", "label": "clean", "gold": "none", "gold_logprob": -0.3271732032299042, "gold_first_logprob": -0.32704660296440125, "gold_first_rank": 1}
+{"index": 815, "id": "000-006701", "label": "modified", "gold": "through", "gold_logprob": -0.05783824995160103, "gold_first_logprob": -0.00033825874561443925, "gold_first_rank": 1, "none_logprob": -9.250490188598633}
+{"index": 816, "id": "000-006710", "label": "clean", "gold": "none", "gold_logprob": -0.4342139661312103, "gold_first_logprob": -0.4341377913951874, "gold_first_rank": 1}
+{"index": 817, "id": "000-006725", "label": "modified", "gold": "volcanic", "gold_logprob": -7.291088581085205, "gold_first_logprob": -7.121809005737305, "gold_first_rank": 24, "none_logprob": -0.3094186782836914}
+{"index": 818, "id": "000-006735", "label": "modified", "gold": "Rin", "gold_logprob": -1.1256937980651855, "gold_first_logprob": -1.1179521083831787, "gold_first_rank": 2, "none_logprob": -0.8680436611175537}
+{"index": 819, "id": "000-006739", "label": "modified", "gold": "growth", "gold_logprob": -1.728104591369629, "gold_first_logprob": -1.7278950214385986, "gold_first_rank": 2, "none_logprob": -0.7279672026634216}
+{"index": 820, "id": "000-006742", "label": "clean", "gold": "none", "gold_logprob": -0.06433020532131195, "gold_first_logprob": -0.06425879895687103, "gold_first_rank": 1}
+{"index": 821, "id": "000-006745", "label": "modified", "gold": "Central", "gold_logprob": -0.8500746488571167, "gold_first_logprob": -0.849666178226471, "gold_first_rank": 1, "none_logprob": -1.0997356176376343}
+{"index": 822, "id": "000-006766", "label": "clean", "gold": "none", "gold_logprob": -0.07222090661525726, "gold_first_logprob": -0.07215546071529388, "gold_first_rank": 1}
+{"index": 823, "id": "000-006785", "label": "clean", "gold": "none", "gold_logprob": -0.5415723323822021, "gold_first_logprob": -0.5415018796920776, "gold_first_rank": 1}
+{"index": 824, "id": "000-006806", "label": "clean", "gold": "none", "gold_logprob": -0.1511448323726654, "gold_first_logprob": -0.1510774791240692, "gold_first_rank": 1}
+{"index": 825, "id": "000-006807", "label": "modified", "gold": "but", "gold_logprob": -0.9181821346282959, "gold_first_logprob": -0.9169903993606567, "gold_first_rank": 1, "none_logprob": -0.9171069860458374}
+{"index": 826, "id": "000-006816", "label": "clean", "gold": "none", "gold_logprob": -0.34748464822769165, "gold_first_logprob": -0.3474331498146057, "gold_first_rank": 1}
+{"index": 827, "id": "000-006821", "label": "modified", "gold": "tends", "gold_logprob": -0.12232828140258789, "gold_first_logprob": -0.1196514442563057, "gold_first_rank": 1, "none_logprob": -2.6197283267974854}
+{"index": 828, "id": "000-006822", "label": "clean", "gold": "none", "gold_logprob": -0.23177260160446167, "gold_first_logprob": -0.23170238733291626, "gold_first_rank": 1}
+{"index": 829, "id": "000-006825", "label": "modified", "gold": "From", "gold_logprob": -1.2346336841583252, "gold_first_logprob": -1.234544277191162, "gold_first_rank": 2, "none_logprob": -0.7346811294555664}
+{"index": 830, "id": "000-006833", "label": "modified", "gold": "independence", "gold_logprob": -6.861352443695068, "gold_first_logprob": -4.986138343811035, "gold_first_rank": 10, "none_logprob": -0.486283540725708}
+{"index": 831, "id": "000-006836", "label": "clean", "gold": "none", "gold_logprob": -0.5592911243438721, "gold_first_logprob": -0.5591362714767456, "gold_first_rank": 1}
+{"index": 832, "id": "000-006846", "label": "clean", "gold": "none", "gold_logprob": -0.4793757498264313, "gold_first_logprob": -0.4793016016483307, "gold_first_rank": 1}
+{"index": 833, "id": "000-006854", "label": "clean", "gold": "none", "gold_logprob": -0.7784700393676758, "gold_first_logprob": -0.7783160209655762, "gold_first_rank": 1}
+{"index": 834, "id": "000-006859", "label": "modified", "gold": "Southeast", "gold_logprob": -7.741346836090088, "gold_first_logprob": -7.739625930786133, "gold_first_rank": 6, "none_logprob": -3.3021655082702637}
+{"index": 835, "id": "000-006877", "label": "modified", "gold": "emphasizes", "gold_logprob": -10.96631145477295, "gold_first_logprob": -8.209646224975586, "gold_first_rank": 13, "none_logprob": -1.6472593545913696}
+{"index": 836, "id": "000-006884", "label": "clean", "gold": "none", "gold_logprob": -0.16140161454677582, "gold_first_logprob": -0.1613076776266098, "gold_first_rank": 1}
+{"index": 837, "id": "000-006890", "label": "clean", "gold": "none", "gold_logprob": -0.06788156181573868, "gold_first_logprob": -0.06774793565273285, "gold_first_rank": 1}
+{"index": 838, "id": "000-006910", "label": "clean", "gold": "none", "gold_logprob": -2.956663131713867, "gold_first_logprob": -2.956479549407959, "gold_first_rank": 3}
+{"index": 839, "id": "000-006930", "label": "clean", "gold": "none", "gold_logprob": -0.16175515949726105, "gold_first_logprob": -0.16170497238636017, "gold_first_rank": 1}
+{"index": 840, "id": "000-006957", "label": "clean", "gold": "none", "gold_logprob": -0.2800929844379425, "gold_first_logprob": -0.28003016114234924, "gold_first_rank": 1}
+{"index": 841, "id": "000-006958", "label": "modified", "gold": "luxurious", "gold_logprob": -5.2536115646362305, "gold_first_logprob": -5.1109089851379395, "gold_first_rank": 4, "none_logprob": -2.861039876937866}
+{"index": 842, "id": "000-006979", "label": "clean", "gold": "none", "gold_logprob": -0.6098293662071228, "gold_first_logprob": -0.6096394658088684, "gold_first_rank": 1}
+{"index": 843, "id": "000-006982", "label": "modified", "gold": "yet", "gold_logprob": -0.07476242631673813, "gold_first_logprob": -0.0745379775762558, "gold_first_rank": 1, "none_logprob": -3.1996335983276367}
+{"index": 844, "id": "000-006983", "label": "clean", "gold": "none", "gold_logprob": -0.28526997566223145, "gold_first_logprob": -0.2851513624191284, "gold_first_rank": 1}
+{"index": 845, "id": "000-006991", "label": "clean", "gold": "none", "gold_logprob": -0.41598501801490784, "gold_first_logprob": -0.41590049862861633, "gold_first_rank": 1}
+{"index": 846, "id": "000-006993", "label": "clean", "gold": "none", "gold_logprob": -0.1172809824347496, "gold_first_logprob": -0.1171657145023346, "gold_first_rank": 1}
+{"index": 847, "id": "000-006997", "label": "clean", "gold": "none", "gold_logprob": -0.39482682943344116, "gold_first_logprob": -0.3947339653968811, "gold_first_rank": 1}
+{"index": 848, "id": "000-006999", "label": "clean", "gold": "none", "gold_logprob": -0.16569922864437103, "gold_first_logprob": -0.16563652455806732, "gold_first_rank": 1}
+{"index": 849, "id": "000-007009", "label": "clean", "gold": "none", "gold_logprob": -0.23110568523406982, "gold_first_logprob": -0.23100650310516357, "gold_first_rank": 1}
+{"index": 850, "id": "000-007012", "label": "modified", "gold": "them", "gold_logprob": -4.005675315856934, "gold_first_logprob": -4.005569934844971, "gold_first_rank": 3, "none_logprob": -0.13070188462734222}
+{"index": 851, "id": "000-007016", "label": "modified", "gold": "one", "gold_logprob": -4.7436699867248535, "gold_first_logprob": -4.743222236633301, "gold_first_rank": 6, "none_logprob": -1.1183046102523804}
+{"index": 852, "id": "000-007024", "label": "modified", "gold": "thumb", "gold_logprob": -1.7404066324234009, "gold_first_logprob": -1.7398808002471924, "gold_first_rank": 3, "none_logprob": -0.9899450540542603}
+{"index": 853, "id": "000-007048", "label": "clean", "gold": "none", "gold_logprob": -0.17411714792251587, "gold_first_logprob": -0.17404812574386597, "gold_first_rank": 1}
+{"index": 854, "id": "000-007051", "label": "modified", "gold": "integrates", "gold_logprob": -1.6826467514038086, "gold_first_logprob": -1.6522903442382812, "gold_first_rank": 2, "none_logprob": -0.902435302734375}
+{"index": 855, "id": "000-007056", "label": "clean", "gold": "none", "gold_logprob": -1.0065993070602417, "gold_first_logprob": -1.0065181255340576, "gold_first_rank": 1}
+{"index": 856, "id": "000-007062", "label": "modified", "gold": "made", "gold_logprob": -0.7782840728759766, "gold_first_logprob": -0.7779485583305359, "gold_first_rank": 1, "none_logprob": -0.7780395150184631}
+{"index": 857, "id": "000-007093", "label": "clean", "gold": "none", "gold_logprob": -0.2058546394109726, "gold_first_logprob": -0.20575354993343353, "gold_first_rank": 1}
+{"index": 858, "id": "000-007111", "label": "clean", "gold": "none", "gold_logprob": -1.0864866971969604, "gold_first_logprob": -1.086411714553833, "gold_first_rank": 2}
+{"index": 859, "id": "000-007126", "label": "modified", "gold": "Reds", "gold_logprob": -2.1616594791412354, "gold_first_logprob": -1.9085862636566162, "gold_first_rank": 2, "none_logprob": -0.9086930751800537}
+{"index": 860, "id": "000-007143", "label": "clean", "gold": "none", "gold_logprob": -0.16846410930156708, "gold_first_logprob": -0.16834644973278046, "gold_first_rank": 1}
+{"index": 861, "id": "000-007159", "label": "clean", "gold": "none", "gold_logprob": -0.7230055332183838, "gold_first_logprob": -0.7229077816009521, "gold_first_rank": 1}
+{"index": 862, "id": "000-007175", "label": "clean", "gold": "none", "gold_logprob": -0.1340533345937729, "gold_first_logprob": -0.13396047055721283, "gold_first_rank": 1}
+{"index": 863, "id": "000-007183", "label": "modified", "gold": "positioning", "gold_logprob": -0.9278204441070557, "gold_first_logprob": -0.9248523116111755, "gold_first_rank": 1, "none_logprob": -0.9249576926231384}
+{"index": 864, "id": "000-007202", "label": "modified", "gold": "mastery", "gold_logprob": -0.21174603700637817, "gold_first_logprob": -0.2109374850988388, "gold_first_rank": 1, "none_logprob": -2.836129665374756}
+{"index": 865, "id": "000-007207", "label": "modified", "gold": "slight", "gold_logprob": -0.8751134872436523, "gold_first_logprob": -0.8639910221099854, "gold_first_rank": 1, "none_logprob": -1.1141185760498047}
+{"index": 866, "id": "000-007228", "label": "clean", "gold": "none", "gold_logprob": -0.264925092458725, "gold_first_logprob": -0.2648368775844574, "gold_first_rank": 1}
+{"index": 867, "id": "000-007236", "label": "clean", "gold": "none", "gold_logprob": -0.23852235078811646, "gold_first_logprob": -0.23843127489089966, "gold_first_rank": 1}
+{"index": 868, "id": "000-007237", "label": "modified", "gold": "works", "gold_logprob": -5.497397422790527, "gold_first_logprob": -5.4970550537109375, "gold_first_rank": 8, "none_logprob": -0.24713928997516632}
+{"index": 869, "id": "000-007251", "label": "clean", "gold": "none", "gold_logprob": -0.32298797369003296, "gold_first_logprob": -0.3229265809059143, "gold_first_rank": 1}
+{"index": 870, "id": "000-007254", "label": "modified", "gold": "characters", "gold_logprob": -0.7970669269561768, "gold_first_logprob": -0.7968648672103882, "gold_first_rank": 1, "none_logprob": -1.6719459295272827}
+{"index": 871, "id": "000-007257", "label": "clean", "gold": "none", "gold_logprob": -0.21103718876838684, "gold_first_logprob": -0.21096673607826233, "gold_first_rank": 1}
+{"index": 872, "id": "000-007264", "label": "modified", "gold": "emerging", "gold_logprob": -4.252352237701416, "gold_first_logprob": -4.251691818237305, "gold_first_rank": 6, "none_logprob": -0.5017939209938049}
+{"index": 873, "id": "000-007267", "label": "clean", "gold": "none", "gold_logprob": -0.2000478357076645, "gold_first_logprob": -0.19999609887599945, "gold_first_rank": 1}
+{"index": 874, "id": "000-007269", "label": "clean", "gold": "none", "gold_logprob": -0.17903515696525574, "gold_first_logprob": -0.17898234724998474, "gold_first_rank": 1}
+{"index": 875, "id": "000-007270", "label": "modified", "gold": "inside", "gold_logprob": -0.3602081835269928, "gold_first_logprob": -0.36009135842323303, "gold_first_rank": 1, "none_logprob": -1.3601876497268677}
+{"index": 876, "id": "000-007277", "label": "clean", "gold": "none", "gold_logprob": -0.19700555503368378, "gold_first_logprob": -0.19691674411296844, "gold_first_rank": 1}
+{"index": 877, "id": "000-007316", "label": "modified", "gold": "not", "gold_logprob": -0.0992622897028923, "gold_first_logprob": -0.09748394787311554, "gold_first_rank": 1, "none_logprob": -2.597649574279785}
+{"index": 878, "id": "000-007339", "label": "clean", "gold": "none", "gold_logprob": -2.213073968887329, "gold_first_logprob": -2.2129619121551514, "gold_first_rank": 2}
+{"index": 879, "id": "000-007341", "label": "clean", "gold": "none", "gold_logprob": -0.0972110703587532, "gold_first_logprob": -0.09710831940174103, "gold_first_rank": 1}
+{"index": 880, "id": "000-007354", "label": "modified", "gold": "part", "gold_logprob": -0.9535471200942993, "gold_first_logprob": -0.9496288299560547, "gold_first_rank": 2, "none_logprob": -0.8247827291488647}
+{"index": 881, "id": "000-007366", "label": "modified", "gold": "Unlike", "gold_logprob": -1.0519838333129883, "gold_first_logprob": -1.0517977476119995, "gold_first_rank": 1, "none_logprob": -2.3643569946289062}
+{"index": 882, "id": "000-007369", "label": "modified", "gold": "created", "gold_logprob": -0.04027630016207695, "gold_first_logprob": -0.0401240810751915, "gold_first_rank": 1, "none_logprob": -4.165175914764404}
+{"index": 883, "id": "000-007398", "label": "clean", "gold": "none", "gold_logprob": -0.16575311124324799, "gold_first_logprob": -0.16567157208919525, "gold_first_rank": 1}
+{"index": 884, "id": "000-007405", "label": "modified", "gold": "a", "gold_logprob": -0.22817255556583405, "gold_first_logprob": -0.2268213927745819, "gold_first_rank": 1, "none_logprob": -2.22691011428833}
+{"index": 885, "id": "000-007420", "label": "clean", "gold": "none", "gold_logprob": -0.7173811197280884, "gold_first_logprob": -0.7172340154647827, "gold_first_rank": 1}
+{"index": 886, "id": "000-007421", "label": "modified", "gold": "tailored", "gold_logprob": -1.1748101711273193, "gold_first_logprob": -1.1655340194702148, "gold_first_rank": 1, "none_logprob": -1.7905964851379395}
+{"index": 887, "id": "000-007426", "label": "clean", "gold": "none", "gold_logprob": -0.652061939239502, "gold_first_logprob": -0.6519725322723389, "gold_first_rank": 1}
+{"index": 888, "id": "000-007432", "label": "modified", "gold": "creation", "gold_logprob": -0.136577308177948, "gold_first_logprob": -0.1363200843334198, "gold_first_rank": 1, "none_logprob": -2.1652815341949463}
+{"index": 889, "id": "000-007433", "label": "clean", "gold": "none", "gold_logprob": -0.6426228284835815, "gold_first_logprob": -0.6425149440765381, "gold_first_rank": 1}
+{"index": 890, "id": "000-007440", "label": "modified", "gold": "Enh", "gold_logprob": -0.4484795928001404, "gold_first_logprob": -0.4372521936893463, "gold_first_rank": 1, "none_logprob": -1.1873260736465454}
+{"index": 891, "id": "000-007454", "label": "modified", "gold": "about", "gold_logprob": -4.131953239440918, "gold_first_logprob": -4.131630897521973, "gold_first_rank": 5, "none_logprob": -0.38171765208244324}
+{"index": 892, "id": "000-007488", "label": "clean", "gold": "none", "gold_logprob": -0.20689690113067627, "gold_first_logprob": -0.20670904219150543, "gold_first_rank": 1}
+{"index": 893, "id": "000-007502", "label": "clean", "gold": "none", "gold_logprob": -0.6908057332038879, "gold_first_logprob": -0.6907231211662292, "gold_first_rank": 1}
+{"index": 894, "id": "000-007504", "label": "clean", "gold": "none", "gold_logprob": -0.15376441180706024, "gold_first_logprob": -0.15359443426132202, "gold_first_rank": 1}
+{"index": 895, "id": "000-007505", "label": "modified", "gold": "countdown", "gold_logprob": -1.659582495689392, "gold_first_logprob": -1.6571853160858154, "gold_first_rank": 2, "none_logprob": -0.6572935581207275}
+{"index": 896, "id": "000-007506", "label": "clean", "gold": "none", "gold_logprob": -0.1096227765083313, "gold_first_logprob": -0.10955435037612915, "gold_first_rank": 1}
+{"index": 897, "id": "000-007507", "label": "modified", "gold": "variation", "gold_logprob": -5.979643821716309, "gold_first_logprob": -5.979456424713135, "gold_first_rank": 8, "none_logprob": -1.6045328378677368}
+{"index": 898, "id": "000-007516", "label": "clean", "gold": "none", "gold_logprob": -0.6805140376091003, "gold_first_logprob": -0.6804507374763489, "gold_first_rank": 1}
+{"index": 899, "id": "000-007517", "label": "modified", "gold": "the", "gold_logprob": -0.064519964158535, "gold_first_logprob": -0.0634644404053688, "gold_first_rank": 1, "none_logprob": -3.313552141189575}
+{"index": 900, "id": "000-007529", "label": "clean", "gold": "none", "gold_logprob": -0.13796541094779968, "gold_first_logprob": -0.13789305090904236, "gold_first_rank": 1}
+{"index": 901, "id": "000-007541", "label": "clean", "gold": "none", "gold_logprob": -0.1371147781610489, "gold_first_logprob": -0.13705874979496002, "gold_first_rank": 1}
+{"index": 902, "id": "000-007555", "label": "clean", "gold": "none", "gold_logprob": -0.8998007774353027, "gold_first_logprob": -0.8996226787567139, "gold_first_rank": 1}
+{"index": 903, "id": "000-007570", "label": "modified", "gold": "fall", "gold_logprob": -0.008275110274553299, "gold_first_logprob": -0.008207639679312706, "gold_first_rank": 1, "none_logprob": -6.508224010467529}
+{"index": 904, "id": "000-007575", "label": "clean", "gold": "none", "gold_logprob": -0.08364689350128174, "gold_first_logprob": -0.08350957185029984, "gold_first_rank": 1}
+{"index": 905, "id": "000-007592", "label": "clean", "gold": "none", "gold_logprob": -0.07836385071277618, "gold_first_logprob": -0.07832057774066925, "gold_first_rank": 1}
+{"index": 906, "id": "000-007600", "label": "modified", "gold": "keyboard", "gold_logprob": -1.140845775604248, "gold_first_logprob": -1.1405844688415527, "gold_first_rank": 2, "none_logprob": -0.8906895518302917}
+{"index": 907, "id": "000-007607", "label": "clean", "gold": "none", "gold_logprob": -0.8940444588661194, "gold_first_logprob": -0.8938985466957092, "gold_first_rank": 2}
+{"index": 908, "id": "000-007610", "label": "modified", "gold": "Remaining", "gold_logprob": -0.9712733030319214, "gold_first_logprob": -0.9710235595703125, "gold_first_rank": 1, "none_logprob": -1.721147060394287}
+{"index": 909, "id": "000-007611", "label": "clean", "gold": "none", "gold_logprob": -0.12332943081855774, "gold_first_logprob": -0.12320689111948013, "gold_first_rank": 1}
+{"index": 910, "id": "000-007618", "label": "modified", "gold": "have", "gold_logprob": -6.549862861633301, "gold_first_logprob": -6.549302577972412, "gold_first_rank": 19, "none_logprob": -0.17442362010478973}
+{"index": 911, "id": "000-007638", "label": "clean", "gold": "none", "gold_logprob": -0.08415824174880981, "gold_first_logprob": -0.08411163091659546, "gold_first_rank": 1}
+{"index": 912, "id": "000-007648", "label": "clean", "gold": "none", "gold_logprob": -0.08322261273860931, "gold_first_logprob": -0.0831737369298935, "gold_first_rank": 1}
+{"index": 913, "id": "000-007652", "label": "clean", "gold": "none", "gold_logprob": -0.39041781425476074, "gold_first_logprob": -0.3903360366821289, "gold_first_rank": 1}
+{"index": 914, "id": "000-007654", "label": "clean", "gold": "none", "gold_logprob": -1.214026689529419, "gold_first_logprob": -1.2139517068862915, "gold_first_rank": 2}
+{"index": 915, "id": "000-007699", "label": "modified", "gold": "an", "gold_logprob": -0.2463381439447403, "gold_first_logprob": -0.24527975916862488, "gold_first_rank": 1, "none_logprob": -1.8704259395599365}
+{"index": 916, "id": "000-007706", "label": "clean", "gold": "none", "gold_logprob": -0.18810221552848816, "gold_first_logprob": -0.18804392218589783, "gold_first_rank": 1}
+{"index": 917, "id": "000-007707", "label": "modified", "gold": "consisting", "gold_logprob": -0.03158408775925636, "gold_first_logprob": -0.029922932386398315, "gold_first_rank": 1, "none_logprob": -4.782212257385254}
+{"index": 918, "id": "000-007727", "label": "modified", "gold": "most", "gold_logprob": -0.6604408621788025, "gold_first_logprob": -0.6602340340614319, "gold_first_rank": 1, "none_logprob": -0.7853235602378845}
+{"index": 919, "id": "000-007749", "label": "clean", "gold": "none", "gold_logprob": -0.21359620988368988, "gold_first_logprob": -0.21351097524166107, "gold_first_rank": 1}
+{"index": 920, "id": "000-007751", "label": "clean", "gold": "none", "gold_logprob": -0.44629043340682983, "gold_first_logprob": -0.44623368978500366, "gold_first_rank": 1}
+{"index": 921, "id": "000-007758", "label": "modified", "gold": "refreshing", "gold_logprob": -0.15097221732139587, "gold_first_logprob": -0.14912307262420654, "gold_first_rank": 1, "none_logprob": -2.5242199897766113}
+{"index": 922, "id": "000-007760", "label": "clean", "gold": "none", "gold_logprob": -0.33212050795555115, "gold_first_logprob": -0.33206257224082947, "gold_first_rank": 1}
+{"index": 923, "id": "000-007788", "label": "modified", "gold": "New", "gold_logprob": -5.3818159103393555, "gold_first_logprob": -5.381137847900391, "gold_first_rank": 10, "none_logprob": -0.25619348883628845}
+{"index": 924, "id": "000-007792", "label": "modified", "gold": "such", "gold_logprob": -0.07331249862909317, "gold_first_logprob": -0.07300534099340439, "gold_first_rank": 1, "none_logprob": -3.0731136798858643}
+{"index": 925, "id": "000-007804", "label": "modified", "gold": "in", "gold_logprob": -4.988033294677734, "gold_first_logprob": -4.9855546951293945, "gold_first_rank": 6, "none_logprob": -1.2355966567993164}
+{"index": 926, "id": "000-007815", "label": "clean", "gold": "none", "gold_logprob": -0.09203793108463287, "gold_first_logprob": -0.09194686263799667, "gold_first_rank": 1}
+{"index": 927, "id": "000-007817", "label": "clean", "gold": "none", "gold_logprob": -0.9656584858894348, "gold_first_logprob": -0.9655545353889465, "gold_first_rank": 2}
+{"index": 928, "id": "000-007835", "label": "clean", "gold": "none", "gold_logprob": -0.1328299194574356, "gold_first_logprob": -0.13272418081760406, "gold_first_rank": 1}
+{"index": 929, "id": "000-007836", "label": "modified", "gold": "useful", "gold_logprob": -4.15187406539917, "gold_first_logprob": -4.113053798675537, "gold_first_rank": 3, "none_logprob": -0.23814338445663452}
+{"index": 930, "id": "000-007843", "label": "modified", "gold": "rivers", "gold_logprob": -9.106839179992676, "gold_first_logprob": -9.105850219726562, "gold_first_rank": 37, "none_logprob": -3.105914354324341}
+{"index": 931, "id": "000-007844", "label": "clean", "gold": "none", "gold_logprob": -0.9837180376052856, "gold_first_logprob": -0.9836037158966064, "gold_first_rank": 2}
+{"index": 932, "id": "000-007852", "label": "clean", "gold": "none", "gold_logprob": -0.2610103189945221, "gold_first_logprob": -0.26087620854377747, "gold_first_rank": 1}
+{"index": 933, "id": "000-007868", "label": "clean", "gold": "none", "gold_logprob": -0.16961802542209625, "gold_first_logprob": -0.1695641428232193, "gold_first_rank": 1}
+{"index": 934, "id": "000-007873", "label": "modified", "gold": "In", "gold_logprob": -0.9200015068054199, "gold_first_logprob": -0.9197443127632141, "gold_first_rank": 1, "none_logprob": -1.0447801351547241}
+{"index": 935, "id": "000-007893", "label": "modified", "gold": "quickly", "gold_logprob": -2.8225319385528564, "gold_first_logprob": -2.821669101715088, "gold_first_rank": 2, "none_logprob": -0.1967546045780182}
+{"index": 936, "id": "000-007895", "label": "modified", "gold": "Coast", "gold_logprob": -0.862875759601593, "gold_first_logprob": -0.8615936636924744, "gold_first_rank": 1, "none_logprob": -0.861668050289154}
+{"index": 937, "id": "000-007899", "label": "modified", "gold": "at", "gold_logprob": -4.769858360290527, "gold_first_logprob": -4.7693963050842285, "gold_first_rank": 4, "none_logprob": -0.14449603855609894}
+{"index": 938, "id": "000-007902", "label": "clean", "gold": "none", "gold_logprob": -0.4072553515434265, "gold_first_logprob": -0.40714961290359497, "gold_first_rank": 1}
+{"index": 939, "id": "000-007929", "label": "clean", "gold": "none", "gold_logprob": -0.11752144247293472, "gold_first_logprob": -0.11744240671396255, "gold_first_rank": 1}
+{"index": 940, "id": "000-007937", "label": "clean", "gold": "none", "gold_logprob": -0.4685364365577698, "gold_first_logprob": -0.46844571828842163, "gold_first_rank": 1}
+{"index": 941, "id": "000-007945", "label": "modified", "gold": "sometimes", "gold_logprob": -0.6329912543296814, "gold_first_logprob": -0.6328042149543762, "gold_first_rank": 1, "none_logprob": -1.1328833103179932}
+{"index": 942, "id": "000-007963", "label": "modified", "gold": "the", "gold_logprob": -6.965394496917725, "gold_first_logprob": -6.964962005615234, "gold_first_rank": 10, "none_logprob": -0.0900384932756424}
+{"index": 943, "id": "000-007966", "label": "clean", "gold": "none", "gold_logprob": -1.023398756980896, "gold_first_logprob": -1.0232853889465332, "gold_first_rank": 2}
+{"index": 944, "id": "000-007978", "label": "clean", "gold": "none", "gold_logprob": -0.2723933160305023, "gold_first_logprob": -0.27232083678245544, "gold_first_rank": 1}
+{"index": 945, "id": "000-007982", "label": "clean", "gold": "none", "gold_logprob": -0.6225672364234924, "gold_first_logprob": -0.6224156022071838, "gold_first_rank": 1}
+{"index": 946, "id": "000-008002", "label": "clean", "gold": "none", "gold_logprob": -0.18167757987976074, "gold_first_logprob": -0.18159067630767822, "gold_first_rank": 1}
+{"index": 947, "id": "000-008004", "label": "modified", "gold": "foundations", "gold_logprob": -5.110354423522949, "gold_first_logprob": -5.1091413497924805, "gold_first_rank": 16, "none_logprob": -0.7341824769973755}
+{"index": 948, "id": "000-008014", "label": "modified", "gold": "events", "gold_logprob": -5.020379543304443, "gold_first_logprob": -5.020151615142822, "gold_first_rank": 11, "none_logprob": -0.5202203989028931}
+{"index": 949, "id": "000-008033", "label": "clean", "gold": "none", "gold_logprob": -0.031519077718257904, "gold_first_logprob": -0.03146638721227646, "gold_first_rank": 1}
+{"index": 950, "id": "000-008035", "label": "modified", "gold": "excellent", "gold_logprob": -6.681514739990234, "gold_first_logprob": -6.657990455627441, "gold_first_rank": 24, "none_logprob": -0.47062063217163086}
+{"index": 951, "id": "000-008042", "label": "clean", "gold": "none", "gold_logprob": -0.21782846748828888, "gold_first_logprob": -0.21777303516864777, "gold_first_rank": 1}
+{"index": 952, "id": "000-008057", "label": "modified", "gold": "appears", "gold_logprob": -0.015054238960146904, "gold_first_logprob": -0.014431740157306194, "gold_first_rank": 1, "none_logprob": -7.76449728012085}
+{"index": 953, "id": "000-008084", "label": "modified", "gold": "Microsoft", "gold_logprob": -1.2940268516540527, "gold_first_logprob": -1.2934352159500122, "gold_first_rank": 3, "none_logprob": -1.1685584783554077}
+{"index": 954, "id": "000-008092", "label": "modified", "gold": "noticed", "gold_logprob": -1.6928097009658813, "gold_first_logprob": -1.6925970315933228, "gold_first_rank": 3, "none_logprob": -1.3177496194839478}
+{"index": 955, "id": "000-008096", "label": "clean", "gold": "none", "gold_logprob": -0.20367056131362915, "gold_first_logprob": -0.20359498262405396, "gold_first_rank": 1}
+{"index": 956, "id": "000-008104", "label": "clean", "gold": "none", "gold_logprob": -1.0988171100616455, "gold_first_logprob": -1.0987492799758911, "gold_first_rank": 1}
+{"index": 957, "id": "000-008111", "label": "modified", "gold": "exercises", "gold_logprob": -2.702378988265991, "gold_first_logprob": -2.6979928016662598, "gold_first_rank": 2, "none_logprob": -0.32308369874954224}
+{"index": 958, "id": "000-008129", "label": "clean", "gold": "none", "gold_logprob": -0.09323752671480179, "gold_first_logprob": -0.09316767007112503, "gold_first_rank": 1}
+{"index": 959, "id": "000-008140", "label": "clean", "gold": "none", "gold_logprob": -0.08518549799919128, "gold_first_logprob": -0.08512648940086365, "gold_first_rank": 1}
+{"index": 960, "id": "000-008145", "label": "clean", "gold": "none", "gold_logprob": -1.3208980560302734, "gold_first_logprob": -1.32084321975708, "gold_first_rank": 2}
+{"index": 961, "id": "000-008149", "label": "clean", "gold": "none", "gold_logprob": -0.4877271056175232, "gold_first_logprob": -0.48762303590774536, "gold_first_rank": 1}
+{"index": 962, "id": "000-008162", "label": "modified", "gold": "non", "gold_logprob": -5.434142112731934, "gold_first_logprob": -5.433455944061279, "gold_first_rank": 5, "none_logprob": -0.683551013469696}
+{"index": 963, "id": "000-008163", "label": "clean", "gold": "none", "gold_logprob": -0.9783926606178284, "gold_first_logprob": -0.9782374501228333, "gold_first_rank": 2}
+{"index": 964, "id": "000-008179", "label": "modified", "gold": "motives", "gold_logprob": -4.8178791999816895, "gold_first_logprob": -4.801947593688965, "gold_first_rank": 6, "none_logprob": -0.30201876163482666}
+{"index": 965, "id": "000-008182", "label": "clean", "gold": "none", "gold_logprob": -0.11760895699262619, "gold_first_logprob": -0.11752455681562424, "gold_first_rank": 1}
+{"index": 966, "id": "000-008190", "label": "clean", "gold": "none", "gold_logprob": -0.10790175199508667, "gold_first_logprob": -0.10783296823501587, "gold_first_rank": 1}
+{"index": 967, "id": "000-008196", "label": "clean", "gold": "none", "gold_logprob": -0.34246736764907837, "gold_first_logprob": -0.3423911929130554, "gold_first_rank": 1}
+{"index": 968, "id": "000-008198", "label": "clean", "gold": "none", "gold_logprob": -0.3510452210903168, "gold_first_logprob": -0.35097452998161316, "gold_first_rank": 1}
+{"index": 969, "id": "000-008210", "label": "modified", "gold": "every", "gold_logprob": -0.0972166508436203, "gold_first_logprob": -0.09644410759210587, "gold_first_rank": 1, "none_logprob": -2.8465416431427}
+{"index": 970, "id": "000-008211", "label": "modified", "gold": "safe", "gold_logprob": -1.2323896884918213, "gold_first_logprob": -1.2318038940429688, "gold_first_rank": 2, "none_logprob": -0.6068909764289856}
+{"index": 971, "id": "000-008217", "label": "modified", "gold": "have", "gold_logprob": -0.055538076907396317, "gold_first_logprob": -0.054795075207948685, "gold_first_rank": 1, "none_logprob": -3.304863929748535}
+{"index": 972, "id": "000-008220", "label": "modified", "gold": "one", "gold_logprob": -1.7588508129119873, "gold_first_logprob": -1.7585409879684448, "gold_first_rank": 2, "none_logprob": -0.5086319446563721}
+{"index": 973, "id": "000-008229", "label": "clean", "gold": "none", "gold_logprob": -0.2075234204530716, "gold_first_logprob": -0.20733115077018738, "gold_first_rank": 1}
+{"index": 974, "id": "000-008238", "label": "modified", "gold": "shortcuts", "gold_logprob": -3.0123629570007324, "gold_first_logprob": -3.012021064758301, "gold_first_rank": 2, "none_logprob": -0.1371299773454666}
+{"index": 975, "id": "000-008240", "label": "modified", "gold": "absent", "gold_logprob": -1.7222751379013062, "gold_first_logprob": -1.7106962203979492, "gold_first_rank": 2, "none_logprob": -0.5858308672904968}
+{"index": 976, "id": "000-008243", "label": "clean", "gold": "none", "gold_logprob": -0.4916744828224182, "gold_first_logprob": -0.4916154742240906, "gold_first_rank": 1}
+{"index": 977, "id": "000-008246", "label": "modified", "gold": "homeland", "gold_logprob": -7.283219337463379, "gold_first_logprob": -7.263977527618408, "gold_first_rank": 18, "none_logprob": -0.13906168937683105}
+{"index": 978, "id": "000-008249", "label": "clean", "gold": "none", "gold_logprob": -0.6807733774185181, "gold_first_logprob": -0.6807070970535278, "gold_first_rank": 1}
+{"index": 979, "id": "000-008273", "label": "clean", "gold": "none", "gold_logprob": -2.8778889179229736, "gold_first_logprob": -2.877845287322998, "gold_first_rank": 2}
+{"index": 980, "id": "000-008278", "label": "modified", "gold": "tens", "gold_logprob": -1.5740383863449097, "gold_first_logprob": -1.3533598184585571, "gold_first_rank": 2, "none_logprob": -0.35341572761535645}
+{"index": 981, "id": "000-008285", "label": "clean", "gold": "none", "gold_logprob": -0.43106356263160706, "gold_first_logprob": -0.4309845268726349, "gold_first_rank": 1}
+{"index": 982, "id": "000-008301", "label": "modified", "gold": "aspirations", "gold_logprob": -5.772453784942627, "gold_first_logprob": -5.753907203674316, "gold_first_rank": 13, "none_logprob": -0.4909015893936157}
+{"index": 983, "id": "000-008302", "label": "clean", "gold": "none", "gold_logprob": -1.2610359191894531, "gold_first_logprob": -1.2609213590621948, "gold_first_rank": 2}
+{"index": 984, "id": "000-008304", "label": "clean", "gold": "none", "gold_logprob": -0.23502902686595917, "gold_first_logprob": -0.23493508994579315, "gold_first_rank": 1}
+{"index": 985, "id": "000-008312", "label": "clean", "gold": "none", "gold_logprob": -0.71876460313797, "gold_first_logprob": -0.7187018990516663, "gold_first_rank": 1}
+{"index": 986, "id": "000-008341", "label": "modified", "gold": "and", "gold_logprob": -0.5177941918373108, "gold_first_logprob": -0.5165325403213501, "gold_first_rank": 1, "none_logprob": -1.1416518688201904}
+{"index": 987, "id": "000-008359", "label": "clean", "gold": "none", "gold_logprob": -0.4639146625995636, "gold_first_logprob": -0.463815838098526, "gold_first_rank": 1}
+{"index": 988, "id": "000-008367", "label": "modified", "gold": "chunk", "gold_logprob": -4.281236171722412, "gold_first_logprob": -4.279891014099121, "gold_first_rank": 6, "none_logprob": -0.28280696272850037}
+{"index": 989, "id": "000-008369", "label": "modified", "gold": "by", "gold_logprob": -1.0353213548660278, "gold_first_logprob": -1.0347697734832764, "gold_first_rank": 2, "none_logprob": -0.7849500775337219}
+{"index": 990, "id": "000-008385", "label": "modified", "gold": "climate", "gold_logprob": -0.2873716950416565, "gold_first_logprob": -0.2870340347290039, "gold_first_rank": 1, "none_logprob": -2.1621055603027344}
+{"index": 991, "id": "000-008388", "label": "clean", "gold": "none", "gold_logprob": -0.43858441710472107, "gold_first_logprob": -0.4384767711162567, "gold_first_rank": 1}
+{"index": 992, "id": "000-008404", "label": "modified", "gold": "fits", "gold_logprob": -0.9632694125175476, "gold_first_logprob": -0.9629570245742798, "gold_first_rank": 2, "none_logprob": -0.8380738496780396}
+{"index": 993, "id": "000-008408", "label": "modified", "gold": "take", "gold_logprob": -0.03393033891916275, "gold_first_logprob": -0.03164634481072426, "gold_first_rank": 1, "none_logprob": -4.531774044036865}
+{"index": 994, "id": "000-008420", "label": "modified", "gold": "six", "gold_logprob": -1.0418803691864014, "gold_first_logprob": -1.040832281112671, "gold_first_rank": 1, "none_logprob": -1.0408825874328613}
+{"index": 995, "id": "000-008435", "label": "modified", "gold": "opposing", "gold_logprob": -0.3453923463821411, "gold_first_logprob": -0.3385641276836395, "gold_first_rank": 1, "none_logprob": -1.463645100593567}
+{"index": 996, "id": "000-008441", "label": "modified", "gold": "continually", "gold_logprob": -0.1399623453617096, "gold_first_logprob": -0.039806004613637924, "gold_first_rank": 1, "none_logprob": -3.7898826599121094}

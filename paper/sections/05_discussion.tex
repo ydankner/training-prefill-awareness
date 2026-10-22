@@ -1,0 +1,16 @@
+\section{Discussion}
+\label{sec:discussion}
+
+\subsection{Future Work}
+\label{sec:future-work}
+In our work, we found specific attention heads that learn to recognize off-policy tokens under our fine-tuning regime. It may be interesting to see if such attention heads, sensitive to the minimal pair direction, are already present in bigger open models such as Kimi K3 out of the box, and if these mechanisms drive the performance of bigger models in benchmarks such as CIAware-Bench \citep{schaeffer2026ciaware}. Additionally, we are curious if bigger models may perform better after fine-tuning in the same settings, or if the models tested in this work reached a hard limit given the signal in the training data.
+
+Our work is missing an in-depth analysis of the learned mechanism in gated DeltaNet attention layers in the hybrid model Qwen 3.8 27b. We think that a ``fully parallel form for DeltaNet'' as introduced by \citet{yang2024deltanet} could be leveraged for this purpose, to get effective attention scores from the linear mechanisms. We leave this to future research.
+
+\subsection{Conclusion}
+\label{sec:conclusion}
+We have shown that token-level prefill awareness is trainable. While verbal recognition is sensitive to formulation, marker recognition is more robust and generalizes to to flag previous tampered turns, regardless of the content of the next user turn.
+
+Recognition capability generalizes to some extent across spoken languages and code, and specific mechanisms that drive the learned capability were identified, in a global attention model (Qwen 3 32b), and partially in a hybrid attention model (Qwen 3.8 27b). We find a signal in the untuned model that is sharpened in the process of the training in Qwen3 32b. We show that the Qwen-family models perform better on their own dataset, in a manner suggestive of privileged self-knowledge.
+
+We demonstrate that this capability is trainable both in no-thinking setting and in removed-reasoning setting, though the latter results in weaker performance. The trained capability in removed-reasoning setting yields performance comparable to Astra in CIAware-Bench, in the tested subset of the benchmark (essay writing).

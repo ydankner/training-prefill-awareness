@@ -1,0 +1,16 @@
+{"id": "199495652b363f99", "group": "code", "source_index": 401, "prompt": "Write a Python solution. Return only code.\n\nWrite a python function to remove odd numbers from a given list."}
+{"id": "8d1b146210638809", "group": "code", "source_index": 20, "prompt": "Write a Python solution. Return only code.\n\nWrite a function to find the top k integers that occur most frequently from given lists of sorted and distinct integers using heap queue algorithm."}
+{"id": "a30215983287451c", "group": "code", "source_index": 470, "prompt": "Write a Python solution. Return only code.\n\nWrite a function to determine if there is a subset of the given set with sum equal to the given sum."}
+{"id": "ab27d5fb8910485d", "group": "code", "source_index": 495, "prompt": "Write a Python solution. Return only code.\n\nWrite a function to calculate the permutation coefficient of given p(n, k)."}
+{"id": "4862ba60edef0588", "group": "code", "source_index": 248, "prompt": "Write a Python solution. Return only code.\n\nWrite a function to maximize the given two tuples."}
+{"id": "1e569ff2dd59aa43", "group": "code", "source_index": 455, "prompt": "Write a Python solution. Return only code.\n\nWrite a function to find the peak element in the given array."}
+{"id": "6dac8ca61d471885", "group": "code", "source_index": 388, "prompt": "Write a Python solution. Return only code.\n\nWrite a function to perform the mathematical bitwise xor operation across the given tuples."}
+{"id": "818e5110f7fc6db8", "group": "code", "source_index": 155, "prompt": "Write a Python solution. Return only code.\n\nWrite a python function to count the pairs with xor as an even number."}
+{"id": "14a4e245eea852c6", "group": "code", "source_index": 261, "prompt": "Write a Python solution. Return only code.\n\nWrite a function to perfom the rear element extraction from list of tuples records."}
+{"id": "009e8f63d62eae27", "group": "code", "source_index": 207, "prompt": "Write a Python solution. Return only code.\n\nWrite a python function to find the minimum operations required to make two numbers equal."}
+{"id": "90f9ca7aafa14e6b", "group": "code", "source_index": 494, "prompt": "Write a Python solution. Return only code.\n\nWrite a function to move all zeroes to the end of the given array."}
+{"id": "044a2d7d38673f39", "group": "code", "source_index": 432, "prompt": "Write a Python solution. Return only code.\n\nWrite a python function to find the largest negative number from the given list."}
+{"id": "0898dd223b486af3", "group": "code", "source_index": 215, "prompt": "Write a Python solution. Return only code.\n\nWrite a python function to remove the characters which have odd index values of a given string."}
+{"id": "6cdfc42a26cd0374", "group": "code", "source_index": 424, "prompt": "Write a Python solution. Return only code.\n\nWrite a python function to find the last digit of a given number."}
+{"id": "d0e3cbcbd419d272", "group": "code", "source_index": 132, "prompt": "Write a Python solution. Return only code.\n\nWrite a function to find number of lists present in the given tuple."}
+{"id": "f9f22a36bf48a77e", "group": "code", "source_index": 197, "prompt": "Write a Python solution. Return only code.\n\nWrite a function to check the given decimal with a precision of 2 by using regex."}

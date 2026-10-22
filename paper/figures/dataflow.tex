@@ -1,0 +1,45 @@
+% Hypothesised data flow of plant detection in the fine-tuned Qwen3-32B (layers 1-indexed).
+\begin{figure}[t]
+\centering
+\begin{tikzpicture}[
+    font=\small,
+    box/.style={draw=black!45, rounded corners=2pt, fill=white, align=center, inner sep=4pt, minimum height=0.75cm, text width=4.2cm},
+    res/.style={-{Latex[length=2mm]}, black!45, thick},
+    read/.style={-{Latex[length=2.4mm]}, thick, blue!60!black},
+    lay/.style={font=\scriptsize, black!60, anchor=west},
+]
+% columns: plant position (x=0) and last position before the reply (x=6.4)
+\node (tokP) at (0,0) {\ldots\ drive \underline{results}\,.\ \ldots};
+\node[font=\scriptsize, black!60, below=0pt of tokP] {planted token};
+\node (tokR) at (6.4,0) {\texttt{<|im\_start|>assistant}};
+\node[font=\scriptsize, black!60, below=0pt of tokR] {last position before the reply};
+
+\node[box] (m)     at (0,1.25)   {minimal-pair direction $\mathbf{m}$\\ written at the plant (as in base)};
+\node[box] (amp)   at (0,2.45)   {$\mathbf{m}$ amplified by fine-tuning};
+\node[box] (heads) at (6.4,3.65) {plant-reading heads\\ attend to the plant along $\mathbf{m}$};
+\node[box, draw=blue!60!black] (out) at (6.4,4.85) {reply names the planted token};
+
+% layer bands, labelled at the left edge inside the band
+\begin{scope}[on background layer]
+  \fill[black!5]  (-3.6,0.75) rectangle (9.2,1.75);
+  \fill[black!10] (-3.6,1.95) rectangle (9.2,2.95);
+  \fill[black!5]  (-3.6,3.15) rectangle (9.2,4.15);
+\end{scope}
+\node[lay] at (-3.55,1.25) {layers 1--40};
+\node[lay] at (-3.55,2.45) {41--62};
+\node[lay] at (-3.55,3.65) {63--64};
+
+% residual streams; the plant's stream continues into layers 63--64, where the heads read it
+\coordinate (key) at (0,3.65);
+\draw[res] (tokP) -- (m);
+\draw[res] (m) -- (amp);
+\draw[black!45, thick] (amp) -- (key);
+\fill[black!60] (key) circle (2pt);
+\draw[res] (tokR) -- (heads);
+\draw[res] (heads) -- (out);
+% attention read-out, within layers 63--64
+\draw[read] (key) -- node[above, font=\scriptsize] {attention} (heads.west);
+\end{tikzpicture}
+\caption{Hypothesised flow of the plant signal in the fine-tuned \qwenA{}.}
+\label{fig:dataflow}
+\end{figure}

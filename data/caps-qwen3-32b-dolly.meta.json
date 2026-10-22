@@ -1,0 +1,28 @@
+{
+  "command": "python -m prefill_awareness.caps_data --data data/qwen3-32b-dolly-brainstorming-17567181.0-1789569567.jsonl data/qwen3-32b-dolly-rest-17567560.0-1789577293.jsonl --out data/caps-qwen3-32b-dolly.jsonl",
+  "args": {
+    "data": [
+      "data/qwen3-32b-dolly-brainstorming-17567181.0-1789569567.jsonl",
+      "data/qwen3-32b-dolly-rest-17567560.0-1789577293.jsonl"
+    ],
+    "out": "data/caps-qwen3-32b-dolly.jsonl",
+    "n_train": 1500,
+    "n_test": null,
+    "seed": 0,
+    "allow_dirty": false
+  },
+  "git": {
+    "commit": "a15460ce98d2e6e1a118c2be469d8e4ec661214a",
+    "dirty": false
+  },
+  "inputs": {
+    "data\\qwen3-32b-dolly-brainstorming-17567181.0-1789569567.jsonl": "e68724f3de9e29d20717dfeee8209594ed7eb850a87a15da570011fda8084f76",
+    "data\\qwen3-32b-dolly-rest-17567560.0-1789577293.jsonl": "674d431f71be15d145c3d65b57a8101e61abb8bd994b5eeb0d8557a60d20acf3"
+  },
+  "n": {
+    "train": 1500,
+    "test": 491
+  },
+  "created_at": "2026-09-24T14:23:51+00:00",
+  "sha256": "f2a7469fa5b2cd437eb2ff85b45d14d8287a948cc817d0b7d608de6c85384b21"
+}

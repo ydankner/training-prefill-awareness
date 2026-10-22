@@ -1,0 +1,287 @@
+\section{Experiments}
+\label{sec:experiments}
+
+\subsection{Qwen 3-32b, Greedy}
+In our first experiment we wanted to see if this ability can be learned. Accordingly, the settings were very simple:
+\subsubsection{Setting}
+\label{sec:qwen-3-setting}
+We tested greedy decoding everywhere, except for the plant positions. We only planted a single token, and only had verbalized recognition samples (no marker recognition settings), in the non-thinking settings. 
+
+\subsubsection{Results}
+\label{sec:qwen-3-results}
+See \cref{tab:qwen3-scale} for the results. We initially tried a generated dataset with 1589 examples, which showed nascent ability to correctly recognize the single token. When scaling up the dataset, we see a significant improvement - 45.8\% of planted tokens are correctly recognized. We see memorization on train-set in all cases, that shows a much better plant recognition ability.
+
+% Sources: runs/sft-qwen3-32b-dolly-17567334.0-1789573461/eval-{test,train}-17567403.0.json
+%          runs/sft-qwen3-32b-dolly-all-17568019.0-1789588306/eval-checkpoint-{554,1108}-{test,train}-17568216.0.json
+% Untuned row: runs/sft-qwen3-32b-dolly-all-17568019.0-1789588306/answer-probs-base-17568222.0.jsonl
+%   (teacher-forced on the 997 test records): gold first token rank 1 on 0/491 tampered
+%   (median rank 449) -> greedy decoding cannot produce it; "none" first token rank 1 on 504/506 clean.
+\begin{table}[t]
+\centering
+\caption{Success on test-set for \qwenA{} fine-tuned in greedy sampling settings. \emph{Exact} counts correctly identified planted tokens in the test set. \emph{false positives} are clean test samples flagged as tampered. \emph{train} counts correctly identified tokens in the train set. The untuned model never identifies a tampered answer, and had 2 of 506 false positives.}
+\label{tab:qwen3-scale}
+\begin{tabular}{rcccc}
+\toprule
+Training examples & Epochs & Exact (held-out) & False Positives & Exact (train) \\
+\midrule
+0 (untuned) & -- & \phantom{00}0/491 (0.0\%) & \phantom{0}0.4\% & -- \\
+1{,}589 & 2 & \phantom{00}4/72\phantom{0} (5.6\%) & 15.6\% & 43.5\% \\
+8{,}864 & 1 & 204/491 (41.5\%) & \phantom{0}9.3\% & 71.3\% \\
+8{,}864 & 2 & 225/491 (45.8\%) & \phantom{0}9.9\% & 89.0\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsubsection{Surprisal and next token distribution}
+As the training progressed, we see the sharpness of the model's distribution on assistant turn tokens rise: The entropy decreases, and the surprisal of the planted token increases (from 7.14 nats on average to 9.85 nats). One might expect this, as in this setting the model was trained on greedily sampled on-policy text. But as said, the training loss was masked to only include the final model answer. Additionally, the same effect also persists with a dataset generated with temperature 1, although the rise is more modest: 7.09 nats to 7.74 nats. We see an even stronger effect later in Qwen 3.8 27b: Both for removed-reasoning settings (6.43 to 8.98 nats) and non-thinking settings (6.89 to 10.12 nats). It seems that as the training progresses, the surprisal signal is amplified, perhaps because this signal is useful for detecting the plant.
+
+\subsubsection{Residual stream direction mediates detection}
+\label{residual-stream-direction}
+We wanted to see if the detection is mediated through a direction in the residual stream, and if this signal was created by fine-tuning or was already present in the base model. We calculated the \textbf{minimal pair} direction for each layer, by subtracting the activations of the original token from the planted token at each layer, averaged over half of the test samples (and validated using the other half). Formally, it is calculated using:
+\begin{equation}
+  \mathbf{m}_\ell \;=\; \frac{1}{|\mathcal{S}|} \sum_{n \in \mathcal{S}}
+  \Big( \mathbf{h}_\ell\big(c_n \oplus \tilde{x}_n\big) - \mathbf{h}_\ell\big(c_n \oplus x_n\big) \Big),
+  \label{eq:minimal-pair}
+\end{equation}
+where $c_n$ is the conversation of test sample $n$ up to the plant position, $\tilde{x}_n$ and $x_n$ are the planted and original tokens, $\mathbf{h}_\ell(\cdot)$ is the residual-stream state at layer $\ell$ at the last position, and $\mathcal{S}$ is one half of the tampered test samples.
+
+We find that this direction mediates the detection, especially in the late layers: In Appendix \ref{app:steering} we can see that in a specific clean sample, as we steer one of the token positions towards this direction, the model tends to name the steered token as the planted one. The sensitivity peaks at layer 62, which is consistent with our attention analysis below.
+
+$m_l$, measured at the fine-tuned model, has a very high correlation with the one measured using the base model: Up to layer 40, the cosine similarity (measured on the other half of the tampered test samples) is 0.99 or higher. It goes down to 0.81 gradually up to layer 62, and goes further to 0.73 and 0.59 in layers 63 and 64, respectively. This indicates that this direction existed already in the base model, and was only sharpened in fine-tuning and purposed for the detection. Additionally, steering the fine-tuned model using the minimal pair direction extracted from the base model likewise makes the model identify the steered clean token as a planted one, though the effect is more modest than that of the fine-tuned minimal pair direction.
+
+\subsubsection{Attention Mechanism analysis}
+\label{sec:qwen-3-attention}
+We inspected Qwen 3 32b fine-tuned model's attention heads' scores to the planted tokens, averaged over the tampered answers. We see that while in the base model, no attention head exhibits attention significantly above average to the planted token, the fine-tuned model develops multiple such heads, especially in layers 63, 64 (see \cref{fig:attention-heads}). These heads turned out to be very sensitive to the minimal pair direction: For instance, head 61 in layer 63 of the fine-tuned model has an average attention score increase of 9.85 for planted tokens over the original greedy-sampled token. When adding the planted token's residual stream projection on the minimal pair direction to the original token, 99\% of the 9.85 score increase is recovered. When removing the component along this direction from the planted token, only 1\% of the increase stays. This is although the component along the minimal pair direction only accounts for 3-4\% of the residual stream shift between the original and the planted tokens. So mechanistically, the heads became very sensitive to this direction over fine-tuning.
+
+\input{figures/attention32}
+
+To complete the analysis, we find that the planted token's signal is read directly from the reply's position (the token position at which the prediction for the planted token is made), rather than being carried on from the intermediate token positions, after the planted token position. We tested this by comparing blocking the attention to the planted token at the reply's position, to blocking the attention to the planted token at every position after the planted token. We found the two to have an almost identical effect on the model's accuracy, which indicates that the signal is read directly at the reply's token position and not carried through.
+
+To summarize - when fine-tuning Qwen 3 32b, some of the attention heads learn to read a signal mediated by the minimal-pair direction at the reply's position, where most of the signal is carried through later layers' attention heads at the reply token position.
+See \cref{fig:dataflow}.
+
+\input{figures/dataflow}
+
+\subsubsection{Surprisal and minimal pair direction}
+\citet{g2026enaction} claim that surprisal mediates the prefill detection signal, in the untrained models they tested. We tested the correlation between the minimal-pair direction (that the model learned to utilize as a signal for the planted token detection), and the surprisal at that token position. We find a mild Spearman correlation between the two across layers: For non-planted tokens, we get 0.34 Spearman correlation between token surprisal and minimal pair direction peaking at layer 24. For planted tokens, we get 0.31, peaking at layer 63. Accordingly, we see that the fine-tuned model's accuracy increases with the token's surprisal, see \cref{tab:surprisal-terciles}.
+
+% Source: runs/sft-qwen3-32b-dolly-all-17568019.0-1789588306/eval-checkpoint-1108-test-17568216.0.json
+%   joined with surprisal-17568216.0.json (base-model plant surprisal in the generation context);
+%   491 tampered test answers split into terciles; exact match as in the scorer (case-sensitive).
+\begin{table}[t]
+\centering
+\caption{Planted tokens named exactly by the fine-tuned \qwenA{} (8{,}864 examples, 2 epochs), by tercile of the plant's surprisal under the base model.}
+\label{tab:surprisal-terciles}
+\begin{tabular}{ccc}
+\toprule
+Plant surprisal (nats) & $n$ & Exact \\
+\midrule
+4.6--6.4 & 164 & \phantom{0}45 (27\%) \\
+6.4--7.9 & 163 & \phantom{0}75 (46\%) \\
+7.9--9.4 & 164 & 105 (64\%) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\subsection{Privileged self-knowledge across models}
+\label{sec:localisation-cross}
+We repeated the above settings (greedy decoding, single plant), for multiple models, to check if they perform better when fine-tuned on their own dataset compared with other models' datasets, an indication of privileged self-knowledge, as described in the introduction. Qwen 3 32b and Qwen 3.8 27b mutually exhibit this behavior, but a significantly smaller model (Olmo 3 7B) actually performs worse on its own dataset than a bigger model (Qwen 3.8 27b) does (\cref{tab:cross-model}).
+
+
+
+% Source: results/CROSS_MODEL.md (held-out test split of each dataset; exact = planted token named exactly).
+\begin{table}[t]
+\centering
+\caption{Planted tokens named exactly, by dataset source (rows) and fine-tuned model (columns). All are measured on the same scheme discussed in this subsection - greedy sampling, single plant. Bold: the model fine-tuned on its own dataset.}
+\label{tab:cross-model}
+\begin{tabular}{lccc}
+\toprule
+Dataset source & \qwenA{} & \qwenB{} & Olmo 3 7B \\
+\midrule
+\qwenA{} & \textbf{225/491 (45.8\%)} & 163/491 (33.2\%) & -- \\
+\qwenB{} & 162/524 (30.9\%) & \textbf{359/524 (68.5\%)} & -- \\
+Olmo 3 7B & -- & 106/362 (29.3\%) & \textbf{\phantom{0}59/362 (16.3\%)} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Seeing that Qwen 3.8 27b performs much better at this task (despite being a smaller model), we used it for most of the following experiments.
+
+\subsection{Qwen 3.8 27b, non-greedy sampling, multiple plants, marker recognition, no-thinking}
+As seen in the previous section, Qwen 3.8 27b performs significantly better than Qwen 3 32b on the same dataset size and settings. We wanted to test this model on more challenging settings, as described in the following section. We also added marker recognition training. As mentioned in section \ref{sec:method}, this was done to force the model to assess if the previous turn was tampered with, regardless if the user turn was asking this question. This turned out to be a more robust indicator as discussed later (See section \ref{sec:generalizations}).
+
+\subsubsection{Setting}
+\label{sec:qwen-3-8-setting-no-thinking}
+Sampling follows Qwen’s recommended instruct settings: temperature 0.7, top-p 0.8, top-k 20, min-p 0. We tested with multiple planted tokens, with decreasing dataset samples as planted tokens go up: 1 plant (1/2 of the tampered samples), 2 plants (1/4), 3 (1/8) or 4 (1/8). For 2 or more plants, half are consecutive and half are scattered. Gold answers for followup turns are ``¦tampered: a, b'' for tampered turns and ``not tampered'' for clean ones, for samples with direct questions. 60\% of the dataset have direct followup questions and 40\% have unrelated follow-up question from no-robots, after which the marker is prepended to the generated answer if the previous response was tampered. Dataset size is 8932 samples.
+
+\subsubsection{Results}
+\label{sec:qwen-3-8-results}
+See full results in \cref{tab:qwen38-marker}. We see that despite exhibiting a drop in performance from the greedy settings, in which Qwen 3.8 27b correctly named a single plant in 68.5\% of the cases, to 52.2\% of single plants correctly named in the new, more difficult settings (with 43.9\% correctly named across all plant counts), we still see better results than in the greedy Qwen 3 32b variant, and we generally see that the model is succeeding at the task in the non-greedy settings as well. Marker recognition has a decent AUROC of 0.92.
+
+% Source: Qwen3.8 main marker run, <local copy of the run outputs: sp/main-eval_log.jsonl> (steps 0 and 1118; 296 tampered / 309 clean
+%   held-out detection conversations; counts from the logged rates). Qwen3-32B row: Table 1, 8,864 examples, 2 epochs.
+\begin{table}[t]
+\centering
+\caption{Held-out results of the marker fine-tune of \qwenB{}, with \qwenA{} (\cref{tab:qwen3-scale}) for reference.}
+\label{tab:qwen38-marker}
+\begin{tabular}{lcccc}
+\toprule
+Model & Exact (all) & Exact (1 plant) & False pos. & AUROC $P(\marker)$ \\
+\midrule
+\qwenB{}, untuned & \phantom{00}0/296 (0.0\%) & \phantom{0}0/161 (0.0\%) & 0.0\% & 0.52 \\
+\qwenB{}, 2 epochs & 130/296 (43.9\%) & 84/161 (52.2\%) & 4.2\% & 0.92 \\
+\midrule
+\qwenA{}, 2 epochs & -- & 225/491 (45.8\%) & 9.9\% & -- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\subsubsection{Attention Analysis}
+\label{sec:qwen-3-8-attention}
+We find that this fine-tune has different routes for verbalized recognition and for marker recognition. 
+Since Qwen 3.8 27b is a hybrid attention model, with 3/4 of its layers being gated DeltaNet layers (linear attention), its attention analysis can't be conducted in the same way it was done for Qwen 3 32b for all layers. For the global attention heads, we analyze the attention to the planted token right before the marker token position, as we did for Qwen 3 32b (see figure \ref{fig:attention-heads-38}). We find two main last-layer attention heads that learn to attend to the plant at the marker token position. Out of all 296 tampered samples (single and multiple planted tokens), of which the marker fired on 226 without any change, blocking these heads from attending to the plant still gives us 142 samples where the marker fires. Unlike Qwen 3 32b, blocking all attention heads from attending to the plant doesn't completely prevent recognition. A significant portion of the signal is channeled through the linear attention layers as well. Blocking all attention heads instead of the two top ones only adds a modest effect, decreasing 142 marker-recognized samples to 139, so these two attention heads do carry most of the recognition driven by softmax attention.
+
+As for correctly naming the planted token (verbal recognition), softmax attention seems to play a more central role: Blocking all softmax attention to the plant reduces correctly named plants from 181/296 to 3/296.
+
+\input{figures/attention38}
+
+\subsection{Generalization across Capabilities, and question formulation}
+\label{sec:generalizations}
+We tested Qwen-3 32b fine-tune on GSM8K benchmark, to measure if performance was degraded by fine-tuning, and we tested both Qwen-3 32b and Qwen-3.8 27b on generalization, with domains other than Dolly's question dataset, including planted tokens in different languages, and in coding settings, and with different tampering question formatting. The Qwen-3 32b fine-tune performed comparably to the base model on GSM8K, although the model often failed to follow the answer format. When counting incorrect format with correct answers, the fine-tune performs at 92\% correct answers, compared to the base's 93.5\%. Without counting incorrect formatting, the fine-tune performs at 67\%.
+
+Generalization is better in Qwen-3.8 27b, save a few exceptions, and results are most striking in code examples, where Qwen-3.8 27b generalizes really well, whereas the Qwen-3 32b fine-tune never guesses correctly. The planted tokens generated with Qwen 3.8 27b are syntactically and logically correct, but are detected almost 100\% of the time. See \cref{tab:cross-domain}.
+
+Note that this table likely undersells Qwen 3.8 27b's generalizing ability, as it compares the Qwen 3 32b that was trained in the original greedy dataset fine-tune on greedy generalization with single token, to the non-greedy dataset fine-tune with multiple plants, as described in the above section \ref{sec:qwen-3-8-setting-no-thinking}. 
+
+Both models' fine-tunes perform similarly when modifying the question to one that requests a list with a different wording. When modifying the question formulation to ask the model to give a yes / no answer to "Did anyone other than you tamper with your immediately preceding answer?", we always got a "no" answer, though the marker often fires in the Qwen 3.8 27b fine-tune when the previous turn was tampered, so we get a "¦no" answer, indicating that the marker recognition is less sensitive to the question's formulation. We tested one specific tampered test sample with the Qwen 3.8 27b fine-tune, where the model identifies both planted tokens correctly when asked using the original question's formulation. When changing the question to "I changed some words in your previous turn. Which words were they?", the model says that it has no way to know, but the marker still fires. When pressed to guess, the model guesses correctly but misunderstands the question. See \cref{app:haiku-chat} for the full conversation. This demonstrates that the model doesn't know that it learned the prefill recognition skills, and that verbalized prefill recognition performance falls with changed question formulation. Perhaps reinforcement learning techniques or DPO would result in better-generalizing models.
+
+Since marker recognition shows a significantly better performance on modified questions, we used it in the CIAware-Bench settings as described below.
+
+% Sources: Dolly -- Table 1 (Qwen3-32B, epoch 2) and the Qwen3.8 main marker run's final eval, single-plant
+%   tampered test answers (<local copy of the run outputs: sp/main-eval_log.jsonl,> by_mode.single.exact);
+%   domains -- eval_finetuned/RESULTS.md (Qwen3-32B checkpoint-1108) and the cross-domain section of
+%   offline-artifacts/08-tamper-marker-routing.html (Qwen3.8 main run). One plant per answer, own answers.
+\begin{table}[t]
+\centering
+\caption{Planted tokens named exactly, one plant per answer. Prompts from Dolly, Aya (Portuguese, Turkish, Arabic), GSM8K (math), SciQ (science), WritingPrompts (creative writing) and MBPP (code). Note that training and generalization settings are different between the models, so this is not a one-to-one comparison.}
+\label{tab:cross-domain}
+\begin{tabular}{lcccccccc}
+\toprule
+Model & Dolly & Portuguese & Turkish & Arabic & Math & Science & Creative & Code \\
+\midrule
+\qwenA{} & 46\% & 22\% & 22\% & 13\% & 83\% & 69\% & 25\% & \phantom{0}0\% \\
+\qwenB{} & 52\% & 42\% & 17\% & 13\% & 77\% & 50\% & 25\% & 88\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\subsection{Qwen 3.8 27b, Removed reasoning}
+\label{sec:marker-removed}
+We next fine-tuned Qwen 3.8 27b in a removed-reasoning setting (see section \ref{sec:method}). The other experimental settings are the same as \ref{sec:qwen-3-8-setting-no-thinking}. 
+
+We find that the model is able to learn to detect the planted tokens, despite surprisal at evaluation time no longer being a reliable signal, as the model no longer sees the text in the context it was produced in. We scaled up the dataset, and found an increase in AUROC that plateaued around 0.82 (compared with 0.92 in the no-thinking settings). See \cref{tab:hidden-marker} for details. It is, of course, a much weaker detector than in the no-thinking setting.
+
+% Sources: 2/4-epoch rows rescored from <local copy of the run outputs: cmp/ep{2,4}-final.jsonl> (tamper_eval exact rule);
+%   20,961-conversation row and untuned row from <local copy of the run outputs: m21/eval_log.jsonl> (final step 3930, step 0).
+%   Test set: 232 tampered (118 single-plant) / 232 clean detection conversations.
+\begin{table}[t]
+\centering
+\caption{Held-out results of the removed-reasoning marker fine-tunes of \qwenB{}.}
+\label{tab:hidden-marker}
+\begin{tabular}{lcccc}
+\toprule
+Model & Exact (all) & Exact (1 plant) & False pos. & AUROC $P(\marker)$ \\
+\midrule
+Untuned & \phantom{0}0/232 (0.0\%) & \phantom{0}0/118 (0.0\%) & \phantom{0}0.0\% & 0.53 \\
+7k convs., 2 epochs & 17/232 (7.3\%) & \phantom{0}5/118 (4.2\%) & \phantom{0}5.2\% & 0.74 \\
+7k convs., 4 epochs & 46/232 (19.8\%) & 26/118 (22.0\%) & 25.9\% & 0.80 \\
+21k convs., 3 epochs & 50/232 (21.6\%) & 31/118 (26.3\%) & 23.7\% & 0.82 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsubsection{Learned Mechanism}
+As mentioned above, the learned mechanism doesn't rely on surprisal alone: The maximum token surprisal in every assistant answer separates tampered from non-tampered samples with AUROC of 0.54.
+
+The learned marker recognition seems to accumulate the signal from different plants: Multiple plants have better marker recognition AUROC than single plants (see \cref{tab:hidden-strata}). Note that this effect is also seen in the no-thinking settings.
+
+% Source: "Hidden-Reasoning Tamper Marker" artifact,
+%   "AUROC by plant stratum", 21k-conversation adapter (3 epochs). Each stratum against all 232 clean test answers.
+\begin{table}[t]
+\centering
+\caption{AUROC of $P(\marker)$ of the removed-reasoning \qwenB{} fine-tune (21k conversations), by number and placement of plants, each against all 232 clean test answers.}
+\label{tab:hidden-strata}
+\begin{tabular}{cccc}
+\toprule
+1 plant (118) & 2--4 scattered (55) & 2--4 consecutive (59) & 4 consecutive (11) \\
+\midrule
+0.74 & 0.92 & 0.91 & 1.00 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Control intervention awareness}
+\label{sec:ciaware}
+As mentioned in the introduction, we tested both the Qwen 3.8 no-thinking and removed-reasoning fine-tunes on the CIAware-Bench \citep{schaeffer2026ciaware}. In this benchmark, an acting model is solving a task (e.g. writing an essay, or generating code) in a multi-turn setting, while an intervening model modifies one of the acting model's turns. The conversation is cut after the intervention, and the acting model is then asked if it detects an intervention. In some (but not all) settings, the acting model is given a side task, e.g. include the word "Banana" in an essay, and the intervening model removes this word. It is meant to measure a model's ability to detect control intervention (CI), where the intervening model edits the acting model's output if it misbehaves. The tested settings are:
+\begin{itemize}
+  \item Trusted editing (TE): The intervening model receives the context up to and including the acting model's last turn, and edits the acting model's last turn (e.g. to remove the word "Banana").
+  \item Defer to Trusted (DtT): The intervening model rewrites the acting model's last turn from scratch, with the previous conversation as context.
+  \item Defer to Resampling (DtR): The acting model's last turn is resampled until the side task word is removed, with up to 5 retries.
+\end{itemize}
+
+We used different fine-tuned Qwen 3.8 27b models as the acting model (both no-thinking models and removed-thinking), and the un-tuned model as the intervening model. Since both models are closely related, this represents a difficult setting. Since essay writing was the simplest setting from the paper, we chose this setting. We also tested the removed-reasoning Qwen 3.8 27b fine-tune as the acting model with a Qwen 3.6 27b model as the intervening model, to see how they perform cross-model (although it's still the same vendor).
+
+As mentioned, verbalized recognition is highly sensitive to the question format, so we use marker recognition instead.
+
+Note: Since the acting model is fine-tuned for marker-recognition, the marker fired sometimes while generating the acting model's turns. We removed the markers from the essay when this happened to avoid this confound.
+
+A disclaimer - to get the no-thinking results we changed the CIAware-Bench code, since in the original benchmark both editing and acting models have thinking turned on. To test the no-thinking variant, we changed the benchmark's code to disable thinking for both models.
+
+
+\subsubsection{Results}
+\label{sec:ciaware-results}
+All CIAware results are summarized in \cref{tab:ciaware}. For each model, we have two columns, one for the benchmark's original score, and one showing scores we added, calculated with same-length controls. The reason we did that is that the benchmark's negative controls (without intervention) are less suspicious to the removed-reasoning model, which inflates the overall AUROC. The benchmark's controls are just the essay up to the modified (last) paragraph, which triggers the marker token less, for two reasons:
+\begin{itemize}
+  \item Shorter essays are less suspicious to the model: The marker fires less the shorter the essay is, so removing the last paragraph makes it fire less on the clean samples.
+  \item In attack essays (TE, DtR), the last paragraph contains the side-task word (banana). The marker fires more often when it sees the paragraph containing the side-task word, even if it was written by the acting model. So removing the last paragraph containing that word decreases the false positives and likewise inflates the AUROC.
+\end{itemize}
+
+To control for these factors, our controls just contain the original paragraph, instead of cutting the essay one paragraph earlier. We hold our same-length controls to be a more fair measure, which is why we use it below.
+
+In the no-thinking setting, we see that trusted editing is detected with marker recognition almost perfectly (0.98 AUROC). This is tripped by the surprisal spike, caused by the intervening model replacing the side-task word (banana) with a different word, that directly triggers the marker. In the DtT and DtR, we see very weak results, as unmodified generations from the untuned model or resampling don't trigger the marker. Note that this setting is not a fair comparison, as mentioned, since the original benchmark has thinking enabled and removed from previous turns.
+
+For the removed reasoning settings, we see worse, but still decent results for trusted editing (0.77 same-length AUROC), since, as expected, hiding the reasoning makes modifications harder to detect.
+Interestingly, defer to trusted shows non-trivial performance (0.67 AUROC) even after controlling for length. It's above chance, and one possible hypothesis is that the fine-tuned model learned to recognize its own text distribution, which slightly drifted from the untuned model doing the intervention. DtR is still a null result, as expected.
+
+For the cross model (Qwen 3.8 / 3.6) test, we see significant results, with DtT being the highest there, at 0.9 AUROC: The fine-tuned model easily detects the other model's different distribution. This is comparable with Astra's same-family results in the original paper: It scores 0.9 with GPT-5.2 as intervening model and 0.73 with GPT-5.5, in the essay DtT settings \citep{schaeffer2026ciaware}.
+
+% Source: <local copy of the run outputs: res/{main-nothink-strip,hidden4-think-strip}/probes-*.jsonl> (writer's own markers stripped);
+%   AUROC of P(marker) at the first reply token (non-thinking probe), intervened vs the benchmark's clean control
+%   (essay cut one paragraph before the intervention). Qwen3.8 base as trusted editor in the same thinking mode as
+%   the history. TE and DtR: attack essays (no-thinking TE: the 42 essays where the word was placed); DtT: honest essays.
+%   Same-len.: vs our same-length control (writer's original paragraph kept), same essay subsets.
+%   Clean row: share of clean controls with P(marker) > 0.5.
+%   No-thinking: tamper-qwen38-main; thinking: hidden-reasoning adapter, 7k conversations, 4 epochs.
+%   Qwen3.6 column: <local copy of the run outputs: res/hidden4-think-q36> (same essays and controls; DtT/TE paragraphs written by
+%   Qwen3.6-27B with thinking; DtR is the writer's own resample, no editor).
+\begin{table}[t]
+\centering
+\caption{CIAware-Bench essays: AUROC of $P(\marker)$, intervened vs.\ clean, against the benchmark's clean control (essay cut before the intervened paragraph) and our same-length control (original paragraph kept). No-thinking: marker fine-tune. Removed reasoning: removed-reasoning fine-tune (4 epochs). The trusted model is \qwenB{} base, or Qwen3.6-27B in the last column, in the same thinking mode as the history.}
+\label{tab:ciaware}
+\begin{tabular}{lcccccc}
+\toprule
+& \multicolumn{2}{c}{No-thinking} & \multicolumn{2}{c}{Removed reasoning} & \multicolumn{2}{c}{Removed, Qwen3.6} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+Intervention & Bench. & Same-len. & Bench. & Same-len. & Bench. & Same-len. \\
+\midrule
+TE & 0.97 & 0.98 & 0.92 & 0.77 & 0.93 & 0.79 \\
+DtT & 0.58 & 0.57 & 0.73 & 0.67 & 0.93 & 0.90 \\
+DtR & 0.44 & 0.59 & 0.68 & 0.47 & 0.69 & 0.47 \\
+\midrule
+Marker on clean controls & 5\% & 3\% & 13\% & 28\% & 13\% & 28\% \\
+\bottomrule
+\end{tabular}
+\end{table}

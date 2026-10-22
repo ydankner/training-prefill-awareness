@@ -1,0 +1,30 @@
+{
+  "command": "python -m prefill_awareness.caps_data --history human --data data/qwen3-32b-dolly-brainstorming-17567181.0-1789569567.jsonl data/qwen3-32b-dolly-rest-17567560.0-1789577293.jsonl --out data/caps-human-qwen3-32b-dolly.jsonl",
+  "args": {
+    "data": [
+      "data/qwen3-32b-dolly-brainstorming-17567181.0-1789569567.jsonl",
+      "data/qwen3-32b-dolly-rest-17567560.0-1789577293.jsonl"
+    ],
+    "out": "data/caps-human-qwen3-32b-dolly.jsonl",
+    "n_train": 1500,
+    "n_test": null,
+    "seed": 0,
+    "history": "human",
+    "dolly": "databricks/databricks-dolly-15k:train",
+    "allow_dirty": false
+  },
+  "git": {
+    "commit": "a1a5fe4389d571336ef94a9e1755067b63b4abd5",
+    "dirty": false
+  },
+  "inputs": {
+    "data/qwen3-32b-dolly-brainstorming-17567181.0-1789569567.jsonl": "e68724f3de9e29d20717dfeee8209594ed7eb850a87a15da570011fda8084f76",
+    "data/qwen3-32b-dolly-rest-17567560.0-1789577293.jsonl": "674d431f71be15d145c3d65b57a8101e61abb8bd994b5eeb0d8557a60d20acf3"
+  },
+  "n": {
+    "train": 1500,
+    "test": 491
+  },
+  "created_at": "2026-09-24T16:25:02+00:00",
+  "sha256": "6b63d99cd777b87b6e53c72e361ec141f9a5d54178264574c4aac247dd2fd5aa"
+}

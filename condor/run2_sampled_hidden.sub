@@ -1,0 +1,19 @@
+# Submit from the checkout to run in (it becomes the job's working directory):
+#   condor_submit_bid 35 condor/run2_sampled_hidden.sub
+universe = vanilla
+executable = /bin/bash
+arguments = condor/run2_sampled_hidden.sh $(Cluster).$(Process)
+environment = "HOME=$ENV(HOME)"
+request_cpus = 8
+request_memory = 96GB
+request_disk = 320GB
+request_gpus = 1
+requirements = (CUDAGlobalMemoryMb >= 80000) && regexp("H100", CUDADeviceName)
+should_transfer_files = NO
+output = logs/hidden-run2-sampled-$(Cluster).$(Process).out
+error = logs/hidden-run2-sampled-$(Cluster).$(Process).err
+log = logs/hidden-run2-sampled-$(Cluster).log
+# Hold failures for inspection; stop the allocation after 4h.
+on_exit_hold = (ExitBySignal == true) || (ExitCode != 0)
+periodic_hold = (JobStatus == 2) && (time() - JobCurrentStartDate > 14400)
+queue 1

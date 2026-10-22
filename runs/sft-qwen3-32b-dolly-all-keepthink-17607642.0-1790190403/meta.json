@@ -1,0 +1,64 @@
+{
+  "command": "python -m prefill_awareness.train --model Qwen/Qwen3-32B --data data/qwen3-32b-dolly-brainstorming-17567181.0-1789569567.jsonl data/qwen3-32b-dolly-rest-17567560.0-1789577293.jsonl --out runs/sft-qwen3-32b-dolly-all-keepthink-17607642.0-1790190403 --gradient-checkpointing --save-strategy epoch --keep-think",
+  "args": {
+    "model": "Qwen/Qwen3-32B",
+    "data": [
+      "data/qwen3-32b-dolly-brainstorming-17567181.0-1789569567.jsonl",
+      "data/qwen3-32b-dolly-rest-17567560.0-1789577293.jsonl"
+    ],
+    "out": "runs/sft-qwen3-32b-dolly-all-keepthink-17607642.0-1790190403",
+    "max_len": 2048,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "target_modules": "all-linear",
+    "lr": 0.0001,
+    "epochs": 2.0,
+    "max_steps": -1,
+    "batch_size": 2,
+    "grad_accum": 8,
+    "warmup_steps": 20,
+    "gradient_checkpointing": true,
+    "dtype": "bfloat16",
+    "load_4bit": false,
+    "kl_coef": 0.0,
+    "kl_on": "context",
+    "kl_positions": 256,
+    "eval_every": 50,
+    "eval_n": 128,
+    "eval_batch_size": 8,
+    "eval_max_new_tokens": 32,
+    "surprisal_n": 16,
+    "seed": 0,
+    "report_to": "none",
+    "save_strategy": "epoch",
+    "resume_from": null,
+    "keep_think": true,
+    "allow_dirty": false
+  },
+  "git": {
+    "commit": "4da8b7487c6aa01aedc9e1115211f891255d2255",
+    "dirty": false
+  },
+  "model_revision": "9216db5781bf21249d130ec9da846c4624c16137",
+  "versions": {
+    "python": "3.10.12",
+    "torch": "2.8.0+cu128",
+    "transformers": "4.56.2",
+    "peft": "0.21.0",
+    "accelerate": "1.15.0"
+  },
+  "gpu": "NVIDIA H100",
+  "host": "<compute-node>",
+  "condor_job": "17607642.0",
+  "started_at": "2026-09-23T19:07:07+00:00",
+  "finished_at": "2026-09-23T20:40:17+00:00",
+  "data": {
+    "data/qwen3-32b-dolly-brainstorming-17567181.0-1789569567.jsonl": "e68724f3de9e29d20717dfeee8209594ed7eb850a87a15da570011fda8084f76",
+    "data/qwen3-32b-dolly-rest-17567560.0-1789577293.jsonl": "674d431f71be15d145c3d65b57a8101e61abb8bd994b5eeb0d8557a60d20acf3"
+  },
+  "n_train": 8864,
+  "n_dropped": 0,
+  "n_test_eval": 128,
+  "global_step": 1108
+}

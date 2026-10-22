@@ -1,0 +1,19 @@
+# Submit from ~/prefill-awareness using: condor_submit_bid 35 condor/answer_probs.sub
+universe = vanilla
+executable = /bin/bash
+arguments = condor/answer_probs.sh $(Cluster).$(Process)
+initialdir = $ENV(HOME)/prefill-awareness
+environment = "HOME=$ENV(HOME)"
+request_cpus = 4
+request_memory = 96GB
+request_disk = 2GB
+request_gpus = 1
+requirements = (CUDAGlobalMemoryMb >= 80000) && regexp("H100", CUDADeviceName)
+should_transfer_files = NO
+output = logs/answer-probs-$(Cluster).$(Process).out
+error = logs/answer-probs-$(Cluster).$(Process).err
+log = logs/answer-probs-$(Cluster).log
+# Hold failures for inspection; stop the allocation after 1h15m.
+on_exit_hold = (ExitBySignal == true) || (ExitCode != 0)
+periodic_hold = (JobStatus == 2) && (time() - JobCurrentStartDate > 4500)
+queue 1

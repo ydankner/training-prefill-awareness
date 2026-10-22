@@ -1,0 +1,47 @@
+{
+  "command": "python -m prefill_awareness.hidden_states --model Qwen/Qwen3-32B --run runs/sft-qwen3-32b-dolly-all-17568019.0-1789588306 --checkpoint checkpoint-1108 --data data/qwen3-32b-dolly-brainstorming-17567181.0-1789569567.jsonl data/qwen3-32b-dolly-rest-17567560.0-1789577293.jsonl --out runs/sft-qwen3-32b-dolly-all-17568019.0-1789588306/hidden-17569245.0 --pairs",
+  "args": {
+    "model": "Qwen/Qwen3-32B",
+    "run": "runs/sft-qwen3-32b-dolly-all-17568019.0-1789588306",
+    "checkpoint": "checkpoint-1108",
+    "data": [
+      "data/qwen3-32b-dolly-brainstorming-17567181.0-1789569567.jsonl",
+      "data/qwen3-32b-dolly-rest-17567560.0-1789577293.jsonl"
+    ],
+    "split": "test",
+    "limit": null,
+    "base": true,
+    "out": "runs/sft-qwen3-32b-dolly-all-17568019.0-1789588306/hidden-17569245.0",
+    "tag": null,
+    "pairs": true,
+    "dtype": "bfloat16",
+    "allow_dirty": false
+  },
+  "git": {
+    "commit": "4e99c320860a5f075bbf28c1ce96fdcdd354b177",
+    "dirty": false
+  },
+  "model_revision": "9216db5781bf21249d130ec9da846c4624c16137",
+  "versions": {
+    "python": "3.10.12",
+    "torch": "2.8.0+cu128",
+    "transformers": "4.56.2",
+    "peft": "0.21.0",
+    "accelerate": "1.15.0"
+  },
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "host": "<compute-node>",
+  "condor_job": "17569542.0",
+  "started_at": "2026-09-17T09:30:58+00:00",
+  "finished_at": "2026-09-17T09:34:44+00:00",
+  "checkpoint": "checkpoint-1108",
+  "models": [
+    "base",
+    "checkpoint-1108"
+  ],
+  "data": {
+    "data/qwen3-32b-dolly-brainstorming-17567181.0-1789569567.jsonl": "e68724f3de9e29d20717dfeee8209594ed7eb850a87a15da570011fda8084f76",
+    "data/qwen3-32b-dolly-rest-17567560.0-1789577293.jsonl": "674d431f71be15d145c3d65b57a8101e61abb8bd994b5eeb0d8557a60d20acf3"
+  },
+  "layout": "pairs/<model>/{plant,orig}/layer-NN.bin, one row per line of pairs/index.jsonl"
+}

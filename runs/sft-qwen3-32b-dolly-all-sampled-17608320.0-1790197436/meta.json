@@ -1,0 +1,67 @@
+{
+  "command": "python -m prefill_awareness.train --model Qwen/Qwen3-32B --data data/qwen3-32b-dolly-brainstorming-sampled-17607643.0-1790190404.jsonl data/qwen3-32b-dolly-rest-sampled-17607643.1-1790190405.000.jsonl data/qwen3-32b-dolly-rest-sampled-17607643.2-1790190408.001.jsonl --out runs/sft-qwen3-32b-dolly-all-sampled-17608320.0-1790197436 --gradient-checkpointing --save-strategy epoch",
+  "args": {
+    "model": "Qwen/Qwen3-32B",
+    "data": [
+      "data/qwen3-32b-dolly-brainstorming-sampled-17607643.0-1790190404.jsonl",
+      "data/qwen3-32b-dolly-rest-sampled-17607643.1-1790190405.000.jsonl",
+      "data/qwen3-32b-dolly-rest-sampled-17607643.2-1790190408.001.jsonl"
+    ],
+    "out": "runs/sft-qwen3-32b-dolly-all-sampled-17608320.0-1790197436",
+    "max_len": 2048,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "target_modules": "all-linear",
+    "lr": 0.0001,
+    "epochs": 2.0,
+    "max_steps": -1,
+    "batch_size": 2,
+    "grad_accum": 8,
+    "warmup_steps": 20,
+    "gradient_checkpointing": true,
+    "dtype": "bfloat16",
+    "load_4bit": false,
+    "kl_coef": 0.0,
+    "kl_on": "context",
+    "kl_positions": 256,
+    "eval_every": 50,
+    "eval_n": 128,
+    "eval_batch_size": 8,
+    "eval_max_new_tokens": 32,
+    "surprisal_n": 16,
+    "seed": 0,
+    "report_to": "none",
+    "save_strategy": "epoch",
+    "resume_from": null,
+    "keep_think": false,
+    "answer_format": "plant",
+    "allow_dirty": false
+  },
+  "git": {
+    "commit": "d75bfe1654a3f41598f40ef1465919a2ea5f99b8",
+    "dirty": false
+  },
+  "model_revision": "9216db5781bf21249d130ec9da846c4624c16137",
+  "versions": {
+    "python": "3.10.12",
+    "torch": "2.8.0+cu128",
+    "transformers": "4.56.2",
+    "peft": "0.21.0",
+    "accelerate": "1.15.0"
+  },
+  "gpu": "NVIDIA H100",
+  "host": "<compute-node>",
+  "condor_job": "17608320.0",
+  "started_at": "2026-09-23T21:04:19+00:00",
+  "finished_at": "2026-09-23T22:37:02+00:00",
+  "data": {
+    "data/qwen3-32b-dolly-brainstorming-sampled-17607643.0-1790190404.jsonl": "682c049f61af6e4378d34433e31bc33888b7b777c54659b5a7ee846ec4ebc6a7",
+    "data/qwen3-32b-dolly-rest-sampled-17607643.1-1790190405.000.jsonl": "2ca3e0d424e37826a1a9e7c422dd21021751ef9dfa643aefb239a158ff639d9e",
+    "data/qwen3-32b-dolly-rest-sampled-17607643.2-1790190408.001.jsonl": "8d05f5fb8f1ba361411d3120e39c378e61e58182e5a359e63ae5a35ff9c69bcb"
+  },
+  "n_train": 8861,
+  "n_dropped": 0,
+  "n_test_eval": 128,
+  "global_step": 1108
+}

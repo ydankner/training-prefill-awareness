@@ -1,0 +1,25 @@
+[project]
+name = "prefill-awareness"
+version = "0.1.0"
+description = "SFT a chat LLM to detect and localize a single planted (high-surprisal) token in its own previous turn."
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.4",
+    # >=4.56 for the `dtype=` argument to from_pretrained (`torch_dtype` is deprecated).
+    "transformers>=4.56",
+    "peft>=0.13",
+    "accelerate>=0.34",
+    "datasets>=2.20",
+    "tqdm",
+]
+
+[project.optional-dependencies]
+# QLoRA for 70B on a single node.
+quant = ["bitsandbytes>=0.43"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/prefill_awareness"]
