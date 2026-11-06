@@ -9,9 +9,14 @@ Open `index.html` in a browser (works offline, straight from disk).
 | ← / click left quarter | back |
 | ↑ / ↓ | previous / next slide, skipping reveals |
 | f | fullscreen |
+| p | presenter view (popup) |
 | Home / End | first / last slide |
 
 `#12` in the URL jumps to slide 12.
+
+The presenter view shows the current and next slide, a timer, the clock and the
+planned time window for the current part; the timer turns amber once you run past
+it. Navigate from either window. Allow popups for the page if the browser blocks it.
 
 ## Rough timing
 

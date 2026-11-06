@@ -144,6 +144,30 @@ td.na { color: var(--faint); }
 .toks i { width: 30px; height: 44px; border-radius: 5px; background: var(--panel); display: block; }
 .toks i.p { background: var(--plant); }
 
+
+/* links (thank-you slide) */
+.slide a { color: var(--accent); text-decoration: none; }
+.slide a:hover { text-decoration: underline; }
+
+/* presenter view */
+body.presenter { background: #17191c; color: #e6e8eb; }
+body.presenter #deck, body.presenter #hud { display: none; }
+#pv { position: fixed; inset: 0; display: flex; gap: 22px; padding: 22px; font-family: var(--sans); }
+#pv .pv-main { flex: 1.75; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+#pv .pv-side { flex: 1; display: flex; flex-direction: column; gap: 12px; min-width: 0; }
+#pv iframe { width: 100%; aspect-ratio: 16 / 9; border: 0; border-radius: 8px; background: #e9eaec; pointer-events: none; }
+#pv .pv-lbl { font-size: 14px; letter-spacing: .1em; text-transform: uppercase; color: #9aa0a8; }
+#pv .pv-lbl span { text-transform: none; letter-spacing: 0; color: #c9ccd2; }
+#pv .pv-end { aspect-ratio: 16 / 9; display: flex; align-items: center; justify-content: center; border: 1px dashed #444a52; border-radius: 8px; color: #9aa0a8; }
+#pv .pv-end[hidden] { display: none; }
+#pv-timer { font-size: 72px; font-weight: 700; font-variant-numeric: tabular-nums; margin-top: 10px; line-height: 1; }
+#pv-timer.over { color: #f2a541; }
+#pv .pv-meta { font-size: 18px; color: #c9ccd2; }
+#pv .pv-hint { font-size: 14px; color: #7d838c; margin-top: auto; }
+#pv .pv-btns { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 6px; }
+#pv button { font: 600 15px var(--sans); padding: 9px 14px; border-radius: 8px; border: 1px solid #3a3f46; background: #23272c; color: #e6e8eb; cursor: pointer; }
+#pv button:hover { background: #2d3238; }
+
 @media print {
   @page { size: 1600px 900px; margin: 0; }
   html, body { overflow: visible; background: #fff; }
@@ -723,8 +747,8 @@ body:hover #hud { opacity: .8; }
 
 <section class="slide center" data-kicker="">
   <h1>Thank you</h1>
-  <div class="sub" style="margin-top:24px">github.com/ydankner/training-prefill-awareness</div>
-  <div class="small" style="margin-top:18px">LoRA adapters available there, if they're useful to you</div>
+  <div class="sub" style="margin-top:24px"><a href="https://github.com/ydankner/training-prefill-awareness" target="_blank" rel="noopener">github.com/ydankner/training-prefill-awareness</a></div>
+  <div class="sub" style="margin-top:14px; font-size:26px">LoRA adapters: <a href="https://huggingface.co/YonatanD" target="_blank" rel="noopener">huggingface.co/YonatanD</a></div>
 </section>
 
 <!-- ================================================================ BACKUP -->
@@ -743,7 +767,7 @@ body:hover #hud { opacity: .8; }
 
 
 </div>
-<div id="hud">← → / space · f fullscreen · Home/End</div>
+<div id="hud">← → / space · f fullscreen · p presenter view · Home/End</div>
 
 <script src="data.js"></script>
 <script>
@@ -837,30 +861,158 @@ body:hover #hud { opacity: .8; }
     }
     return groups;
   }
+  // part of the talk each slide belongs to, and its planned window in minutes (see README)
+  const PLAN = { 'Motivation': [0, 3], 'Part I': [3, 15], 'Part II': [15, 23], 'Part III': [23, 26],
+                 'Part IV': [26, 29], 'Close': [29, 30], 'Backup': null };
+  const partOf = [];
+  slides.reduce((last, s, i) => {
+    const k = s.dataset.kicker || '';
+    const p = (k.match(/^Part [IV]+/) || [])[0] || s.querySelector('.part')?.textContent.trim()
+      || (k.startsWith('Takeaways') ? 'Close' : k.startsWith('Backup') ? 'Backup' : last);
+    partOf[i] = p; return p;
+  }, 'Motivation');
+
+  // modes: normal deck; ?mode=embed (a slide inside the presenter view); ?mode=presenter (the popup)
+  const MODE = new URLSearchParams(location.search).get('mode');
+  const BASE = location.href.split('#')[0].split('?')[0];
+  let presenter = null;
+
   let cur = 0, step = 0;
+  function nextOf(i, st) {
+    if (st < steps(slides[i]).length) return [i, st + 1];
+    return i < slides.length - 1 ? [i + 1, 0] : null;
+  }
+  function state() {
+    return { type: 'state', cur, step, nSteps: steps(slides[cur]).length, n: slides.length,
+             next: nextOf(cur, step), part: partOf[cur], plan: PLAN[partOf[cur]] };
+  }
   function show(i, st) {
     cur = Math.max(0, Math.min(slides.length - 1, i));
     slides.forEach((s, k) => s.classList.toggle('active', k === cur));
     const g = steps(slides[cur]);
     step = st === 'end' ? g.length : Math.max(0, Math.min(g.length, st));
     g.forEach((grp, k) => grp.forEach(e => e.classList.toggle('on', k < step)));
-    history.replaceState(null, '', '#' + (cur + 1));
+    if (MODE !== 'embed') history.replaceState(null, '', '#' + (cur + 1));
+    if (presenter && !presenter.closed) presenter.postMessage(state(), '*');
   }
   function next() { const n = steps(slides[cur]).length; step < n ? show(cur, step + 1) : cur < slides.length - 1 && show(cur + 1, 0); }
   function prev() { step > 0 ? show(cur, step - 1) : cur > 0 && show(cur - 1, 'end'); }
-  addEventListener('keydown', e => {
-    if (['ArrowRight', 'PageDown', ' ', 'Enter'].includes(e.key)) { e.preventDefault(); next(); }
-    else if (['ArrowLeft', 'PageUp', 'Backspace'].includes(e.key)) { e.preventDefault(); prev(); }
-    else if (e.key === 'ArrowDown') show(cur + 1, 0);
-    else if (e.key === 'ArrowUp') show(cur - 1, 0);
-    else if (e.key === 'Home') show(0, 0);
-    else if (e.key === 'End') show(slides.length - 1, 0);
-    else if (e.key === 'f') document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen();
-  });
-  addEventListener('click', e => { (e.clientX < innerWidth / 4 ? prev : next)(); });
   function fit() { const k = Math.min(innerWidth / 1600, innerHeight / 900); deck.style.transform = `translate(-50%, -50%) scale(${k})`; }
   addEventListener('resize', fit); fit();
-  show((parseInt(location.hash.slice(1)) || 1) - 1, 0);
+
+  // navigation keys, shared by the deck and the presenter view
+  function navKey(e, act, c) {
+    if (['ArrowRight', 'PageDown', ' ', 'Enter'].includes(e.key)) { e.preventDefault(); act('next'); }
+    else if (['ArrowLeft', 'PageUp', 'Backspace'].includes(e.key)) { e.preventDefault(); act('prev'); }
+    else if (e.key === 'ArrowDown') act('goto', c + 1);
+    else if (e.key === 'ArrowUp') act('goto', c - 1);
+    else if (e.key === 'Home') act('goto', 0);
+    else if (e.key === 'End') act('goto', slides.length - 1);
+    else return false;
+    return true;
+  }
+  function act(cmd, i) { cmd === 'next' ? next() : cmd === 'prev' ? prev() : show(i, 0); }
+
+  if (MODE === 'embed') {
+    document.getElementById('hud').remove();
+    addEventListener('message', e => {
+      if (e.source === parent && e.data && e.data.type === 'show') show(e.data.i, e.data.st);
+    });
+    show(0, 0);
+    parent.postMessage({ type: 'embed-ready' }, '*');
+  } else if (MODE === 'presenter') {
+    startPresenter();
+  } else {
+    addEventListener('keydown', e => {
+      if (navKey(e, act, cur)) return;
+      if (e.key === 'f') document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen();
+      else if (e.key === 'p') {
+        presenter = window.open(BASE + '?mode=presenter', 'deck-presenter', 'popup,width=1400,height=820');
+      }
+    });
+    addEventListener('click', e => { if (e.target.closest('a')) return; (e.clientX < innerWidth / 4 ? prev : next)(); });
+    addEventListener('message', e => {
+      if (!presenter || e.source !== presenter || !e.data) return;
+      if (e.data.type === 'hello') presenter.postMessage(state(), '*');
+      else if (e.data.type === 'cmd') act(e.data.cmd, e.data.i);
+    });
+    show((parseInt(location.hash.slice(1)) || 1) - 1, 0);
+  }
+
+  // ---------------- presenter view (popup opened with P) ----------------
+  function startPresenter() {
+    document.title = 'Presenter · ' + document.title;
+    document.body.classList.add('presenter');
+    document.body.insertAdjacentHTML('beforeend', `
+      <div id="pv">
+        <div class="pv-main">
+          <div class="pv-lbl">Current <span id="pv-count"></span></div>
+          <iframe id="pv-cur" tabindex="-1" src="${BASE}?mode=embed"></iframe>
+        </div>
+        <div class="pv-side">
+          <div class="pv-lbl">Next</div>
+          <iframe id="pv-next" tabindex="-1" src="${BASE}?mode=embed"></iframe>
+          <div id="pv-end" class="pv-end" hidden>End of deck</div>
+          <div id="pv-timer">00:00</div>
+          <div id="pv-plan" class="pv-meta"></div>
+          <div id="pv-clock" class="pv-meta"></div>
+          <div class="pv-btns">
+            <button data-cmd="prev">◀ Prev</button><button data-cmd="next">Next ▶</button>
+            <button id="pv-pause">Pause</button><button id="pv-reset">Reset</button>
+          </div>
+          <div class="pv-meta pv-hint">← → / space to navigate · keep this window on your screen</div>
+        </div>
+      </div>`);
+    const $ = id => document.getElementById(id);
+    const frames = { cur: $('pv-cur'), next: $('pv-next') };
+    const ready = new Set();
+    let last = null;
+    const opener = window.opener;
+    if (!opener) {
+      $('pv-plan').textContent = 'Open this view from the deck: press P there.';
+      return;
+    }
+    const send = (cmd, i) => opener.postMessage({ type: 'cmd', cmd, i }, '*');
+
+    // timer: starts with the first slide change, pause/reset by hand
+    let t0 = null, paused = 0, pausedAt = null;
+    const fmt = s => `${String(Math.floor(s / 60)).padStart(2, '0')}:${String(Math.floor(s % 60)).padStart(2, '0')}`;
+    const elapsed = () => t0 === null ? 0 : ((pausedAt ?? Date.now()) - t0 - paused) / 1000;
+    $('pv-pause').onclick = () => {
+      if (t0 === null) return;
+      if (pausedAt === null) { pausedAt = Date.now(); $('pv-pause').textContent = 'Resume'; }
+      else { paused += Date.now() - pausedAt; pausedAt = null; $('pv-pause').textContent = 'Pause'; }
+    };
+    $('pv-reset').onclick = () => { t0 = Date.now(); paused = 0; pausedAt = pausedAt === null ? null : Date.now(); };
+    setInterval(() => {
+      const s = elapsed();
+      $('pv-timer').textContent = fmt(s);
+      $('pv-timer').classList.toggle('over', !!(last && last.plan && s > last.plan[1] * 60));
+      $('pv-clock').textContent = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+    }, 250);
+
+    function render() {
+      if (!last) return;
+      if (ready.has('cur')) frames.cur.contentWindow.postMessage({ type: 'show', i: last.cur, st: last.step }, '*');
+      $('pv-end').hidden = !!last.next; frames.next.style.display = last.next ? '' : 'none';
+      if (last.next && ready.has('next')) frames.next.contentWindow.postMessage({ type: 'show', i: last.next[0], st: last.next[1] }, '*');
+      $('pv-count').textContent = `· slide ${last.cur + 1} / ${last.n}` + (last.nSteps ? ` · reveal ${last.step} / ${last.nSteps}` : '');
+      $('pv-plan').textContent = last.plan ? `${last.part} · planned ${fmt(last.plan[0] * 60)}–${fmt(last.plan[1] * 60)}` : last.part;
+    }
+    addEventListener('message', e => {
+      if (!e.data) return;
+      if (e.data.type === 'embed-ready') {
+        for (const [k, f] of Object.entries(frames)) if (e.source === f.contentWindow) ready.add(k);
+        render();
+      } else if (e.data.type === 'state' && e.source === opener) {
+        if (t0 === null && last) t0 = Date.now();
+        last = e.data; render();
+      }
+    });
+    addEventListener('keydown', e => navKey(e, send, last ? last.cur : 0));
+    for (const b of document.querySelectorAll('.pv-btns [data-cmd]')) b.onclick = () => send(b.dataset.cmd);
+    opener.postMessage({ type: 'hello' }, '*');
+  }
 })();
 </script>
 </body>
